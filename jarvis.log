@@ -1,0 +1,810 @@
+2026-02-26 21:00:37,376 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-02-26 21:00:38,776 [INFO] STATUS: Carregando Whisper (small)...
+2026-02-26 21:00:39,185 [INFO] Audio input devices:
+2026-02-26 21:00:39,188 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-02-26 21:00:39,188 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-02-26 21:00:39,188 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:00:39,188 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-02-26 21:00:39,188 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:00:39,188 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:00:39,189 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-02-26 21:00:39,189 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-02-26 21:00:39,189 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-02-26 21:00:39,189 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-02-26 21:00:39,189 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-02-26 21:00:39,189 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:00:39,189 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-02-26 21:00:39,190 [INFO] Silero-VAD carregado.
+2026-02-26 21:00:39,250 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-02-26 21:00:39,264 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:00:39,465 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-02-26 21:00:40,224 [INFO] STATUS: Whisper pronto — qualidade maxima PT-BR
+2026-02-26 21:00:40,224 [INFO] faster-whisper modelo 'small' carregado.
+2026-02-26 21:00:40,242 [INFO] Todos os sistemas prontos — overlay removido.
+2026-02-26 21:00:42,614 [INFO] STATUS: ... acorde
+2026-02-26 21:00:42,614 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:00:42,615 [INFO] FALA: Sim, senhor?
+2026-02-26 21:00:42,615 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:00:42,615 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:00:50,660 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:00:50,696 [INFO] voz detectada (3 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:00:50,696 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:00:50,696 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:00:50,754 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:00:50,818 [INFO] VAD filter removed 00:05.936 of audio
+2026-02-26 21:00:52,155 [INFO] Whisper: 'abro-vo-vo' (lang=pt, prob=1.00)
+2026-02-26 21:00:52,156 [INFO] STATUS: Comando: abro-vo-vo
+2026-02-26 21:00:52,156 [INFO] execute_command invoked with: abro-vo-vo
+2026-02-26 21:00:52,156 [INFO] no pattern matched for command
+2026-02-26 21:00:52,156 [INFO] FALA: Comando nao reconhecido. Tente: hora, data, Google, YouTube, clima, calculadora ou desligar.
+2026-02-26 21:00:52,156 [INFO] STATUS: Comando nao mapeado: abro-vo-vo
+2026-02-26 21:00:52,156 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:00:52,175 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:00:52,175 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:00:52,176 [INFO] STATUS: ... acorde
+2026-02-26 21:00:52,176 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:00:52,176 [INFO] FALA: Sim, senhor?
+2026-02-26 21:00:52,176 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:00:52,177 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:01:00,217 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:01:00,256 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:01:00,256 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:01:00,256 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:01:00,323 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:01:00,335 [INFO] VAD filter removed 00:06.432 of audio
+2026-02-26 21:01:01,614 [INFO] Whisper: 'abro o google.' (lang=pt, prob=1.00)
+2026-02-26 21:01:01,614 [INFO] STATUS: Comando: abro o google.
+2026-02-26 21:01:01,614 [INFO] execute_command invoked with: abro o google.
+2026-02-26 21:01:01,615 [INFO] pattern '\bgoogle\b' matched
+2026-02-26 21:01:01,615 [INFO] FALA: Abrindo Google, senhor.
+2026-02-26 21:01:01,615 [INFO] STATUS: Abrindo: Google
+2026-02-26 21:01:01,677 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:01:01,685 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:01:01,685 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:01:01,686 [INFO] STATUS: ... acorde
+2026-02-26 21:01:01,686 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:01:01,686 [INFO] FALA: Sim, senhor?
+2026-02-26 21:01:01,687 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:01:01,687 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:01:09,733 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:01:09,766 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:01:09,766 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:01:09,766 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:01:09,826 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:01:09,837 [INFO] VAD filter removed 00:06.304 of audio
+2026-02-26 21:01:11,178 [INFO] Whisper: 'abro youtube' (lang=pt, prob=1.00)
+2026-02-26 21:01:11,178 [INFO] STATUS: Comando: abro youtube
+2026-02-26 21:01:11,178 [INFO] execute_command invoked with: abro youtube
+2026-02-26 21:01:11,178 [INFO] pattern '\byoutube\b' matched
+2026-02-26 21:01:11,179 [INFO] FALA: Abrindo YouTube, senhor.
+2026-02-26 21:01:11,179 [INFO] STATUS: Abrindo: YouTube
+2026-02-26 21:01:11,192 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:01:11,195 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:01:11,195 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:01:11,196 [INFO] STATUS: ... acorde
+2026-02-26 21:01:11,196 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:01:11,196 [INFO] FALA: Sim, senhor?
+2026-02-26 21:01:11,196 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:01:11,196 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:01:19,244 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:01:19,276 [INFO] voz detectada (0 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:01:19,276 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:01:19,276 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:01:19,333 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:01:19,347 [INFO] VAD filter removed 00:08.032 of audio
+2026-02-26 21:01:19,348 [INFO] Whisper: '' (lang=pt, prob=1.00)
+2026-02-26 21:01:19,349 [INFO] STATUS: Nao entendi o comando
+2026-02-26 21:01:19,349 [INFO] FALA: Desculpe, nao entendi.
+2026-02-26 21:01:19,349 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:01:19,375 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:01:19,375 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:01:19,376 [INFO] STATUS: ... acorde
+2026-02-26 21:01:19,376 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:01:19,376 [INFO] FALA: Sim, senhor?
+2026-02-26 21:01:19,377 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:01:19,377 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:01:27,420 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:01:27,456 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:01:27,456 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:01:27,456 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:01:27,519 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:01:27,530 [INFO] VAD filter removed 00:06.496 of audio
+2026-02-26 21:01:28,861 [INFO] Whisper: 'desligar' (lang=pt, prob=1.00)
+2026-02-26 21:01:28,862 [INFO] STATUS: Comando: desligar
+2026-02-26 21:01:28,862 [INFO] execute_command invoked with: desligar
+2026-02-26 21:01:28,862 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-02-26 21:01:28,862 [INFO] Comando de desligamento recebido, saindo.
+2026-02-26 21:01:28,862 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-02-26 21:01:28,862 [INFO] STATUS: DESLIGANDO...
+2026-02-26 21:01:28,864 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:01:28,885 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:01:28,885 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:01:28,886 [INFO] STATUS: ... acorde
+2026-02-26 21:01:28,886 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:01:28,886 [INFO] FALA: Sim, senhor?
+2026-02-26 21:01:28,887 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:01:28,887 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:03:13,637 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-02-26 21:03:13,692 [INFO] Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pichau\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-26 21:03:13,692 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-02-26 21:03:15,125 [INFO] STATUS: Carregando Whisper (small)...
+2026-02-26 21:03:15,497 [INFO] Audio input devices:
+2026-02-26 21:03:15,497 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-02-26 21:03:15,497 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-02-26 21:03:15,497 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:03:15,497 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-02-26 21:03:15,498 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:03:15,498 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:03:15,498 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-02-26 21:03:15,498 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-02-26 21:03:15,498 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-02-26 21:03:15,498 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-02-26 21:03:15,498 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-02-26 21:03:15,498 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:03:15,499 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-02-26 21:03:15,568 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-02-26 21:03:15,572 [INFO] Silero-VAD carregado.
+2026-02-26 21:03:15,580 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:03:15,758 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-02-26 21:03:16,558 [INFO] STATUS: Whisper pronto — qualidade maxima PT-BR
+2026-02-26 21:03:16,558 [INFO] faster-whisper modelo 'small' carregado.
+2026-02-26 21:03:16,662 [INFO] Todos os sistemas prontos — overlay removido.
+2026-02-26 21:03:18,934 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,934 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,935 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,935 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,935 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,936 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,936 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,951 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,952 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,952 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,982 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,982 [INFO] STATUS: ... pacote
+2026-02-26 21:03:18,983 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,022 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,022 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,022 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,052 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,053 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,054 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,092 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,092 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,118 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,121 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,122 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,122 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,162 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,162 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,163 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,191 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,192 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,193 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,232 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,233 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,233 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,262 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,263 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,263 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,301 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,302 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,303 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,332 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,332 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,341 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,372 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,373 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,373 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,402 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,404 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,405 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,441 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,442 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,442 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,471 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,472 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,473 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,512 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,513 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,514 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,542 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,542 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,543 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,582 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,591 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,591 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,611 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,612 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,613 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,651 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,652 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,653 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,682 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,682 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,683 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,722 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,722 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,723 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,752 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,753 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,753 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,791 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,792 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,792 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,821 [INFO] STATUS: ... pacote
+2026-02-26 21:03:19,839 [INFO] STATUS: ... pacote
+2026-02-26 21:03:23,201 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:03:23,201 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:03:24,655 [INFO] STATUS: ... a
+2026-02-26 21:03:24,655 [INFO] STATUS: ... a
+2026-02-26 21:03:24,656 [INFO] STATUS: ... a
+2026-02-26 21:03:24,661 [INFO] STATUS: ... a
+2026-02-26 21:03:24,662 [INFO] STATUS: ... a
+2026-02-26 21:03:24,662 [INFO] STATUS: ... a
+2026-02-26 21:03:24,702 [INFO] STATUS: ... a
+2026-02-26 21:03:24,702 [INFO] STATUS: ... a
+2026-02-26 21:03:24,703 [INFO] STATUS: ... a
+2026-02-26 21:03:24,732 [INFO] STATUS: ... a
+2026-02-26 21:03:24,732 [INFO] STATUS: ... a
+2026-02-26 21:03:24,733 [INFO] STATUS: ... a
+2026-02-26 21:03:24,772 [INFO] STATUS: ... a
+2026-02-26 21:03:24,772 [INFO] STATUS: ... a
+2026-02-26 21:03:24,773 [INFO] STATUS: ... a
+2026-02-26 21:03:24,802 [INFO] STATUS: ... a
+2026-02-26 21:03:24,802 [INFO] STATUS: ... a
+2026-02-26 21:03:24,802 [INFO] STATUS: ... a
+2026-02-26 21:03:24,842 [INFO] STATUS: ... a
+2026-02-26 21:03:24,842 [INFO] STATUS: ... a
+2026-02-26 21:03:24,843 [INFO] STATUS: ... a
+2026-02-26 21:03:25,154 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,155 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,155 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,156 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,156 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,156 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,182 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,182 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,182 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,222 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,222 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,222 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,252 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,253 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,254 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,292 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,293 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,293 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,322 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,322 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,343 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,361 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,362 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,362 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,392 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,393 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,393 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,431 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,432 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,432 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,461 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,462 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,462 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,502 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,502 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,502 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,531 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,532 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,532 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,572 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,572 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,579 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,601 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,602 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,602 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,641 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,642 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,642 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,672 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,672 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,672 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,712 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,712 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,712 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,741 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,742 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,742 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,782 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,782 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,782 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,811 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,812 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,820 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,851 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,852 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,852 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,881 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,882 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,882 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,922 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,922 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,922 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,951 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,952 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,952 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,992 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,993 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:25,993 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,021 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,022 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,022 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,052 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,065 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,066 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,092 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,092 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,092 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,122 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,122 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,122 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,162 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,162 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,163 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,191 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,192 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,192 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,232 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,233 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,233 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,262 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,262 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,263 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,302 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:26,317 [INFO] STATUS: ... a corrigir
+2026-02-26 21:03:29,497 [INFO] STATUS: ... acorde
+2026-02-26 21:03:29,497 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:03:29,497 [INFO] FALA: Sim, senhor?
+2026-02-26 21:03:29,498 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:03:29,498 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:03:37,544 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:03:37,582 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:03:37,582 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:03:37,582 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:03:37,678 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:03:37,737 [INFO] VAD filter removed 00:06.528 of audio
+2026-02-26 21:03:39,013 [INFO] Whisper: 'desliga!' (lang=pt, prob=1.00)
+2026-02-26 21:03:39,015 [INFO] STATUS: Comando: desliga!
+2026-02-26 21:03:39,015 [INFO] execute_command invoked with: desliga!
+2026-02-26 21:03:39,015 [INFO] no pattern matched for command
+2026-02-26 21:03:39,016 [INFO] FALA: Comando nao reconhecido. Tente: hora, data, Google, YouTube, clima, calculadora ou desligar.
+2026-02-26 21:03:39,016 [INFO] STATUS: Comando nao mapeado: desliga!
+2026-02-26 21:03:39,016 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:03:39,052 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:03:39,052 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:03:39,053 [INFO] STATUS: ... acorde
+2026-02-26 21:03:39,053 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:03:39,053 [INFO] FALA: Sim, senhor?
+2026-02-26 21:03:39,054 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:03:39,054 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:03:47,098 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:03:47,132 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:03:47,132 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:03:47,132 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:03:47,200 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:03:47,211 [INFO] VAD filter removed 00:06.368 of audio
+2026-02-26 21:03:48,474 [INFO] Whisper: 'desligar' (lang=pt, prob=1.00)
+2026-02-26 21:03:48,475 [INFO] STATUS: Comando: desligar
+2026-02-26 21:03:48,475 [INFO] execute_command invoked with: desligar
+2026-02-26 21:03:48,475 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-02-26 21:03:48,475 [INFO] Comando de desligamento recebido, saindo.
+2026-02-26 21:03:48,475 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-02-26 21:03:48,475 [INFO] STATUS: DESLIGANDO...
+2026-02-26 21:03:48,477 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:03:48,492 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:03:48,493 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:03:48,493 [INFO] STATUS: ... acorde
+2026-02-26 21:03:48,494 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:03:48,494 [INFO] FALA: Sim, senhor?
+2026-02-26 21:03:48,494 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:03:48,494 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:09:33,693 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-02-26 21:09:33,741 [INFO] Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pichau\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-26 21:09:33,741 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-02-26 21:09:33,828 [INFO] TTS voices available:
+2026-02-26 21:09:33,828 [INFO]     Microsoft Maria Desktop - Portuguese(Brazil) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PT-BR_MARIA_11.0) languages=['pt-BR']
+2026-02-26 21:09:33,828 [INFO]     Microsoft Zira Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0) languages=['en-US']
+2026-02-26 21:09:33,828 [INFO]     Microsoft David Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0) languages=['en-US']
+2026-02-26 21:09:35,159 [INFO] STATUS: Carregando Whisper (small)...
+2026-02-26 21:09:35,521 [INFO] Audio input devices:
+2026-02-26 21:09:35,522 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-02-26 21:09:35,522 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-02-26 21:09:35,522 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:09:35,522 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-02-26 21:09:35,522 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:09:35,522 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:09:35,522 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-02-26 21:09:35,522 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-02-26 21:09:35,523 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-02-26 21:09:35,523 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-02-26 21:09:35,523 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-02-26 21:09:35,523 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:09:35,523 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-02-26 21:09:35,573 [INFO] Silero-VAD carregado.
+2026-02-26 21:09:35,583 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-02-26 21:09:49,653 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-02-26 21:09:49,714 [INFO] Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pichau\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-26 21:09:49,714 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-02-26 21:09:49,802 [INFO] TTS voices available:
+2026-02-26 21:09:49,803 [INFO]     Microsoft Maria Desktop - Portuguese(Brazil) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PT-BR_MARIA_11.0) languages=['pt-BR']
+2026-02-26 21:09:49,803 [INFO]     Microsoft Zira Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0) languages=['en-US']
+2026-02-26 21:09:49,803 [INFO]     Microsoft David Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0) languages=['en-US']
+2026-02-26 21:09:51,123 [INFO] STATUS: Carregando Whisper (small)...
+2026-02-26 21:09:51,309 [INFO] Silero-VAD carregado.
+2026-02-26 21:09:51,482 [INFO] Audio input devices:
+2026-02-26 21:09:51,482 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-02-26 21:09:51,482 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-02-26 21:09:51,482 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:09:51,482 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-02-26 21:09:51,482 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:09:51,482 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:09:51,483 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-02-26 21:09:51,483 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-02-26 21:09:51,483 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-02-26 21:09:51,483 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-02-26 21:09:51,483 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-02-26 21:09:51,483 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:09:51,483 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-02-26 21:09:51,548 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-02-26 21:09:51,549 [INFO] FALA: JARVIS pronto, senhor.
+2026-02-26 21:09:51,558 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:09:51,821 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-02-26 21:09:52,619 [INFO] STATUS: Whisper pronto — qualidade maxima PT-BR
+2026-02-26 21:09:52,619 [INFO] faster-whisper modelo 'small' carregado.
+2026-02-26 21:09:52,652 [INFO] Todos os sistemas prontos — overlay removido.
+2026-02-26 21:09:55,870 [INFO] STATUS: ... acorde
+2026-02-26 21:09:55,870 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:09:55,870 [INFO] FALA: Sim, senhor?
+2026-02-26 21:09:55,871 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:09:55,871 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:10:03,916 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:10:03,952 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:10:03,952 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:10:03,952 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:10:04,021 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:10:04,082 [INFO] VAD filter removed 00:06.240 of audio
+2026-02-26 21:10:05,343 [INFO] Whisper: 'abra o youtube!' (lang=pt, prob=1.00)
+2026-02-26 21:10:05,343 [INFO] STATUS: Comando: abra o youtube!
+2026-02-26 21:10:05,343 [INFO] execute_command invoked with: abra o youtube!
+2026-02-26 21:10:05,344 [INFO] pattern '\byoutube\b' matched
+2026-02-26 21:10:05,344 [INFO] FALA: Abrindo YouTube, senhor.
+2026-02-26 21:10:05,344 [INFO] STATUS: Abrindo: YouTube
+2026-02-26 21:10:05,403 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:10:05,411 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:10:05,411 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:10:05,412 [INFO] STATUS: ... acorde
+2026-02-26 21:10:05,412 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:10:05,412 [INFO] FALA: Sim, senhor?
+2026-02-26 21:10:05,413 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:10:05,413 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:10:13,459 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:10:13,493 [INFO] voz detectada (0 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:10:13,493 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:10:13,493 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:10:13,560 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:10:13,571 [INFO] VAD filter removed 00:08.032 of audio
+2026-02-26 21:10:13,572 [INFO] Whisper: '' (lang=pt, prob=1.00)
+2026-02-26 21:10:13,573 [INFO] STATUS: Nao entendi o comando
+2026-02-26 21:10:13,573 [INFO] FALA: Desculpe, nao entendi.
+2026-02-26 21:10:13,573 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:10:13,606 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:10:13,606 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:10:13,607 [INFO] STATUS: ... acorde
+2026-02-26 21:10:13,607 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:10:13,607 [INFO] FALA: Sim, senhor?
+2026-02-26 21:10:13,607 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:10:13,608 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:10:21,653 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:10:21,682 [INFO] voz detectada (0 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:10:21,682 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:10:21,682 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:10:21,757 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:10:21,770 [INFO] VAD filter removed 00:08.032 of audio
+2026-02-26 21:10:21,771 [INFO] Whisper: '' (lang=pt, prob=1.00)
+2026-02-26 21:10:21,771 [INFO] STATUS: Nao entendi o comando
+2026-02-26 21:10:21,772 [INFO] FALA: Desculpe, nao entendi.
+2026-02-26 21:10:21,772 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:10:21,789 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:10:21,789 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:10:21,790 [INFO] STATUS: ... acorde
+2026-02-26 21:10:21,790 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:10:21,790 [INFO] FALA: Sim, senhor?
+2026-02-26 21:10:21,791 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:10:21,791 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:10:29,836 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:10:29,872 [INFO] voz detectada (0 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:10:29,872 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:10:29,872 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:10:29,942 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:10:29,953 [INFO] VAD filter removed 00:08.032 of audio
+2026-02-26 21:10:29,954 [INFO] Whisper: '' (lang=pt, prob=1.00)
+2026-02-26 21:10:29,955 [INFO] STATUS: Nao entendi o comando
+2026-02-26 21:10:29,955 [INFO] FALA: Desculpe, nao entendi.
+2026-02-26 21:10:29,955 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:10:29,973 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:10:29,973 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:10:29,974 [INFO] STATUS: ... acorde
+2026-02-26 21:10:29,974 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:10:29,974 [INFO] FALA: Sim, senhor?
+2026-02-26 21:10:29,975 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:10:29,978 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:10:38,020 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:10:38,042 [INFO] voz detectada (0 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:10:38,042 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:10:38,042 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:10:38,109 [INFO] Processing audio with duration 00:08.000
+2026-02-26 21:10:38,120 [INFO] VAD filter removed 00:08.000 of audio
+2026-02-26 21:10:38,122 [INFO] Whisper: '' (lang=pt, prob=1.00)
+2026-02-26 21:10:38,122 [INFO] STATUS: Nao entendi o comando
+2026-02-26 21:10:38,122 [INFO] FALA: Desculpe, nao entendi.
+2026-02-26 21:10:38,122 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:10:38,157 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:10:38,157 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:10:38,158 [INFO] STATUS: ... acorde
+2026-02-26 21:10:38,158 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:10:38,159 [INFO] FALA: Sim, senhor?
+2026-02-26 21:10:38,159 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:10:38,159 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:10:46,204 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:10:46,242 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:10:46,242 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:10:46,242 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:10:46,306 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:10:46,318 [INFO] VAD filter removed 00:06.464 of audio
+2026-02-26 21:10:47,574 [INFO] Whisper: 'desligar' (lang=pt, prob=1.00)
+2026-02-26 21:10:47,575 [INFO] STATUS: Comando: desligar
+2026-02-26 21:10:47,575 [INFO] execute_command invoked with: desligar
+2026-02-26 21:10:47,575 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-02-26 21:10:47,575 [INFO] Comando de desligamento recebido, saindo.
+2026-02-26 21:10:47,575 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-02-26 21:10:47,575 [INFO] STATUS: DESLIGANDO...
+2026-02-26 21:10:47,577 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:10:47,596 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:10:47,596 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:10:47,597 [INFO] STATUS: ... acorde
+2026-02-26 21:10:47,597 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:10:47,597 [INFO] FALA: Sim, senhor?
+2026-02-26 21:10:47,597 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:10:47,597 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:15:08,156 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-02-26 21:15:08,213 [INFO] Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pichau\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-26 21:15:08,213 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-02-26 21:15:08,315 [INFO] TTS voices available:
+2026-02-26 21:15:08,315 [INFO]     Microsoft Maria Desktop - Portuguese(Brazil) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PT-BR_MARIA_11.0) languages=['pt-BR']
+2026-02-26 21:15:08,315 [INFO]     Microsoft Zira Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0) languages=['en-US']
+2026-02-26 21:15:08,315 [INFO]     Microsoft David Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0) languages=['en-US']
+2026-02-26 21:15:09,836 [INFO] STATUS: Carregando Whisper (small)...
+2026-02-26 21:15:10,269 [INFO] Audio input devices:
+2026-02-26 21:15:10,272 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-02-26 21:15:10,272 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-02-26 21:15:10,272 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:15:10,272 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-02-26 21:15:10,272 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:15:10,272 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:15:10,272 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-02-26 21:15:10,272 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-02-26 21:15:10,272 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-02-26 21:15:10,273 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-02-26 21:15:10,273 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-02-26 21:15:10,273 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:15:10,273 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-02-26 21:15:10,276 [INFO] Silero-VAD carregado.
+2026-02-26 21:15:10,335 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-02-26 21:15:10,336 [INFO] FALA: JARVIS pronto, senhor.
+2026-02-26 21:15:10,348 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:15:10,485 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-02-26 21:15:11,305 [INFO] STATUS: Whisper pronto — qualidade maxima PT-BR
+2026-02-26 21:15:11,306 [INFO] faster-whisper modelo 'small' carregado.
+2026-02-26 21:15:11,312 [INFO] Todos os sistemas prontos — overlay removido.
+2026-02-26 21:15:18,708 [INFO] STATUS: ... acorde
+2026-02-26 21:15:18,708 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:15:18,709 [INFO] FALA: Sim, senhor?
+2026-02-26 21:15:18,709 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:15:18,709 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:15:25,014 [INFO] Janela fechada, iniciando desligamento.
+2026-02-26 21:16:23,368 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-02-26 21:16:23,420 [INFO] Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pichau\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-26 21:16:23,420 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-02-26 21:16:23,512 [INFO] TTS voices available:
+2026-02-26 21:16:23,512 [INFO]     Microsoft Maria Desktop - Portuguese(Brazil) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PT-BR_MARIA_11.0) languages=['pt-BR']
+2026-02-26 21:16:23,512 [INFO]     Microsoft Zira Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0) languages=['en-US']
+2026-02-26 21:16:23,512 [INFO]     Microsoft David Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0) languages=['en-US']
+2026-02-26 21:16:24,955 [INFO] STATUS: Carregando Whisper (small)...
+2026-02-26 21:16:25,354 [INFO] Audio input devices:
+2026-02-26 21:16:25,354 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-02-26 21:16:25,354 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-02-26 21:16:25,354 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:16:25,354 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-02-26 21:16:25,354 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:16:25,355 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:16:25,355 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-02-26 21:16:25,355 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-02-26 21:16:25,355 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-02-26 21:16:25,355 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-02-26 21:16:25,355 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-02-26 21:16:25,355 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:16:25,356 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-02-26 21:16:25,408 [INFO] Silero-VAD carregado.
+2026-02-26 21:16:25,420 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-02-26 21:16:25,421 [INFO] FALA: JARVIS pronto, senhor.
+2026-02-26 21:16:25,431 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:16:25,620 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-02-26 21:16:26,546 [INFO] STATUS: Whisper pronto — qualidade maxima PT-BR
+2026-02-26 21:16:26,546 [INFO] faster-whisper modelo 'small' carregado.
+2026-02-26 21:16:26,655 [INFO] Todos os sistemas prontos — overlay removido.
+2026-02-26 21:16:29,778 [INFO] STATUS: ... a
+2026-02-26 21:16:29,779 [INFO] STATUS: ... a
+2026-02-26 21:16:29,779 [INFO] STATUS: ... a
+2026-02-26 21:16:29,780 [INFO] STATUS: ... a
+2026-02-26 21:16:29,780 [INFO] STATUS: ... a
+2026-02-26 21:16:29,781 [INFO] STATUS: ... a
+2026-02-26 21:16:29,781 [INFO] STATUS: ... a
+2026-02-26 21:16:29,782 [INFO] STATUS: ... a
+2026-02-26 21:16:29,782 [INFO] STATUS: ... a
+2026-02-26 21:16:29,782 [INFO] STATUS: ... a
+2026-02-26 21:16:29,783 [INFO] STATUS: ... a
+2026-02-26 21:16:29,814 [INFO] STATUS: ... a
+2026-02-26 21:16:29,815 [INFO] STATUS: ... a
+2026-02-26 21:16:29,816 [INFO] STATUS: ... a
+2026-02-26 21:16:29,845 [INFO] STATUS: ... a
+2026-02-26 21:16:29,846 [INFO] STATUS: ... a
+2026-02-26 21:16:29,846 [INFO] STATUS: ... a
+2026-02-26 21:16:29,884 [INFO] STATUS: ... a
+2026-02-26 21:16:29,885 [INFO] STATUS: ... a
+2026-02-26 21:16:29,885 [INFO] STATUS: ... a
+2026-02-26 21:16:29,914 [INFO] STATUS: ... a
+2026-02-26 21:16:30,880 [INFO] STATUS: ... coisas
+2026-02-26 21:16:38,083 [INFO] STATUS: ... a
+2026-02-26 21:16:38,084 [INFO] STATUS: ... a
+2026-02-26 21:16:38,104 [INFO] STATUS: ... a
+2026-02-26 21:16:38,104 [INFO] STATUS: ... a
+2026-02-26 21:16:38,105 [INFO] STATUS: ... a
+2026-02-26 21:16:38,134 [INFO] STATUS: ... a
+2026-02-26 21:16:38,134 [INFO] STATUS: ... a
+2026-02-26 21:16:38,135 [INFO] STATUS: ... a
+2026-02-26 21:16:38,174 [INFO] STATUS: ... a
+2026-02-26 21:16:38,174 [INFO] STATUS: ... a
+2026-02-26 21:16:38,175 [INFO] STATUS: ... a
+2026-02-26 21:16:38,204 [INFO] STATUS: ... a
+2026-02-26 21:16:38,204 [INFO] STATUS: ... a
+2026-02-26 21:16:38,205 [INFO] STATUS: ... a
+2026-02-26 21:16:38,245 [INFO] STATUS: ... a
+2026-02-26 21:16:38,245 [INFO] STATUS: ... a
+2026-02-26 21:16:38,245 [INFO] STATUS: ... a
+2026-02-26 21:16:38,274 [INFO] STATUS: ... a
+2026-02-26 21:16:38,274 [INFO] STATUS: ... a
+2026-02-26 21:16:38,275 [INFO] STATUS: ... a
+2026-02-26 21:16:38,314 [INFO] STATUS: ... a
+2026-02-26 21:16:38,352 [INFO] STATUS: ... acorde
+2026-02-26 21:16:38,352 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:16:38,353 [INFO] FALA: Sim, senhor?
+2026-02-26 21:16:38,353 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:16:38,353 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:16:46,403 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:16:46,434 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:16:46,434 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:16:46,435 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:16:46,510 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:16:46,574 [INFO] VAD filter removed 00:06.496 of audio
+2026-02-26 21:16:48,067 [INFO] Whisper: 'desligar' (lang=pt, prob=1.00)
+2026-02-26 21:16:48,067 [INFO] STATUS: Comando: desligar
+2026-02-26 21:16:48,068 [INFO] execute_command invoked with: desligar
+2026-02-26 21:16:48,068 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-02-26 21:16:48,068 [INFO] Comando de desligamento recebido, saindo.
+2026-02-26 21:16:48,068 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-02-26 21:16:48,068 [INFO] STATUS: DESLIGANDO...
+2026-02-26 21:16:48,069 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:16:48,107 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:16:48,108 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:16:48,109 [INFO] STATUS: ... acorde
+2026-02-26 21:16:48,109 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:16:48,109 [INFO] FALA: Sim, senhor?
+2026-02-26 21:16:48,110 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:16:48,110 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:17:40,106 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-02-26 21:17:40,159 [INFO] Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pichau\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-26 21:17:40,159 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-02-26 21:17:40,250 [INFO] TTS voices available:
+2026-02-26 21:17:40,250 [INFO]     Microsoft Maria Desktop - Portuguese(Brazil) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PT-BR_MARIA_11.0) languages=['pt-BR']
+2026-02-26 21:17:40,250 [INFO]     Microsoft Zira Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0) languages=['en-US']
+2026-02-26 21:17:40,250 [INFO]     Microsoft David Desktop - English (United States) (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0) languages=['en-US']
+2026-02-26 21:17:41,737 [INFO] STATUS: Carregando Whisper (small)...
+2026-02-26 21:17:42,136 [INFO] Audio input devices:
+2026-02-26 21:17:42,136 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-02-26 21:17:42,136 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-02-26 21:17:42,136 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:17:42,136 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-02-26 21:17:42,137 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:17:42,137 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-02-26 21:17:42,137 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-02-26 21:17:42,137 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-02-26 21:17:42,137 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-02-26 21:17:42,137 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-02-26 21:17:42,137 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-02-26 21:17:42,137 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-02-26 21:17:42,137 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-02-26 21:17:42,140 [INFO] Silero-VAD carregado.
+2026-02-26 21:17:42,198 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-02-26 21:17:42,199 [INFO] FALA: JARVIS pronto, senhor.
+2026-02-26 21:17:42,211 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:17:42,395 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-02-26 21:17:43,297 [INFO] STATUS: Whisper pronto — qualidade maxima PT-BR
+2026-02-26 21:17:43,297 [INFO] faster-whisper modelo 'small' carregado.
+2026-02-26 21:17:43,402 [INFO] Todos os sistemas prontos — overlay removido.
+2026-02-26 21:17:47,659 [INFO] STATUS: ... corte
+2026-02-26 21:17:50,913 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:17:50,913 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:17:57,493 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:17:57,493 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:17:57,850 [INFO] STATUS: ... lote
+2026-02-26 21:17:58,476 [INFO] STATUS: ... acorde
+2026-02-26 21:17:58,476 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:17:58,476 [INFO] FALA: Sim, senhor?
+2026-02-26 21:17:58,477 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:17:58,477 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:18:06,530 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:18:06,564 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:18:06,564 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:18:06,564 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:18:06,634 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:18:06,699 [INFO] VAD filter removed 00:06.432 of audio
+2026-02-26 21:18:08,168 [INFO] Whisper: 'abro o google.' (lang=pt, prob=1.00)
+2026-02-26 21:18:08,168 [INFO] STATUS: Comando: abro o google.
+2026-02-26 21:18:08,169 [INFO] execute_command invoked with: abro o google.
+2026-02-26 21:18:08,169 [INFO] pattern '\bgoogle\b' matched
+2026-02-26 21:18:08,169 [INFO] FALA: Abrindo Google, senhor.
+2026-02-26 21:18:08,169 [INFO] STATUS: Abrindo: Google
+2026-02-26 21:18:08,237 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:18:08,253 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:18:08,253 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:18:08,254 [INFO] STATUS: ... acorde
+2026-02-26 21:18:08,254 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:18:08,254 [INFO] FALA: Sim, senhor?
+2026-02-26 21:18:08,255 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:18:08,255 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:18:16,307 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:18:16,334 [INFO] voz detectada (0 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:18:16,334 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:18:16,334 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:18:16,407 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:18:16,420 [INFO] VAD filter removed 00:08.032 of audio
+2026-02-26 21:18:16,422 [INFO] Whisper: '' (lang=pt, prob=1.00)
+2026-02-26 21:18:16,422 [INFO] STATUS: Nao entendi o comando
+2026-02-26 21:18:16,422 [INFO] FALA: Desculpe, nao entendi.
+2026-02-26 21:18:16,422 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:18:16,443 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:18:16,443 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:18:16,444 [INFO] STATUS: ... acorde
+2026-02-26 21:18:16,444 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:18:16,444 [INFO] FALA: Sim, senhor?
+2026-02-26 21:18:16,445 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:18:16,445 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-02-26 21:18:24,493 [INFO] STATUS: Limite de tempo atingido
+2026-02-26 21:18:24,524 [INFO] voz detectada (2 frames) abaixo do minimo (6), tentando transcrever mesmo assim
+2026-02-26 21:18:24,525 [INFO] STATUS: Fala curta detectada, transcrevendo…
+2026-02-26 21:18:24,525 [INFO] STATUS: Transcrevendo com Whisper PT-BR...
+2026-02-26 21:18:24,595 [INFO] Processing audio with duration 00:08.032
+2026-02-26 21:18:24,607 [INFO] VAD filter removed 00:06.496 of audio
+2026-02-26 21:18:25,955 [INFO] Whisper: 'desligar' (lang=pt, prob=1.00)
+2026-02-26 21:18:25,956 [INFO] STATUS: Comando: desligar
+2026-02-26 21:18:25,956 [INFO] execute_command invoked with: desligar
+2026-02-26 21:18:25,956 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-02-26 21:18:25,956 [INFO] Comando de desligamento recebido, saindo.
+2026-02-26 21:18:25,956 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-02-26 21:18:25,956 [INFO] STATUS: DESLIGANDO...
+2026-02-26 21:18:25,960 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-02-26 21:18:25,990 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-02-26 21:18:25,990 [INFO] STATUS: Sem audio - verifique o microfone
+2026-02-26 21:18:25,991 [INFO] STATUS: ... acorde
+2026-02-26 21:18:25,991 [INFO] STATUS: Wake word detectada!
+2026-02-26 21:18:25,991 [INFO] FALA: Sim, senhor?
+2026-02-26 21:18:25,992 [INFO] STATUS: Ouvindo comando...
+2026-02-26 21:18:25,992 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)

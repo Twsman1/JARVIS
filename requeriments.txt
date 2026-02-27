@@ -1,0 +1,9 @@
+faster-whisper
+numpy
+psutil
+pyttsx3
+scipy
+silero-vad
+sounddevice
+torch
+vosk
