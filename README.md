@@ -140,14 +140,12 @@ problemas de áudio, transcrição ou configuração.
 * Suporte a outros idiomas/vozes
 * Integração com serviços locais de LLM para respostas mais inteligentes
 
-Veja o arquivo `CONTRIBUTING.md` (se existir) para diretrizes extra.
-
 ---
 
 ## 📜 Licença
 
 Este projeto usa apenas dependências gratuitas/open-source. O código em si não tem
-licença especificada aqui; adicione uma (`MIT`, `Apache-2.0`, etc.) conforme desejar.
+licença especificada aqui;
 
 
 ---
