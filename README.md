@@ -147,7 +147,7 @@ problemas de áudio, transcrição ou configuração.
 Este projeto usa apenas dependências gratuitas/open-source. O código em si não tem
 licença especificada aqui;
 
-
+.
 ---
 
 *Desenvolvido com ❤️ por Lino, inspirado no universo Marvel.*
