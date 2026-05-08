@@ -2,7 +2,9 @@
 
 from jarvis.core import log, _shutdown, _tts_queue, speak
 import jarvis.hud.renderer as renderer
-from jarvis.voice.wake_word import WakeWordListener
+from jarvis.voice.synthesizer import Synthesizer
+from jarvis.voice.pipeline import VoicePipeline
+from jarvis.brain.brain import Brain
 
 
 def _on_close():
@@ -17,8 +19,22 @@ def main():
     renderer.draw_hud()
     renderer._draw_loading_overlay()
 
-    listener = WakeWordListener()
-    listener.start()
+    # Inicializar Synthesizer
+    synthesizer = Synthesizer()
+    synthesizer.start()
+
+    # Inicializar o cérebro
+    brain = Brain(model="llama3")
+
+    # Substituir on_command pelo Brain
+    def on_command(text: str):
+        log(f"Processando comando: {text}")
+        response = brain.think(text)
+        speak(response)
+
+    # Substituir WakeWordListener por VoicePipeline
+    pipeline = VoicePipeline(on_command_callback=on_command)
+    pipeline.start()
 
     # announce that everything is ready (helps verify audio output)
     speak("JARVIS pronto, senhor.")

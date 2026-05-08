@@ -808,3 +808,24 @@
 2026-02-26 21:18:25,991 [INFO] FALA: Sim, senhor?
 2026-02-26 21:18:25,992 [INFO] STATUS: Ouvindo comando...
 2026-02-26 21:18:25,992 [INFO] Comecando gravacao de comando (max_frames=250, min_speech=6)
+2026-05-08 14:25:17,619 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:28:20,053 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:33:15,768 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:34:13,061 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:34:13,061 [INFO] Agendador inicializado
+2026-05-08 14:34:13,062 [INFO] Lembrete agendado: 'beber água' em 0.1 minutos (ID: 8569a5f0)
+2026-05-08 14:34:19,076 [INFO] Lembrete disparado: beber água
+2026-05-08 14:34:44,936 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:35:10,358 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:36:41,925 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:36:42,264 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-08 14:38:18,486 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:38:18,823 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-08 14:38:18,823 [INFO] 20 ferramentas registradas
+2026-05-08 14:38:30,491 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 14:38:30,816 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-08 14:38:30,817 [INFO] 20 ferramentas registradas
+2026-05-08 14:38:30,865 [INFO] [Agente] Etapa 1/4
+2026-05-08 14:39:13,700 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 18:56:32,898 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-08 18:57:04,472 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)

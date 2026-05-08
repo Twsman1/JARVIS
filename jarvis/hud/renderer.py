@@ -18,6 +18,9 @@ from jarvis.core import (
     log,
 )
 from jarvis.hud.theme import *
+from jarvis.hud.widgets import StateIndicator, ConversationPanel, AudioWaveform, SystemMonitor, ToolIndicator
+from jarvis.hud.execution_log_widget import ExecutionLogWidget
+from jarvis.hud import state
 from jarvis.config import (
     SAMPLE_RATE,
     BLOCK_SIZE,
@@ -55,6 +58,13 @@ timeout_job = None
 
 root: tk.Tk = None
 canvas: tk.Canvas = None
+
+# HUD widgets
+_state_indicator = None
+_conversation_panel = None
+_audio_waveform = None
+_system_monitor = None
+_tool_indicator = None
 
 # resizing flag
 _static_drawn: bool = False
@@ -311,10 +321,46 @@ def draw_hud():
     _draw_bottom_bar()
     _draw_live_waveform()
 
+    # Initialize widgets if not done yet
+    global _state_indicator, _conversation_panel, _audio_waveform, _system_monitor, _tool_indicator, _execution_log
+    if _state_indicator is None:
+        _state_indicator = StateIndicator(canvas, cx, 40)
+        _state_indicator.draw()
+        
+        _conversation_panel = ConversationPanel(canvas, 20, 80)
+        _conversation_panel.draw()
+        
+        _audio_waveform = AudioWaveform(canvas, cx - 120, H - 80)
+        _audio_waveform.draw()
+        
+        _system_monitor = SystemMonitor(canvas, W - 250, 80)
+        _system_monitor.draw()
+        _system_monitor.start_update()
+        
+        _tool_indicator = ToolIndicator(canvas, cx, H - 120)
+        _tool_indicator.draw()
+        
+        _execution_log = ExecutionLogWidget(canvas, root, 50, 100)
+        
+        # Register observer
+        state.register_observer(_on_state_change)
+
     _angle  += 2.2
     _wave_t += 0.14
     _scan_y  = (_scan_y + 3) % H
     root.after(30, draw_hud)
+
+
+def _on_state_change(new_state, action):
+    """Callback when state changes - must use root.after for thread safety"""
+    root.after(0, lambda: _state_indicator.update(new_state, action))
+    root.after(0, lambda: _conversation_panel.update(state.get_conversation_log()))
+    if new_state == "listening":
+        root.after(0, _audio_waveform.start_animation)
+    else:
+        root.after(0, _audio_waveform.stop_animation)
+    if new_state == "acting":
+        root.after(0, lambda: _tool_indicator.show(action))
 
 
 def _draw_left_panel():

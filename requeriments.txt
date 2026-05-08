@@ -7,3 +7,13 @@ silero-vad
 sounddevice
 torch
 vosk
+soundfile
+piper-tts
+requests
+beautifulsoup4
+pillow
+pyperclip
+pywin32
+pyautogui
+pytesseract
+opencv-python

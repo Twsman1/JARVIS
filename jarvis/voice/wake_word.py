@@ -29,7 +29,7 @@ from jarvis.commands.registry import execute_command
 
 class WakeWordListener:
 
-    def __init__(self):
+    def __init__(self, callback=None):
         if not os.path.isdir(VOSK_MODEL_PATH):
             msg = (
                 f"[JARVIS] Modelo Vosk nao encontrado em '{VOSK_MODEL_PATH}'.\n"
@@ -39,6 +39,7 @@ class WakeWordListener:
             log.critical(msg)
             sys.exit(msg)
 
+        self.callback = callback
         self._model      = VoskModel(VOSK_MODEL_PATH)
         self._sr, self._dev = self._probe_device()
         # log all input devices to help the user choose if something goes wrong
@@ -150,8 +151,12 @@ class WakeWordListener:
         self._last_trigger_ts = now
         _command_active.set()
         update_status("Wake word detectada!")
-        speak("Sim, senhor?")
-        threading.Thread(target=self._record_cmd, daemon=True, name="CMD").start()
+        if self.callback:
+            self.callback()
+        else:
+            # Fallback to old behavior
+            speak("Sim, senhor?")
+            threading.Thread(target=self._record_cmd, daemon=True, name="CMD").start()
 
     def _record_cmd(self):
         try:
