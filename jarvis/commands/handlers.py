@@ -3,6 +3,7 @@ import os
 import subprocess
 import sys
 import webbrowser
+from pathlib import Path
 
 from jarvis.core import speak, update_status
 from jarvis.config import WHISPER_MODEL
@@ -27,6 +28,86 @@ def _cmd_open(url: str, name: str):
     speak(f"Abrindo {name}, senhor.")
     update_status("Abrindo: " + name)
     webbrowser.open(url)
+
+def _cmd_open_chrome():
+    """Open Google Chrome (or fallback to default browser)."""
+    speak("Abrindo Chrome, senhor.")
+    update_status("Abrindo: Chrome")
+    try:
+        if sys.platform == "win32":
+            # Try common locations first
+            candidates = [
+                r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+                r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+            ]
+            for p in candidates:
+                if os.path.exists(p):
+                    subprocess.Popen([p])
+                    return
+            # If not found, try shell association / PATH
+            subprocess.Popen(["chrome"])
+            return
+        elif sys.platform == "darwin":
+            subprocess.Popen(["open", "-a", "Google Chrome"])
+            return
+        else:
+            subprocess.Popen(["google-chrome"])
+            return
+    except Exception:
+        # fallback to default browser
+        try:
+            webbrowser.open("https://google.com")
+        except Exception:
+            pass
+
+
+def _cmd_open_folder(folder_path: str, name: str):
+    """Open a folder in the system file explorer."""
+    speak(f"Abrindo pasta {name}, senhor.")
+    update_status("Abrindo pasta: " + name)
+    try:
+        p = Path(folder_path).expanduser()
+        if sys.platform == "win32":
+            os.startfile(str(p))
+        elif sys.platform == "darwin":
+            subprocess.Popen(["open", str(p)])
+        else:
+            subprocess.Popen(["xdg-open", str(p)])
+    except Exception as e:
+        from jarvis.core import log
+        log.warning("Open folder: %s", e)
+
+
+def _user_folder(which: str) -> tuple[str, str] | None:
+    """Return (path, display_name) for common user folders."""
+    home = Path.home()
+    key = which.strip().lower()
+
+    mapping = {
+        "downloads": (home / "Downloads", "Downloads"),
+        "download": (home / "Downloads", "Downloads"),
+        "documentos": (home / "Documents", "Documentos"),
+        "documento": (home / "Documents", "Documentos"),
+        "docs": (home / "Documents", "Documentos"),
+        "desktop": (home / "Desktop", "Desktop"),
+        "área de trabalho": (home / "Desktop", "Desktop"),
+        "area de trabalho": (home / "Desktop", "Desktop"),
+        "imagens": (home / "Pictures", "Imagens"),
+        "fotos": (home / "Pictures", "Imagens"),
+        "pictures": (home / "Pictures", "Imagens"),
+        "vídeos": (home / "Videos", "Vídeos"),
+        "videos": (home / "Videos", "Vídeos"),
+        "músicas": (home / "Music", "Músicas"),
+        "musicas": (home / "Music", "Músicas"),
+        "home": (home, "Home"),
+        "usuario": (home, "Usuário"),
+        "usuário": (home, "Usuário"),
+    }
+
+    val = mapping.get(key)
+    if not val:
+        return None
+    return (str(val[0]), val[1])
 
 
 def _cmd_calculator():

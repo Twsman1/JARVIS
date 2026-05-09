@@ -23,6 +23,86 @@
     {
       "role": "assistant",
       "content": "ok"
+    },
+    {
+      "role": "user",
+      "content": "Maximizar a tela. Abrir o crome."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Abrir o crome."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Abre o Google Chrome."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Execute o que lhe pedir."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Deu-se legal."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Desligar."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Abre o desktop."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Abra, usta..."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Abra os top loads"
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Abra o download."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
     }
   ]
 }

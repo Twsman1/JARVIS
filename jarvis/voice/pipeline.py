@@ -28,6 +28,8 @@ class VoicePipeline:
     def _handle_command(self):
         self._processing = True
         try:
+            # Ensure wake-word loop pauses while recording the command
+            _command_active.set()
             state.set_state(state.LISTENING, "gravando comando")
             core.speak("Sim, senhor?")
             audio = self.recorder.record()
@@ -45,4 +47,5 @@ class VoicePipeline:
             core.log.info(f"Erro no pipeline: {e}")
         finally:
             self._processing = False
+            state.set_state(state.IDLE, "")
             _command_active.clear()

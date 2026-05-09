@@ -2318,3 +2318,1373 @@
 2026-05-09 09:36:55,907 [INFO] Erro no sintetizador: 'Logger' object is not callable
 2026-05-09 09:36:56,068 [INFO] Janela fechada, iniciando desligamento.
 2026-05-09 09:36:56,068 [INFO] Encerrando sintetizador de voz
+2026-05-09 10:03:55,115 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:04:59,528 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:05:30,463 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:05:32,727 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:05:33,388 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:05:34,342 [INFO] Modelo Whisper pronto.
+2026-05-09 10:05:35,533 [INFO] Silero-VAD carregado.
+2026-05-09 10:05:36,565 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:05:36,566 [INFO] 26 ferramentas registradas
+2026-05-09 10:05:36,567 [INFO] Memória carregada com 6 mensagens
+2026-05-09 10:05:36,567 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 10:05:36,567 [INFO] Agendador inicializado
+2026-05-09 10:05:36,567 [INFO] Cérebro JARVIS inicializado
+2026-05-09 10:05:36,567 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:05:36,706 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:05:37,464 [INFO] Modelo Whisper pronto.
+2026-05-09 10:05:37,778 [INFO] Audio input devices:
+2026-05-09 10:05:37,779 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 10:05:37,779 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 10:05:37,779 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:05:37,779 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 10:05:37,779 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:05:37,779 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:05:37,779 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 10:05:37,779 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 10:05:37,779 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 10:05:37,780 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 10:05:37,780 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 10:05:37,780 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:05:37,780 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 10:05:37,848 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 10:05:37,849 [INFO] Pipeline de voz inicializado
+2026-05-09 10:05:37,849 [INFO] Aguardando wake word...
+2026-05-09 10:05:37,849 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 10:05:37,849 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 10:05:37,850 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D311634590>: Format not recognised.
+2026-05-09 10:05:37,850 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:37,868 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 10:05:37,893 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 10:05:42,976 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:05:42,985 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:05:47,473 [INFO] STATUS: ... acorde
+2026-05-09 10:05:47,473 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:05:47,473 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:05:47,474 [INFO] FALA: Sim, senhor?
+2026-05-09 10:05:47,474 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:05:47,474 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:05:47,475 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D311635A80>: Format not recognised.
+2026-05-09 10:05:47,475 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:50,556 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:05:50,556 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:05:50,564 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:05:50,566 [INFO] Comando transcrito: 
+2026-05-09 10:05:50,566 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:05:50,566 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:05:50,567 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65850>: Format not recognised.
+2026-05-09 10:05:50,567 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:50,596 [INFO] STATUS: ... acorde
+2026-05-09 10:05:50,596 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:05:50,596 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:05:50,596 [INFO] FALA: Sim, senhor?
+2026-05-09 10:05:50,597 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:05:50,597 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:05:50,597 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D311635530>: Format not recognised.
+2026-05-09 10:05:50,597 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:53,646 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 10:05:53,647 [INFO] Processing audio with duration 00:03.000
+2026-05-09 10:05:53,650 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:05:53,652 [INFO] Comando transcrito: 
+2026-05-09 10:05:53,652 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:05:53,652 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:05:53,653 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65850>: Format not recognised.
+2026-05-09 10:05:53,653 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:53,664 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:05:53,665 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:05:53,666 [INFO] STATUS: ... acorde
+2026-05-09 10:05:53,666 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:05:53,667 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:05:53,667 [INFO] FALA: Sim, senhor?
+2026-05-09 10:05:53,667 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:05:53,667 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:05:53,668 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D311635990>: Format not recognised.
+2026-05-09 10:05:53,668 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:56,746 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:05:56,746 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:05:56,750 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:05:56,751 [INFO] Comando transcrito: 
+2026-05-09 10:05:56,751 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:05:56,751 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:05:56,752 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65850>: Format not recognised.
+2026-05-09 10:05:56,752 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:56,766 [INFO] STATUS: ... acorde
+2026-05-09 10:05:56,766 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:05:56,766 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:05:56,767 [INFO] FALA: Sim, senhor?
+2026-05-09 10:05:56,767 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:05:56,767 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:05:56,767 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C656C0>: Format not recognised.
+2026-05-09 10:05:56,768 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:59,816 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 10:05:59,817 [INFO] Processing audio with duration 00:03.000
+2026-05-09 10:05:59,820 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:05:59,821 [INFO] Comando transcrito: 
+2026-05-09 10:05:59,821 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:05:59,821 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:05:59,822 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65760>: Format not recognised.
+2026-05-09 10:05:59,822 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:05:59,825 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:05:59,825 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:05:59,826 [INFO] STATUS: ... acorde
+2026-05-09 10:05:59,826 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:05:59,827 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:05:59,827 [INFO] FALA: Sim, senhor?
+2026-05-09 10:05:59,827 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:05:59,827 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:05:59,828 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65800>: Format not recognised.
+2026-05-09 10:05:59,828 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:02,906 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:02,906 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:02,910 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:02,912 [INFO] Comando transcrito: 
+2026-05-09 10:06:02,912 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:02,912 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:02,913 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65670>: Format not recognised.
+2026-05-09 10:06:02,913 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:02,926 [INFO] STATUS: ... acorde
+2026-05-09 10:06:02,926 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:02,926 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:02,927 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:02,927 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:02,927 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:02,927 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D311636020>: Format not recognised.
+2026-05-09 10:06:02,927 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:06,006 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:06,006 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:06,011 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:06,012 [INFO] Comando transcrito: 
+2026-05-09 10:06:06,012 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:06,012 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:06,013 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C658A0>: Format not recognised.
+2026-05-09 10:06:06,013 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:06,025 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:06:06,025 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:06:06,026 [INFO] STATUS: ... acorde
+2026-05-09 10:06:06,026 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:06,026 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:06,027 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:06,027 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:06,027 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:06,028 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C655D0>: Format not recognised.
+2026-05-09 10:06:06,028 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:09,106 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:09,106 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:09,110 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:09,112 [INFO] Comando transcrito: 
+2026-05-09 10:06:09,112 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:09,112 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:09,112 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C658A0>: Format not recognised.
+2026-05-09 10:06:09,113 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:09,126 [INFO] STATUS: ... acorde
+2026-05-09 10:06:09,126 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:09,126 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:09,127 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:09,127 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:09,127 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:09,127 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D3116354E0>: Format not recognised.
+2026-05-09 10:06:09,128 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:12,206 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:12,206 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:12,210 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:12,211 [INFO] Comando transcrito: 
+2026-05-09 10:06:12,211 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:12,212 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:12,212 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D36043F970>: Format not recognised.
+2026-05-09 10:06:12,212 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:12,225 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:06:12,225 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:06:12,226 [INFO] STATUS: ... acorde
+2026-05-09 10:06:12,226 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:12,227 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:12,227 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:12,227 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:12,227 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:12,228 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65580>: Format not recognised.
+2026-05-09 10:06:12,228 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:15,306 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:15,306 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:15,310 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:15,311 [INFO] Comando transcrito: 
+2026-05-09 10:06:15,312 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:15,312 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:15,312 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D36043F970>: Format not recognised.
+2026-05-09 10:06:15,312 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:15,326 [INFO] STATUS: ... acorde
+2026-05-09 10:06:15,326 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:15,326 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:15,327 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:15,327 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:15,327 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:15,327 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D311636160>: Format not recognised.
+2026-05-09 10:06:15,327 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:18,406 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:18,406 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:18,410 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:18,411 [INFO] Comando transcrito: 
+2026-05-09 10:06:18,412 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:18,412 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:18,412 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D36043F970>: Format not recognised.
+2026-05-09 10:06:18,412 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:18,425 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:06:18,425 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:06:18,426 [INFO] STATUS: ... acorde
+2026-05-09 10:06:18,426 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:18,427 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:18,427 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:18,427 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:18,427 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:18,428 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D311635990>: Format not recognised.
+2026-05-09 10:06:18,428 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:21,506 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:21,506 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:21,510 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:21,511 [INFO] Comando transcrito: 
+2026-05-09 10:06:21,511 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:21,512 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:21,512 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D36043F970>: Format not recognised.
+2026-05-09 10:06:21,512 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:21,526 [INFO] STATUS: ... acorde
+2026-05-09 10:06:21,526 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:21,527 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:21,527 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:21,527 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:21,527 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:21,528 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C65440>: Format not recognised.
+2026-05-09 10:06:21,528 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:24,606 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 10:06:24,606 [INFO] Processing audio with duration 00:03.030
+2026-05-09 10:06:24,610 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 10:06:24,612 [INFO] Comando transcrito: 
+2026-05-09 10:06:24,612 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:06:24,612 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:06:24,613 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D36043F970>: Format not recognised.
+2026-05-09 10:06:24,613 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:24,625 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:06:24,625 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:06:24,626 [INFO] STATUS: ... acorde
+2026-05-09 10:06:24,626 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:06:24,627 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:06:24,627 [INFO] FALA: Sim, senhor?
+2026-05-09 10:06:24,627 [INFO] Iniciando gravação de áudio...
+2026-05-09 10:06:24,627 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:06:24,628 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001D306C653F0>: Format not recognised.
+2026-05-09 10:06:24,628 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:06:27,583 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 10:06:27,583 [INFO] Encerrando sintetizador de voz
+2026-05-09 10:07:52,673 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:07:53,859 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:07:54,241 [INFO] Silero-VAD carregado.
+2026-05-09 10:07:54,437 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:07:55,161 [INFO] Modelo Whisper pronto.
+2026-05-09 10:08:02,387 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:09:22,528 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:09:23,776 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:09:24,213 [INFO] Silero-VAD carregado.
+2026-05-09 10:09:24,388 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:09:25,082 [INFO] Modelo Whisper pronto.
+2026-05-09 10:09:25,602 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 10:09:26,665 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:09:26,666 [INFO] 26 ferramentas registradas
+2026-05-09 10:09:26,666 [INFO] Memória carregada com 6 mensagens
+2026-05-09 10:09:26,666 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 10:09:26,666 [INFO] Agendador inicializado
+2026-05-09 10:09:26,666 [INFO] Cérebro JARVIS inicializado
+2026-05-09 10:09:26,666 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:09:26,797 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:09:27,521 [INFO] Modelo Whisper pronto.
+2026-05-09 10:09:27,758 [INFO] Audio input devices:
+2026-05-09 10:09:27,759 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 10:09:27,759 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 10:09:27,759 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:09:27,759 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 10:09:27,759 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:09:27,759 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:09:27,759 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 10:09:27,759 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 10:09:27,760 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 10:09:27,760 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 10:09:27,760 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 10:09:27,760 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:09:27,760 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 10:09:27,825 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 10:09:27,825 [INFO] Pipeline de voz inicializado
+2026-05-09 10:09:27,826 [INFO] Aguardando wake word...
+2026-05-09 10:09:27,826 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 10:09:27,826 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 10:09:27,826 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000002248CBF3790>: Format not recognised.
+2026-05-09 10:09:27,827 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:09:27,842 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 10:09:31,512 [INFO] STATUS: ... a
+2026-05-09 10:09:31,513 [INFO] STATUS: ... a
+2026-05-09 10:09:31,514 [INFO] STATUS: ... a
+2026-05-09 10:09:31,515 [INFO] STATUS: ... a
+2026-05-09 10:09:31,515 [INFO] STATUS: ... a
+2026-05-09 10:09:31,515 [INFO] STATUS: ... a
+2026-05-09 10:09:31,516 [INFO] STATUS: ... a
+2026-05-09 10:09:31,516 [INFO] STATUS: ... a
+2026-05-09 10:09:31,517 [INFO] STATUS: ... a
+2026-05-09 10:09:31,517 [INFO] STATUS: ... a
+2026-05-09 10:09:31,517 [INFO] STATUS: ... a
+2026-05-09 10:09:31,518 [INFO] STATUS: ... a
+2026-05-09 10:09:31,518 [INFO] STATUS: ... a
+2026-05-09 10:09:31,528 [INFO] STATUS: ... a
+2026-05-09 10:09:31,528 [INFO] STATUS: ... a
+2026-05-09 10:09:31,529 [INFO] STATUS: ... a
+2026-05-09 10:09:31,567 [INFO] STATUS: ... a
+2026-05-09 10:09:31,568 [INFO] STATUS: ... a
+2026-05-09 10:09:31,568 [INFO] STATUS: ... a
+2026-05-09 10:09:31,597 [INFO] STATUS: ... a
+2026-05-09 10:09:31,597 [INFO] STATUS: ... a
+2026-05-09 10:09:35,452 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,466 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,467 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,467 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,497 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,497 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,498 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,537 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,537 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,538 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,567 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,567 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,568 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,608 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,608 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,608 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,636 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,637 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,637 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,677 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,677 [INFO] STATUS: ... agora
+2026-05-09 10:09:35,722 [INFO] STATUS: ... acorde
+2026-05-09 10:09:35,722 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:09:35,723 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:09:35,723 [INFO] FALA: Sim, senhor?
+2026-05-09 10:09:35,723 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:09:35,723 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:09:35,724 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000002248D480400>: Format not recognised.
+2026-05-09 10:09:35,724 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:09:43,739 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:09:43,777 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:09:43,778 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:09:43,794 [INFO] VAD filter removed 00:05.984 of audio
+2026-05-09 10:09:45,250 [INFO] Transcrição concluída: 'Tire um print da tela.'
+2026-05-09 10:09:45,250 [INFO] Comando transcrito: Tire um print da tela.
+2026-05-09 10:09:45,250 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 10:09:45,256 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:09:45,256 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:09:45,257 [INFO] STATUS: ... acorde
+2026-05-09 10:09:45,257 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:09:45,258 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:09:45,258 [INFO] FALA: Sim, senhor?
+2026-05-09 10:09:45,258 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:09:45,259 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:09:45,259 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000002248D4816C0>: Format not recognised.
+2026-05-09 10:09:45,259 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:09:53,302 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:09:53,337 [INFO] Gravação finalizada: 128512 samples (speech_frames=3, total_frames=251, dt=8.08s)
+2026-05-09 10:09:53,338 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:09:53,348 [INFO] VAD filter removed 00:04.528 of audio
+2026-05-09 10:09:54,739 [INFO] Transcrição concluída: 'Tire um print da tela. Desligar.'
+2026-05-09 10:09:54,740 [INFO] Comando transcrito: Tire um print da tela. Desligar.
+2026-05-09 10:09:54,740 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 10:09:54,756 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:09:54,757 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:09:54,758 [INFO] STATUS: ... acorde
+2026-05-09 10:09:54,758 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:09:54,758 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:09:54,759 [INFO] FALA: Sim, senhor?
+2026-05-09 10:09:54,759 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:09:54,759 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:09:54,759 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000002248D481760>: Format not recognised.
+2026-05-09 10:09:54,760 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:10:02,795 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:10:02,808 [INFO] Gravação finalizada: 128000 samples (speech_frames=1, total_frames=250, dt=8.05s)
+2026-05-09 10:10:02,808 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:10:02,819 [INFO] VAD filter removed 00:07.536 of audio
+2026-05-09 10:10:04,064 [INFO] Transcrição concluída: ''
+2026-05-09 10:10:04,064 [INFO] Comando transcrito: 
+2026-05-09 10:10:04,064 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:10:04,064 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:10:04,065 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000002248CB62160>: Format not recognised.
+2026-05-09 10:10:04,065 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:10:04,096 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:10:04,096 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:10:04,098 [INFO] STATUS: ... acorde
+2026-05-09 10:10:04,098 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:10:04,098 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:10:04,099 [INFO] FALA: Sim, senhor?
+2026-05-09 10:10:04,099 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:10:04,099 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:10:04,099 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000002248D480D60>: Format not recognised.
+2026-05-09 10:10:04,099 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:10:12,118 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:10:12,148 [INFO] Gravação finalizada: 128000 samples (speech_frames=4, total_frames=250, dt=8.05s)
+2026-05-09 10:10:12,148 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:10:12,159 [INFO] VAD filter removed 00:03.568 of audio
+2026-05-09 10:10:13,523 [INFO] Transcrição concluída: 'desligar desligar desligar desligar'
+2026-05-09 10:10:13,523 [INFO] Comando transcrito: desligar desligar desligar desligar
+2026-05-09 10:10:13,523 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 10:10:13,536 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:10:13,537 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:10:13,538 [INFO] STATUS: ... acorde
+2026-05-09 10:10:13,538 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:10:13,538 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:10:13,539 [INFO] FALA: Sim, senhor?
+2026-05-09 10:10:13,539 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:10:13,539 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:10:13,539 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000002248CBF1EE0>: Format not recognised.
+2026-05-09 10:10:13,540 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:10:21,571 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:10:21,588 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:10:21,589 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:10:21,600 [INFO] VAD filter removed 00:06.560 of audio
+2026-05-09 10:10:22,930 [INFO] Transcrição concluída: 'desligar'
+2026-05-09 10:10:22,975 [INFO] Comando transcrito: desligar
+2026-05-09 10:10:22,983 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 10:10:22,985 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 10:10:22,985 [INFO] Encerrando sintetizador de voz
+2026-05-09 10:12:09,994 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:12:43,910 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:12:45,125 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:12:45,539 [INFO] Silero-VAD carregado.
+2026-05-09 10:12:45,706 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:12:46,417 [INFO] Modelo Whisper pronto.
+2026-05-09 10:12:46,939 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 10:12:48,011 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:12:48,012 [INFO] 26 ferramentas registradas
+2026-05-09 10:12:48,013 [INFO] Memória carregada com 6 mensagens
+2026-05-09 10:12:48,013 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 10:12:48,013 [INFO] Agendador inicializado
+2026-05-09 10:12:48,013 [INFO] Cérebro JARVIS inicializado
+2026-05-09 10:12:48,013 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:12:48,145 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:12:48,839 [INFO] Modelo Whisper pronto.
+2026-05-09 10:12:49,075 [INFO] Audio input devices:
+2026-05-09 10:12:49,076 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 10:12:49,076 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 10:12:49,076 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:12:49,076 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 10:12:49,076 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:12:49,076 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:12:49,076 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 10:12:49,076 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 10:12:49,076 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 10:12:49,076 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 10:12:49,077 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 10:12:49,077 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:12:49,077 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 10:12:49,140 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 10:12:49,141 [INFO] Pipeline de voz inicializado
+2026-05-09 10:12:49,141 [INFO] Aguardando wake word...
+2026-05-09 10:12:49,142 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 10:12:49,142 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 10:12:49,142 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x0000014285C773D0>: Format not recognised.
+2026-05-09 10:12:49,142 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:12:49,166 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 10:12:56,299 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:12:56,299 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:12:59,012 [INFO] STATUS: ... acorde
+2026-05-09 10:12:59,012 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:12:59,013 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:12:59,013 [INFO] FALA: Sim, senhor?
+2026-05-09 10:12:59,013 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:12:59,014 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:12:59,014 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001428F77C0E0>: Format not recognised.
+2026-05-09 10:12:59,014 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:13:07,032 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:13:07,071 [INFO] Gravação finalizada: 128000 samples (speech_frames=3, total_frames=250, dt=8.05s)
+2026-05-09 10:13:07,071 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:13:07,085 [INFO] VAD filter removed 00:05.808 of audio
+2026-05-09 10:13:08,531 [INFO] Transcrição concluída: 'Você está me ouvindo? Você está me ouvindo?'
+2026-05-09 10:13:08,532 [INFO] Comando transcrito: Você está me ouvindo? Você está me ouvindo?
+2026-05-09 10:13:08,532 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 10:13:08,559 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:13:08,559 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:13:08,560 [INFO] STATUS: ... acorde
+2026-05-09 10:13:08,561 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:13:08,561 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:13:08,561 [INFO] FALA: Sim, senhor?
+2026-05-09 10:13:08,562 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:13:08,562 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:13:08,562 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x000001428F77D620>: Format not recognised.
+2026-05-09 10:13:08,562 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:13:10,014 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 10:13:10,014 [INFO] Encerrando sintetizador de voz
+2026-05-09 10:14:27,336 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:15:15,267 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:15:16,474 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:15:16,870 [INFO] Silero-VAD carregado.
+2026-05-09 10:15:17,049 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:15:17,735 [INFO] Modelo Whisper pronto.
+2026-05-09 10:15:18,212 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 10:15:19,259 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:15:19,260 [INFO] 26 ferramentas registradas
+2026-05-09 10:15:19,261 [INFO] Memória carregada com 6 mensagens
+2026-05-09 10:15:19,261 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 10:15:19,261 [INFO] Agendador inicializado
+2026-05-09 10:15:19,261 [INFO] Cérebro JARVIS inicializado
+2026-05-09 10:15:19,261 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:15:19,400 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:15:20,087 [INFO] Modelo Whisper pronto.
+2026-05-09 10:15:20,319 [INFO] Audio input devices:
+2026-05-09 10:15:20,319 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 10:15:20,319 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 10:15:20,320 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:15:20,320 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 10:15:20,320 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:15:20,320 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:15:20,320 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 10:15:20,320 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 10:15:20,320 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 10:15:20,320 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 10:15:20,320 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 10:15:20,321 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:15:20,321 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 10:15:20,383 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 10:15:20,384 [INFO] Pipeline de voz inicializado
+2026-05-09 10:15:20,384 [INFO] Aguardando wake word...
+2026-05-09 10:15:20,384 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 10:15:20,384 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 10:15:20,385 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x00000272B31C7510>: Format not recognised.
+2026-05-09 10:15:20,385 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:15:20,401 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 10:15:25,483 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:15:25,484 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:15:30,494 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:15:30,494 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:15:33,563 [INFO] STATUS: ... acorde
+2026-05-09 10:15:33,563 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:15:33,564 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:15:33,564 [INFO] FALA: Sim, senhor?
+2026-05-09 10:15:33,564 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:15:33,564 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:15:33,565 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x00000272B3344810>: Format not recognised.
+2026-05-09 10:15:33,565 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:15:41,620 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:15:41,645 [INFO] Gravação finalizada: 128512 samples (speech_frames=0, total_frames=251, dt=8.08s)
+2026-05-09 10:15:41,645 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:15:41,659 [INFO] VAD filter removed 00:08.032 of audio
+2026-05-09 10:15:41,661 [INFO] Transcrição concluída: ''
+2026-05-09 10:15:41,661 [INFO] Comando transcrito: 
+2026-05-09 10:15:41,661 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:15:41,662 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:15:41,662 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x00000272B31C5BC0>: Format not recognised.
+2026-05-09 10:15:41,662 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:15:41,674 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:15:41,674 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:15:41,674 [INFO] STATUS: ... acorde
+2026-05-09 10:15:41,675 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:15:41,675 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:15:41,675 [INFO] FALA: Sim, senhor?
+2026-05-09 10:15:41,675 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:15:41,675 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:15:41,676 [INFO] Erro na síntese: Error opening <_io.BytesIO object at 0x00000272B3345170>: Format not recognised.
+2026-05-09 10:15:41,676 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:15:49,727 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:15:49,755 [INFO] Gravação finalizada: 128512 samples (speech_frames=4, total_frames=251, dt=8.08s)
+2026-05-09 10:15:49,755 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:15:49,765 [INFO] VAD filter removed 00:04.288 of audio
+2026-05-09 10:15:49,926 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 10:15:49,926 [INFO] Encerrando sintetizador de voz
+2026-05-09 10:17:56,581 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:17:57,666 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:17:57,667 [INFO] Estado mudou: idle → speaking (teste de audio)
+2026-05-09 10:17:58,677 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:18:23,668 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:18:24,900 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:18:25,364 [INFO] Silero-VAD carregado.
+2026-05-09 10:18:25,502 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:18:26,203 [INFO] Modelo Whisper pronto.
+2026-05-09 10:18:26,695 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 10:18:27,759 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:18:27,759 [INFO] 26 ferramentas registradas
+2026-05-09 10:18:27,760 [INFO] Memória carregada com 6 mensagens
+2026-05-09 10:18:27,760 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 10:18:27,760 [INFO] Agendador inicializado
+2026-05-09 10:18:27,760 [INFO] Cérebro JARVIS inicializado
+2026-05-09 10:18:27,760 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:18:27,895 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:18:28,626 [INFO] Modelo Whisper pronto.
+2026-05-09 10:18:28,866 [INFO] Audio input devices:
+2026-05-09 10:18:28,867 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 10:18:28,867 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 10:18:28,867 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:18:28,867 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 10:18:28,867 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:18:28,867 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:18:28,867 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 10:18:28,868 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 10:18:28,868 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 10:18:28,868 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 10:18:28,868 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 10:18:28,868 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:18:28,868 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 10:18:28,930 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 10:18:28,930 [INFO] Pipeline de voz inicializado
+2026-05-09 10:18:28,931 [INFO] Aguardando wake word...
+2026-05-09 10:18:28,931 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 10:18:28,931 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 10:18:28,955 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 10:18:30,421 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:18:34,398 [INFO] STATUS: ... recortes
+2026-05-09 10:18:39,234 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,234 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,235 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,235 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,259 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,260 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,260 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,300 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,300 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,301 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,329 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,330 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,330 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,370 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,370 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,371 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,399 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,400 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,400 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,429 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,476 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,477 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,477 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,478 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,478 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,499 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,499 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,500 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,539 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,539 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,540 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,569 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,570 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,570 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,609 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,609 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,610 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,639 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,639 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,640 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,679 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,691 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,692 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,709 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,709 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,709 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,749 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,749 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,750 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,779 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,779 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,780 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,819 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,820 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,820 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,849 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,849 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,850 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,889 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,890 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,890 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,919 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,932 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,932 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,960 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,961 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,961 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,989 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,989 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:39,990 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,030 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,030 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,030 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,059 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,060 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,060 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,099 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,099 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,100 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,129 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,129 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,130 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,189 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,190 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,190 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,200 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,200 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,200 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,239 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,239 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,240 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,269 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,269 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,270 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,309 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,310 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,310 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,339 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,339 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,340 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,379 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,379 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,380 [INFO] STATUS: ... de acordo
+2026-05-09 10:18:40,436 [INFO] STATUS: ... a
+2026-05-09 10:18:45,449 [INFO] STATUS: ... acorde
+2026-05-09 10:18:45,450 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:18:45,450 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:18:45,450 [INFO] FALA: Sim, senhor?
+2026-05-09 10:18:45,450 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:18:45,451 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:18:46,317 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:18:53,498 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:18:53,530 [INFO] Gravação finalizada: 128512 samples (speech_frames=2, total_frames=251, dt=8.08s)
+2026-05-09 10:18:53,530 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:18:53,544 [INFO] VAD filter removed 00:06.176 of audio
+2026-05-09 10:18:54,866 [INFO] Transcrição concluída: 'Você está me ouvindo?'
+2026-05-09 10:18:54,867 [INFO] Comando transcrito: Você está me ouvindo?
+2026-05-09 10:18:54,867 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 10:18:54,899 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:18:54,899 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:18:56,861 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,862 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,862 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,862 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,863 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,863 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,863 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,880 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,880 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,880 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,919 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,920 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,920 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,949 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,950 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,950 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,989 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,990 [INFO] STATUS: ... desligar
+2026-05-09 10:18:56,990 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,019 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,020 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,027 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,059 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,060 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,060 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,089 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,090 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,090 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,129 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,129 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,130 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,159 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,160 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,160 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,199 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,199 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,200 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,229 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,229 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,230 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,269 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,269 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,278 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,299 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,299 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,300 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,339 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,339 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,340 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,369 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,369 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,370 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,409 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,409 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,410 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,439 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,439 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,440 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,480 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,480 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,481 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,509 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,510 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,516 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,549 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,549 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,550 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,579 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,579 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,580 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,619 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,620 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,620 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,657 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,658 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,658 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,689 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,689 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,689 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,720 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,720 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,721 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,760 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,766 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,767 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,789 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,789 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,789 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,819 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,819 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,820 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,859 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,860 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,860 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,889 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,889 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,890 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,929 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,929 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,930 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,960 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,960 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,960 [INFO] STATUS: ... desligar
+2026-05-09 10:18:57,999 [INFO] STATUS: ... desligar
+2026-05-09 10:18:58,012 [INFO] STATUS: ... desligar
+2026-05-09 10:19:01,239 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:19:01,239 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:19:08,086 [INFO] STATUS: ... liga
+2026-05-09 10:19:08,169 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:19:08,169 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:19:10,186 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 10:19:10,187 [INFO] Encerrando sintetizador de voz
+2026-05-09 10:20:19,710 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:20:19,710 [INFO] execute_command invoked with: abrir google
+2026-05-09 10:20:19,710 [INFO] pattern '\bgoogle\b' matched
+2026-05-09 10:20:19,710 [INFO] FALA: Abrindo Google, senhor.
+2026-05-09 10:20:19,710 [INFO] STATUS: Abrindo: Google
+2026-05-09 10:20:19,777 [INFO] execute_command invoked with: comando inexistente
+2026-05-09 10:20:19,777 [INFO] no pattern matched for command
+2026-05-09 10:20:19,777 [INFO] STATUS: Comando nao mapeado: comando inexistente
+2026-05-09 10:21:36,515 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:21:36,516 [INFO] execute_command invoked with: abrir chrome
+2026-05-09 10:21:36,516 [INFO] pattern '\bchrome\b|\bgoogle chrome\b' matched
+2026-05-09 10:21:36,516 [INFO] FALA: Abrindo Chrome, senhor.
+2026-05-09 10:21:36,516 [INFO] STATUS: Abrindo: Chrome
+2026-05-09 10:21:36,518 [INFO] execute_command invoked with: abrir pasta downloads
+2026-05-09 10:21:36,519 [INFO] FALA: Abrindo pasta Downloads, senhor.
+2026-05-09 10:21:36,519 [INFO] STATUS: Abrindo pasta: Downloads
+2026-05-09 10:21:36,552 [INFO] execute_command invoked with: abrir documentos
+2026-05-09 10:21:36,553 [INFO] FALA: Abrindo pasta Documentos, senhor.
+2026-05-09 10:21:36,553 [INFO] STATUS: Abrindo pasta: Documentos
+2026-05-09 10:22:12,467 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:22:13,678 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:22:14,080 [INFO] Silero-VAD carregado.
+2026-05-09 10:22:14,272 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:22:14,985 [INFO] Modelo Whisper pronto.
+2026-05-09 10:22:15,472 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 10:22:16,557 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:22:16,558 [INFO] 26 ferramentas registradas
+2026-05-09 10:22:16,559 [INFO] Memória carregada com 6 mensagens
+2026-05-09 10:22:16,559 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 10:22:16,559 [INFO] Agendador inicializado
+2026-05-09 10:22:16,559 [INFO] Cérebro JARVIS inicializado
+2026-05-09 10:22:16,559 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:22:16,696 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:22:17,444 [INFO] Modelo Whisper pronto.
+2026-05-09 10:22:17,693 [INFO] Audio input devices:
+2026-05-09 10:22:17,694 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 10:22:17,694 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 10:22:17,694 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:22:17,694 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 10:22:17,694 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:22:17,694 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:22:17,695 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 10:22:17,695 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 10:22:17,695 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 10:22:17,695 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 10:22:17,695 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 10:22:17,695 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:22:17,695 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 10:22:17,757 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 10:22:17,758 [INFO] Pipeline de voz inicializado
+2026-05-09 10:22:17,758 [INFO] Aguardando wake word...
+2026-05-09 10:22:17,758 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 10:22:17,759 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 10:22:17,783 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 10:22:19,249 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:22:22,082 [INFO] STATUS: ... acorde
+2026-05-09 10:22:22,083 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:22:22,083 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:22:22,084 [INFO] FALA: Sim, senhor?
+2026-05-09 10:22:22,084 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:22:22,084 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:22:22,984 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:22:30,133 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:22:30,167 [INFO] Gravação finalizada: 128512 samples (speech_frames=4, total_frames=251, dt=8.08s)
+2026-05-09 10:22:30,168 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:22:30,181 [INFO] VAD filter removed 00:04.304 of audio
+2026-05-09 10:22:31,572 [INFO] Transcrição concluída: 'Maximizar a tela. Abrir o crome.'
+2026-05-09 10:22:31,572 [INFO] Comando transcrito: Maximizar a tela. Abrir o crome.
+2026-05-09 10:22:31,572 [INFO] Processando comando: Maximizar a tela. Abrir o crome.
+2026-05-09 10:22:31,572 [INFO] execute_command invoked with: Maximizar a tela. Abrir o crome.
+2026-05-09 10:22:31,573 [INFO] no pattern matched for command
+2026-05-09 10:22:31,573 [INFO] STATUS: Comando nao mapeado: Maximizar a tela. Abrir o crome.
+2026-05-09 10:22:31,573 [INFO] Processando: Maximizar a tela. Abrir o crome.
+2026-05-09 10:22:31,574 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:22:31,574 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:22:31,575 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:31,575 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:22:31,575 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:31,576 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:22:31,606 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:22:31,606 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:22:31,607 [INFO] STATUS: ... acorde
+2026-05-09 10:22:31,607 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:22:31,608 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:22:31,608 [INFO] FALA: Sim, senhor?
+2026-05-09 10:22:31,608 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:22:33,899 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:22:33,899 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:22:34,794 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:22:39,659 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:22:39,687 [INFO] Gravação finalizada: 128512 samples (speech_frames=2, total_frames=251, dt=8.08s)
+2026-05-09 10:22:39,688 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:22:39,699 [INFO] VAD filter removed 00:06.160 of audio
+2026-05-09 10:22:40,999 [INFO] Transcrição concluída: 'Abrir o crome.'
+2026-05-09 10:22:40,999 [INFO] Comando transcrito: Abrir o crome.
+2026-05-09 10:22:40,999 [INFO] Processando comando: Abrir o crome.
+2026-05-09 10:22:41,000 [INFO] execute_command invoked with: Abrir o crome.
+2026-05-09 10:22:41,000 [INFO] no pattern matched for command
+2026-05-09 10:22:41,000 [INFO] STATUS: Comando nao mapeado: Abrir o crome.
+2026-05-09 10:22:41,000 [INFO] Processando: Abrir o crome.
+2026-05-09 10:22:41,000 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:22:41,001 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:22:41,001 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:41,001 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:22:41,002 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:41,002 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:22:41,006 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:22:41,006 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:22:41,007 [INFO] STATUS: ... acorde
+2026-05-09 10:22:41,008 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:22:41,008 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:22:41,008 [INFO] FALA: Sim, senhor?
+2026-05-09 10:22:41,008 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:22:43,326 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:22:43,327 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:22:44,215 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:22:49,019 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:22:49,058 [INFO] Gravação finalizada: 128000 samples (speech_frames=1, total_frames=250, dt=8.05s)
+2026-05-09 10:22:49,058 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:22:49,069 [INFO] VAD filter removed 00:05.840 of audio
+2026-05-09 10:22:50,338 [INFO] Transcrição concluída: 'Abre o Google Chrome.'
+2026-05-09 10:22:50,339 [INFO] Comando transcrito: Abre o Google Chrome.
+2026-05-09 10:22:50,339 [INFO] Processando comando: Abre o Google Chrome.
+2026-05-09 10:22:50,339 [INFO] execute_command invoked with: Abre o Google Chrome.
+2026-05-09 10:22:50,339 [INFO] no pattern matched for command
+2026-05-09 10:22:50,339 [INFO] STATUS: Comando nao mapeado: Abre o Google Chrome.
+2026-05-09 10:22:50,339 [INFO] Processando: Abre o Google Chrome.
+2026-05-09 10:22:50,339 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:22:50,340 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:22:50,340 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:50,340 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:22:50,341 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:50,341 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:22:50,346 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:22:50,346 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:22:50,347 [INFO] STATUS: ... acorde
+2026-05-09 10:22:50,348 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:22:50,348 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:22:50,348 [INFO] FALA: Sim, senhor?
+2026-05-09 10:22:50,349 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:22:52,718 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:22:52,719 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:22:53,663 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:22:58,378 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:22:58,408 [INFO] Gravação finalizada: 128000 samples (speech_frames=1, total_frames=250, dt=8.06s)
+2026-05-09 10:22:58,408 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:22:58,419 [INFO] VAD filter removed 00:06.192 of audio
+2026-05-09 10:22:59,698 [INFO] Transcrição concluída: 'Execute o que lhe pedir.'
+2026-05-09 10:22:59,698 [INFO] Comando transcrito: Execute o que lhe pedir.
+2026-05-09 10:22:59,698 [INFO] Processando comando: Execute o que lhe pedir.
+2026-05-09 10:22:59,698 [INFO] execute_command invoked with: Execute o que lhe pedir.
+2026-05-09 10:22:59,698 [INFO] no pattern matched for command
+2026-05-09 10:22:59,698 [INFO] STATUS: Comando nao mapeado: Execute o que lhe pedir.
+2026-05-09 10:22:59,698 [INFO] Processando: Execute o que lhe pedir.
+2026-05-09 10:22:59,698 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:22:59,699 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:22:59,700 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:59,700 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:22:59,700 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:22:59,700 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:22:59,716 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:22:59,717 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:22:59,718 [INFO] STATUS: ... acorde
+2026-05-09 10:22:59,718 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:22:59,718 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:22:59,719 [INFO] FALA: Sim, senhor?
+2026-05-09 10:22:59,720 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:23:02,054 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:23:02,055 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:23:02,969 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:23:07,743 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:23:07,768 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:23:07,768 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:23:07,779 [INFO] VAD filter removed 00:06.624 of audio
+2026-05-09 10:23:09,017 [INFO] Transcrição concluída: 'Deu-se legal.'
+2026-05-09 10:23:09,018 [INFO] Comando transcrito: Deu-se legal.
+2026-05-09 10:23:09,018 [INFO] Processando comando: Deu-se legal.
+2026-05-09 10:23:09,018 [INFO] execute_command invoked with: Deu-se legal.
+2026-05-09 10:23:09,019 [INFO] no pattern matched for command
+2026-05-09 10:23:09,019 [INFO] STATUS: Comando nao mapeado: Deu-se legal.
+2026-05-09 10:23:09,019 [INFO] Processando: Deu-se legal.
+2026-05-09 10:23:09,019 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:23:09,019 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:23:09,020 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:23:09,020 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:23:09,020 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:23:09,021 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:23:09,047 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:23:09,047 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:23:09,048 [INFO] STATUS: ... acorde
+2026-05-09 10:23:09,048 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:23:09,049 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:23:09,049 [INFO] FALA: Sim, senhor?
+2026-05-09 10:23:09,049 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:23:11,296 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:23:11,296 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:23:12,160 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:23:17,078 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:23:17,098 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:23:17,098 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:23:17,109 [INFO] VAD filter removed 00:05.104 of audio
+2026-05-09 10:23:18,358 [INFO] Transcrição concluída: 'Desligar.'
+2026-05-09 10:23:18,359 [INFO] Comando transcrito: Desligar.
+2026-05-09 10:23:18,359 [INFO] Processando comando: Desligar.
+2026-05-09 10:23:18,359 [INFO] execute_command invoked with: Desligar.
+2026-05-09 10:23:18,359 [INFO] no pattern matched for command
+2026-05-09 10:23:18,359 [INFO] STATUS: Comando nao mapeado: Desligar.
+2026-05-09 10:23:18,359 [INFO] Processando: Desligar.
+2026-05-09 10:23:18,359 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:23:18,360 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:23:18,360 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:23:18,360 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:23:18,361 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:23:18,361 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:23:18,377 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:23:18,377 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:23:18,378 [INFO] STATUS: ... acorde
+2026-05-09 10:23:18,379 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:23:18,379 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:23:18,380 [INFO] FALA: Sim, senhor?
+2026-05-09 10:23:18,380 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:23:20,763 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:23:20,763 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:23:21,639 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:23:23,040 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 10:23:23,040 [INFO] Encerrando sintetizador de voz
+2026-05-09 10:24:45,311 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:24:45,312 [INFO] execute_command invoked with: Abre o Google Chrome.
+2026-05-09 10:24:45,312 [INFO] pattern '\bgoogle\b' matched
+2026-05-09 10:24:45,312 [INFO] FALA: Abrindo Google, senhor.
+2026-05-09 10:24:45,312 [INFO] STATUS: Abrindo: Google
+2026-05-09 10:24:45,370 [INFO] execute_command invoked with: Desligar.
+2026-05-09 10:24:45,371 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-05-09 10:24:45,486 [INFO] Comando de desligamento recebido, saindo.
+2026-05-09 10:24:45,486 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-05-09 10:24:45,486 [INFO] STATUS: DESLIGANDO...
+2026-05-09 10:25:33,233 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:25:34,441 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:25:34,803 [INFO] Silero-VAD carregado.
+2026-05-09 10:25:34,998 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:25:35,695 [INFO] Modelo Whisper pronto.
+2026-05-09 10:25:36,168 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 10:25:37,252 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 10:25:37,253 [INFO] 26 ferramentas registradas
+2026-05-09 10:25:37,253 [INFO] Memória carregada com 18 mensagens
+2026-05-09 10:25:37,253 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 10:25:37,253 [INFO] Agendador inicializado
+2026-05-09 10:25:37,254 [INFO] Cérebro JARVIS inicializado
+2026-05-09 10:25:37,254 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:25:37,384 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:25:38,068 [INFO] Modelo Whisper pronto.
+2026-05-09 10:25:38,297 [INFO] Audio input devices:
+2026-05-09 10:25:38,297 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 10:25:38,297 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 10:25:38,298 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 10:25:38,298 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 10:25:38,298 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 10:25:38,360 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 10:25:38,360 [INFO] Pipeline de voz inicializado
+2026-05-09 10:25:38,361 [INFO] Aguardando wake word...
+2026-05-09 10:25:38,361 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 10:25:38,361 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 10:25:38,386 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 10:25:39,851 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:25:43,834 [INFO] STATUS: ... corrente
+2026-05-09 10:25:46,482 [INFO] STATUS: ... a
+2026-05-09 10:25:46,499 [INFO] STATUS: ... a
+2026-05-09 10:25:46,500 [INFO] STATUS: ... a
+2026-05-09 10:25:46,500 [INFO] STATUS: ... a
+2026-05-09 10:25:46,540 [INFO] STATUS: ... a
+2026-05-09 10:25:46,541 [INFO] STATUS: ... a
+2026-05-09 10:25:46,541 [INFO] STATUS: ... a
+2026-05-09 10:25:46,570 [INFO] STATUS: ... a
+2026-05-09 10:25:46,570 [INFO] STATUS: ... a
+2026-05-09 10:25:46,570 [INFO] STATUS: ... a
+2026-05-09 10:25:46,600 [INFO] STATUS: ... a
+2026-05-09 10:25:46,600 [INFO] STATUS: ... a
+2026-05-09 10:25:46,600 [INFO] STATUS: ... a
+2026-05-09 10:25:46,640 [INFO] STATUS: ... a
+2026-05-09 10:25:46,640 [INFO] STATUS: ... a
+2026-05-09 10:25:46,641 [INFO] STATUS: ... a
+2026-05-09 10:25:46,669 [INFO] STATUS: ... a
+2026-05-09 10:25:46,670 [INFO] STATUS: ... a
+2026-05-09 10:25:46,670 [INFO] STATUS: ... a
+2026-05-09 10:25:46,710 [INFO] STATUS: ... a
+2026-05-09 10:25:46,747 [INFO] STATUS: ... acorde
+2026-05-09 10:25:46,747 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:25:46,747 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:25:46,748 [INFO] FALA: Sim, senhor?
+2026-05-09 10:25:46,748 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:25:46,748 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 10:25:47,644 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:25:54,784 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:25:54,801 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:25:54,801 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:25:54,815 [INFO] VAD filter removed 00:05.952 of audio
+2026-05-09 10:25:56,240 [INFO] Transcrição concluída: 'Abra o Google Gromy!'
+2026-05-09 10:25:56,240 [INFO] Comando transcrito: Abra o Google Gromy!
+2026-05-09 10:25:56,240 [INFO] Processando comando: Abra o Google Gromy!
+2026-05-09 10:25:56,240 [INFO] execute_command invoked with: Abra o Google Gromy!
+2026-05-09 10:25:56,240 [INFO] pattern '\bgoogle\b' matched
+2026-05-09 10:25:56,240 [INFO] FALA: Abrindo Google, senhor.
+2026-05-09 10:25:56,241 [INFO] STATUS: Abrindo: Google
+2026-05-09 10:25:56,241 [INFO] Estado mudou: idle → speaking (Abrindo Google, senhor.)
+2026-05-09 10:25:56,317 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:25:56,319 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:25:56,319 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:25:56,320 [INFO] STATUS: ... acorde
+2026-05-09 10:25:56,320 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:25:56,321 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:25:56,321 [INFO] FALA: Sim, senhor?
+2026-05-09 10:25:56,321 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:25:57,814 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:25:57,815 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:25:58,679 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:04,379 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:26:04,401 [INFO] Gravação finalizada: 128512 samples (speech_frames=2, total_frames=251, dt=8.08s)
+2026-05-09 10:26:04,401 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:26:04,413 [INFO] VAD filter removed 00:04.752 of audio
+2026-05-09 10:26:05,719 [INFO] Transcrição concluída: 'Abre o desktop.'
+2026-05-09 10:26:05,720 [INFO] Comando transcrito: Abre o desktop.
+2026-05-09 10:26:05,720 [INFO] Processando comando: Abre o desktop.
+2026-05-09 10:26:05,720 [INFO] execute_command invoked with: Abre o desktop.
+2026-05-09 10:26:05,720 [INFO] no pattern matched for command
+2026-05-09 10:26:05,720 [INFO] STATUS: Comando nao mapeado: abre o desktop
+2026-05-09 10:26:05,720 [INFO] Processando: Abre o desktop.
+2026-05-09 10:26:05,721 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:26:05,721 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:26:05,722 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:05,722 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:26:05,723 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:05,723 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:26:05,760 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:26:05,767 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:26:05,772 [INFO] STATUS: ... acorde
+2026-05-09 10:26:05,777 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:26:05,792 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:26:05,807 [INFO] FALA: Sim, senhor?
+2026-05-09 10:26:05,811 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:26:08,061 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:26:08,062 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:26:08,977 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:13,855 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:26:13,891 [INFO] Gravação finalizada: 128000 samples (speech_frames=1, total_frames=250, dt=8.08s)
+2026-05-09 10:26:13,892 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:26:13,904 [INFO] VAD filter removed 00:06.896 of audio
+2026-05-09 10:26:15,305 [INFO] Transcrição concluída: 'Abra, usta...'
+2026-05-09 10:26:15,352 [INFO] Comando transcrito: Abra, usta...
+2026-05-09 10:26:15,404 [INFO] Processando comando: Abra, usta...
+2026-05-09 10:26:15,404 [INFO] execute_command invoked with: Abra, usta...
+2026-05-09 10:26:15,404 [INFO] no pattern matched for command
+2026-05-09 10:26:15,405 [INFO] STATUS: Comando nao mapeado: abra, usta
+2026-05-09 10:26:15,405 [INFO] Processando: Abra, usta...
+2026-05-09 10:26:15,405 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:26:15,405 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:26:15,406 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:15,406 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:26:15,407 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:15,407 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:26:15,410 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:26:15,410 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:26:15,411 [INFO] STATUS: ... acorde
+2026-05-09 10:26:15,411 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:26:15,411 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:26:15,412 [INFO] FALA: Sim, senhor?
+2026-05-09 10:26:15,412 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:26:17,630 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:26:17,631 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:26:18,543 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:23,462 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:26:23,481 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.07s)
+2026-05-09 10:26:23,481 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:26:23,492 [INFO] VAD filter removed 00:06.048 of audio
+2026-05-09 10:26:24,796 [INFO] Transcrição concluída: 'Abra os top loads'
+2026-05-09 10:26:24,797 [INFO] Comando transcrito: Abra os top loads
+2026-05-09 10:26:24,797 [INFO] Processando comando: Abra os top loads
+2026-05-09 10:26:24,797 [INFO] execute_command invoked with: Abra os top loads
+2026-05-09 10:26:24,797 [INFO] no pattern matched for command
+2026-05-09 10:26:24,797 [INFO] STATUS: Comando nao mapeado: abra os top loads
+2026-05-09 10:26:24,797 [INFO] Processando: Abra os top loads
+2026-05-09 10:26:24,797 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:26:24,798 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:26:24,799 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:24,799 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:26:24,799 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:24,799 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:26:24,810 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:26:24,810 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:26:24,812 [INFO] STATUS: ... acorde
+2026-05-09 10:26:24,813 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:26:24,813 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:26:24,814 [INFO] FALA: Sim, senhor?
+2026-05-09 10:26:24,814 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:26:27,173 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:26:27,173 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:26:28,113 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:32,836 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:26:32,861 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:26:32,861 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:26:32,873 [INFO] VAD filter removed 00:03.472 of audio
+2026-05-09 10:26:34,177 [INFO] Transcrição concluída: 'Abra o download.'
+2026-05-09 10:26:34,178 [INFO] Comando transcrito: Abra o download.
+2026-05-09 10:26:34,178 [INFO] Processando comando: Abra o download.
+2026-05-09 10:26:34,178 [INFO] execute_command invoked with: Abra o download.
+2026-05-09 10:26:34,178 [INFO] no pattern matched for command
+2026-05-09 10:26:34,178 [INFO] STATUS: Comando nao mapeado: abra o download
+2026-05-09 10:26:34,178 [INFO] Processando: Abra o download.
+2026-05-09 10:26:34,178 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 10:26:34,179 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 10:26:34,179 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:34,179 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 10:26:34,180 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-05-09 10:26:34,180 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-05-09 10:26:34,210 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:26:34,210 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:26:34,211 [INFO] STATUS: ... acorde
+2026-05-09 10:26:34,211 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:26:34,213 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:26:34,214 [INFO] FALA: Sim, senhor?
+2026-05-09 10:26:34,214 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:26:36,509 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:26:36,510 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:26:37,471 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:42,236 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:26:42,261 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:26:42,261 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:26:42,273 [INFO] VAD filter removed 00:05.616 of audio
+2026-05-09 10:26:43,552 [INFO] Transcrição concluída: 'Abra a calculadora.'
+2026-05-09 10:26:43,553 [INFO] Comando transcrito: Abra a calculadora.
+2026-05-09 10:26:43,553 [INFO] Processando comando: Abra a calculadora.
+2026-05-09 10:26:43,553 [INFO] execute_command invoked with: Abra a calculadora.
+2026-05-09 10:26:43,553 [INFO] pattern '\bcalculadora\b' matched
+2026-05-09 10:26:43,553 [INFO] FALA: Calculadora ativada.
+2026-05-09 10:26:43,553 [INFO] STATUS: Calculadora
+2026-05-09 10:26:43,553 [INFO] Estado mudou: idle → speaking (Calculadora ativada.)
+2026-05-09 10:26:43,779 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:43,790 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:26:43,790 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:26:43,791 [INFO] STATUS: ... acorde
+2026-05-09 10:26:43,791 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:26:43,791 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:26:43,792 [INFO] FALA: Sim, senhor?
+2026-05-09 10:26:43,792 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:26:44,866 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:26:44,867 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:26:45,833 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:51,821 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:26:51,841 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-05-09 10:26:51,842 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:26:51,852 [INFO] VAD filter removed 00:05.824 of audio
+2026-05-09 10:26:53,178 [INFO] Transcrição concluída: 'Feche a calculadora.'
+2026-05-09 10:26:53,179 [INFO] Comando transcrito: Feche a calculadora.
+2026-05-09 10:26:53,179 [INFO] Processando comando: Feche a calculadora.
+2026-05-09 10:26:53,179 [INFO] execute_command invoked with: Feche a calculadora.
+2026-05-09 10:26:53,179 [INFO] pattern '\bcalculadora\b' matched
+2026-05-09 10:26:53,179 [INFO] FALA: Calculadora ativada.
+2026-05-09 10:26:53,179 [INFO] STATUS: Calculadora
+2026-05-09 10:26:53,179 [INFO] Estado mudou: idle → speaking (Calculadora ativada.)
+2026-05-09 10:26:53,189 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:26:53,200 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:26:53,200 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:26:53,201 [INFO] STATUS: ... acorde
+2026-05-09 10:26:53,202 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:26:53,203 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:26:53,204 [INFO] FALA: Sim, senhor?
+2026-05-09 10:26:53,204 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:26:54,501 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:26:54,502 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:26:55,433 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:27:01,229 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:27:01,262 [INFO] Gravação finalizada: 128000 samples (speech_frames=0, total_frames=250, dt=8.06s)
+2026-05-09 10:27:01,262 [INFO] Processing audio with duration 00:08.000
+2026-05-09 10:27:01,272 [INFO] VAD filter removed 00:08.000 of audio
+2026-05-09 10:27:01,274 [INFO] Transcrição concluída: ''
+2026-05-09 10:27:01,274 [INFO] Comando transcrito: 
+2026-05-09 10:27:01,274 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 10:27:01,274 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 10:27:01,280 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:27:01,281 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:27:01,282 [INFO] STATUS: ... acorde
+2026-05-09 10:27:01,282 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:27:01,282 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-05-09 10:27:01,282 [INFO] FALA: Sim, senhor?
+2026-05-09 10:27:01,283 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:27:03,062 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:27:03,063 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:27:03,899 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:27:09,327 [INFO] STATUS: Limite de tempo atingido
+2026-05-09 10:27:09,362 [INFO] Gravação finalizada: 128512 samples (speech_frames=2, total_frames=251, dt=8.08s)
+2026-05-09 10:27:09,362 [INFO] Processing audio with duration 00:08.032
+2026-05-09 10:27:09,373 [INFO] VAD filter removed 00:06.592 of audio
+2026-05-09 10:27:10,629 [INFO] Transcrição concluída: 'desligar'
+2026-05-09 10:27:10,629 [INFO] Comando transcrito: desligar
+2026-05-09 10:27:10,629 [INFO] Processando comando: desligar
+2026-05-09 10:27:10,629 [INFO] execute_command invoked with: desligar
+2026-05-09 10:27:10,629 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-05-09 10:27:10,629 [INFO] Comando de desligamento recebido, saindo.
+2026-05-09 10:27:10,629 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-05-09 10:27:10,629 [INFO] STATUS: DESLIGANDO...
+2026-05-09 10:27:10,630 [INFO] Estado mudou: idle → speaking (Encerrando todos os sistemas. )
+2026-05-09 10:27:10,631 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 10:27:10,651 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 10:27:10,651 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 10:27:10,652 [INFO] STATUS: ... acorde
+2026-05-09 10:27:10,652 [INFO] STATUS: Wake word detectada!
+2026-05-09 10:27:10,652 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 10:27:10,653 [INFO] FALA: Sim, senhor?
+2026-05-09 10:27:10,653 [INFO] Iniciando gravação de comando (VAD)...
+2026-05-09 10:27:13,348 [INFO] Estado mudou: listening → idle ()
+2026-05-09 10:27:13,348 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-05-09 10:28:50,000 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:28:50,005 [INFO] Whisper: usando modelo local em 'models\whisper-small' (modo offline)
+2026-05-09 10:28:50,005 [INFO] Carregando modelo Whisper models/whisper-small...
+2026-05-09 10:29:09,340 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 10:29:09,344 [INFO] Whisper: usando modelo nomeado 'small' (pode acessar internet se não estiver em cache)
+2026-05-09 10:29:09,345 [INFO] Carregando modelo Whisper small...
+2026-05-09 10:29:09,908 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 10:29:10,615 [INFO] Modelo Whisper pronto.

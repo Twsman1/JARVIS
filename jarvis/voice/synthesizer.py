@@ -1,7 +1,5 @@
 import threading
-import io
 import sounddevice as sd
-import soundfile as sf
 from pathlib import Path
 from piper import PiperVoice
 from jarvis import core
@@ -38,14 +36,29 @@ class Synthesizer:
     def _synthesize_and_play(self, text: str):
         try:
             state.set_state(state.SPEAKING, text[:30])
-            # Sintetizar para bytes WAV
-            wav_bytes = io.BytesIO()
-            self.voice.synthesize(text, wav_bytes)
-            wav_bytes.seek(0)
-            # Ler com soundfile
-            audio, sample_rate = sf.read(wav_bytes, dtype='float32')
-            # Reproduzir
-            sd.play(audio, samplerate=sample_rate)
+            # Synthesize to PCM via Piper chunks (no WAV container)
+            chunks = list(self.voice.synthesize(text))
+            if not chunks:
+                return
+
+            sample_rate = chunks[0].sample_rate or getattr(self.voice.config, "sample_rate", 22050)
+            audio = []
+            for ch in chunks:
+                # Use float32 array for sounddevice
+                a = ch.audio_float_array
+                if a is None:
+                    # Fallback to int16 -> float32
+                    ai16 = ch.audio_int16_array
+                    if ai16 is None:
+                        continue
+                    a = ai16.astype("float32") / 32768.0
+                audio.append(a)
+
+            if not audio:
+                return
+
+            audio_f = __import__("numpy").concatenate(audio)
+            sd.play(audio_f, samplerate=int(sample_rate))
             sd.wait()
         except Exception as e:
             core.log.info(f"Erro na síntese: {e}")

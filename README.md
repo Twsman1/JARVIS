@@ -132,6 +132,29 @@ problemas de áudio, transcrição ou configuração.
 
 ---
 
+## 🔒 Rodar 100% offline (sem Hugging Face)
+
+Por padrão o `faster-whisper` pode fazer uma chamada à Hugging Face para checar/baixar arquivos do modelo.
+Para rodar **100% offline**, baixe o modelo uma vez para um diretório local e o Jarvis passa a carregar do disco.
+
+### 1) Baixar o modelo localmente (Windows / PowerShell)
+
+```powershell
+.\scripts\download_whisper_small.ps1 -OutDir "models/whisper-small"
+```
+
+### 2) Executar usando o modelo local
+
+O Jarvis detecta automaticamente `models/whisper-small\model.bin`.
+Se quiser forçar manualmente:
+
+```powershell
+$env:JARVIS_WHISPER_DIR = "models/whisper-small"
+python jarvis.py
+```
+
+---
+
 ## ✅ Possíveis melhorias
 
 * Suporte a plugins/skills

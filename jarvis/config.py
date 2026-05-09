@@ -7,8 +7,15 @@ VOSK_MODEL_PATH = "models/vosk-pt"            # modelo vosk-model-small-pt-0.3
 # optional audio device override: index or substring of name
 AUDIO_DEVICE = os.environ.get("JARVIS_AUDIO_DEVICE")
 
-# faster-whisper model (tiny, base, small, medium)
-WHISPER_MODEL = "small"
+# faster-whisper model.
+#
+# To avoid any online requests, download the model locally and point WHISPER_MODEL
+# to a local folder (default: models/whisper-small). If that folder does not
+# exist, it falls back to the named model (e.g. "small"), which may trigger
+# Hugging Face hub requests.
+WHISPER_LOCAL_DIR = os.environ.get("JARVIS_WHISPER_DIR", "models/whisper-small")
+_whisper_bin = os.path.join(WHISPER_LOCAL_DIR, "model.bin")
+WHISPER_MODEL = WHISPER_LOCAL_DIR if os.path.isfile(_whisper_bin) else "small"
 WHISPER_LANG = "pt"
 
 # audio sampling
