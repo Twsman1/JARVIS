@@ -53,6 +53,7 @@ class Agent:
         self.execution_log = []
         
         # Mostrar log de execução
+        _execution_log = None
         try:
             from jarvis.hud.renderer import _execution_log
             if _execution_log:

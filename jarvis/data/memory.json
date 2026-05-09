@@ -1,0 +1,28 @@
+{
+  "history": [
+    {
+      "role": "user",
+      "content": "mensagem persistida"
+    },
+    {
+      "role": "assistant",
+      "content": "resposta persistida"
+    },
+    {
+      "role": "user",
+      "content": "Responda apenas: ok"
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "teste"
+    },
+    {
+      "role": "assistant",
+      "content": "ok"
+    }
+  ]
+}

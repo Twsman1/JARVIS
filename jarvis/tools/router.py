@@ -31,6 +31,7 @@ TOOL_MAP = {
     "read_error_on_screen": vision_tools.read_error_on_screen,
     "click_on_text":        vision_tools.click_on_text,
     "monitor_screen_change": vision_tools.monitor_screen_change,
+}
 
 class ToolRouter:
     def __init__(self):

@@ -9,7 +9,7 @@ HEADERS = {
 }
 
 def search_web(query: str, max_results: int = 3) -> str:
-    core.log(f"Pesquisando na web: {query}")
+    core.log.info(f"Pesquisando na web: {query}")
     try:
         url = f"https://html.duckduckgo.com/html/?q={urllib.parse.quote(query)}"
         response = requests.get(url, headers=HEADERS, timeout=10)
@@ -31,22 +31,22 @@ def search_web(query: str, max_results: int = 3) -> str:
         else:
             return f"Nenhum resultado encontrado para '{query}'."
     except Exception as e:
-        core.log(f"Erro na pesquisa web: {e}")
+        core.log.info(f"Erro na pesquisa web: {e}")
         return f"Erro na pesquisa web: {str(e)}"
 
 def open_url(url: str) -> str:
-    core.log(f"Abrindo URL: {url}")
+    core.log.info(f"Abrindo URL: {url}")
     try:
         if not url.startswith(('http://', 'https://')):
             url = 'https://' + url
         webbrowser.open(url)
         return f"URL '{url}' aberta no navegador."
     except Exception as e:
-        core.log(f"Erro ao abrir URL: {e}")
+        core.log.info(f"Erro ao abrir URL: {e}")
         return f"Erro ao abrir URL '{url}': {str(e)}"
 
 def get_page_text(url: str, max_chars: int = 2000) -> str:
-    core.log(f"Extraindo texto da página: {url}")
+    core.log.info(f"Extraindo texto da página: {url}")
     try:
         if not url.startswith(('http://', 'https://')):
             url = 'https://' + url
@@ -65,11 +65,11 @@ def get_page_text(url: str, max_chars: int = 2000) -> str:
         
         return text
     except Exception as e:
-        core.log(f"Erro ao extrair texto: {e}")
+        core.log.info(f"Erro ao extrair texto: {e}")
         return f"Erro ao extrair texto da página: {str(e)}"
 
 def search_wikipedia(query: str) -> str:
-    core.log(f"Pesquisando Wikipedia: {query}")
+    core.log.info(f"Pesquisando Wikipedia: {query}")
     try:
         url = f"https://pt.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(query)}"
         response = requests.get(url, headers=HEADERS, timeout=10)
@@ -82,5 +82,5 @@ def search_wikipedia(query: str) -> str:
         
         return extract if extract else f"Nenhum resultado encontrado para '{query}' na Wikipedia."
     except Exception as e:
-        core.log(f"Erro na pesquisa Wikipedia: {e}")
+        core.log.info(f"Erro na pesquisa Wikipedia: {e}")
         return f"Erro na pesquisa Wikipedia: {str(e)}"

@@ -17,7 +17,7 @@ class Synthesizer:
             core.log.info(error_msg)
             raise FileNotFoundError(error_msg)
         self.voice = PiperVoice.load(str(MODEL_PATH), config_path=str(CONFIG_PATH))
-        core.log("Sintetizador de voz pronto (Piper PT-BR)")
+        core.log.info("Sintetizador de voz pronto (Piper PT-BR)")
 
     def start(self):
         self.thread = threading.Thread(target=self.speak_worker, daemon=True)
@@ -28,24 +28,12 @@ class Synthesizer:
             try:
                 item = core._tts_queue.get()
                 if item is None:
-                    core.log("Encerrando sintetizador de voz")
+                    core.log.info("Encerrando sintetizador de voz")
                     break
                 if isinstance(item, str):
                     self._synthesize_and_play(item)
             except Exception as e:
-                core.log(f"Erro no sintetizador: {e}")
-
-    def speak_worker(self):
-        while True:
-            try:
-                item = core._tts_queue.get()
-                if item is None:
-                    core.log("Encerrando sintetizador de voz")
-                    break
-                if isinstance(item, str):
-                    self._synthesize_and_play(item)
-            except Exception as e:
-                core.log(f"Erro no sintetizador: {e}")
+                core.log.info(f"Erro no sintetizador: {e}")
 
     def _synthesize_and_play(self, text: str):
         try:
@@ -60,6 +48,6 @@ class Synthesizer:
             sd.play(audio, samplerate=sample_rate)
             sd.wait()
         except Exception as e:
-            core.log(f"Erro na síntese: {e}")
+            core.log.info(f"Erro na síntese: {e}")
         finally:
             state.set_state(state.IDLE)

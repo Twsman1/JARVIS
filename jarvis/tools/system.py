@@ -94,11 +94,11 @@ def take_screenshot(filename: str = None) -> str:
         pyautogui.screenshot(str(path))
         return f"Screenshot salva em {path}"
     except Exception as e:
-        core.log(f"Erro no screenshot: {e}")
+        core.log.info(f"Erro no screenshot: {e}")
         return f"Erro ao capturar screenshot: {str(e)}"
 
 def get_running_apps() -> str:
-    core.log("Listando aplicativos em execução")
+    core.log.info("Listando aplicativos em execução")
     try:
         apps = []
         for proc in psutil.process_iter(['name', 'cpu_percent']):
@@ -120,11 +120,11 @@ def get_running_apps() -> str:
         else:
             return "Nenhum aplicativo em execução detectado."
     except Exception as e:
-        core.log(f"Erro ao listar apps: {e}")
+        core.log.info(f"Erro ao listar apps: {e}")
         return f"Erro ao listar aplicativos: {str(e)}"
 
 def type_text(text: str) -> str:
-    core.log(f"Digitando texto: {text[:50]}...")
+    core.log.info(f"Digitando texto: {text[:50]}...")
     try:
         time.sleep(0.5)  # Aguardar foco na janela
         
@@ -135,11 +135,11 @@ def type_text(text: str) -> str:
         
         return "Texto digitado com sucesso."
     except Exception as e:
-        core.log(f"Erro ao digitar texto: {e}")
+        core.log.info(f"Erro ao digitar texto: {e}")
         return f"Erro ao digitar texto: {str(e)}"
 
 def press_key(key: str) -> str:
-    core.log(f"Pressionando tecla: {key}")
+    core.log.info(f"Pressionando tecla: {key}")
     try:
         if '+' in key:
             # Combinação
@@ -150,11 +150,11 @@ def press_key(key: str) -> str:
             pyautogui.press(key)
         return f"Tecla '{key}' pressionada."
     except Exception as e:
-        core.log(f"Erro ao pressionar {key}: {e}")
+        core.log.info(f"Erro ao pressionar {key}: {e}")
         return f"Erro ao pressionar tecla '{key}': {str(e)}"
 
 def set_volume(level: int) -> str:
-    core.log(f"Ajustando volume para {level}%")
+    core.log.info(f"Ajustando volume para {level}%")
     try:
         # Usar nircmd se disponível, senão tentar outro método
         try:
@@ -168,24 +168,24 @@ def set_volume(level: int) -> str:
             subprocess.run(['powershell', '-Command', script], capture_output=True)
             return f"Volume aproximado ajustado para {level}% (usando método alternativo)"
     except Exception as e:
-        core.log(f"Erro ao ajustar volume: {e}")
+        core.log.info(f"Erro ao ajustar volume: {e}")
         return f"Erro ao ajustar volume: {str(e)}"
 
 def lock_pc() -> str:
-    core.log("Bloqueando estação de trabalho")
+    core.log.info("Bloqueando estação de trabalho")
     try:
         ctypes.windll.user32.LockWorkStation()
         return "Estação de trabalho bloqueada."
     except Exception as e:
-        core.log(f"Erro ao bloquear PC: {e}")
+        core.log.info(f"Erro ao bloquear PC: {e}")
         return f"Erro ao bloquear PC: {str(e)}"
 
 def shutdown_pc(delay_seconds: int = 30) -> str:
-    core.log(f"Agendando desligamento em {delay_seconds} segundos")
+    core.log.info(f"Agendando desligamento em {delay_seconds} segundos")
     try:
         subprocess.run(['shutdown', '/s', '/t', str(delay_seconds)], 
                      capture_output=True, check=True)
         return f"PC será desligado em {delay_seconds} segundos."
     except Exception as e:
-        core.log(f"Erro ao agendar shutdown: {e}")
+        core.log.info(f"Erro ao agendar shutdown: {e}")
         return f"Erro ao agendar desligamento: {str(e)}"

@@ -829,3 +829,1492 @@
 2026-05-08 14:39:13,700 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
 2026-05-08 18:56:32,898 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
 2026-05-08 18:57:04,472 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:09:09,166 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:09:23,256 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:09:23,869 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:09:23,870 [INFO] 26 ferramentas registradas
+2026-05-09 09:09:23,883 [INFO] [Agente] Etapa 1/4
+2026-05-09 09:09:23,883 [INFO] Estado mudou: idle → thinking (etapa 1)
+2026-05-09 09:09:23,884 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:09:35,476 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:09:36,079 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:09:36,079 [INFO] 26 ferramentas registradas
+2026-05-09 09:09:36,081 [INFO] [Agente] Etapa 1/4
+2026-05-09 09:09:36,081 [INFO] Estado mudou: idle → thinking (etapa 1)
+2026-05-09 09:09:36,082 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:09:36,082 [INFO] [Agente] Etapa 1/4
+2026-05-09 09:09:36,082 [INFO] Estado mudou: idle → thinking (etapa 1)
+2026-05-09 09:09:36,083 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:09:45,927 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:09:46,556 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:09:46,556 [INFO] 26 ferramentas registradas
+2026-05-09 09:09:46,558 [INFO] [Agente] Etapa 1/4
+2026-05-09 09:09:46,558 [INFO] Estado mudou: idle → thinking (etapa 1)
+2026-05-09 09:09:46,558 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:09:46,559 [INFO] [Agente] Etapa 1/4
+2026-05-09 09:09:46,559 [INFO] Estado mudou: idle → thinking (etapa 1)
+2026-05-09 09:09:46,559 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:12:15,432 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:14:08,437 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:14:28,003 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:14:53,369 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:16:04,600 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:16:18,679 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:16:50,184 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:17:43,646 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:17:45,089 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:17:46,578 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:17:47,519 [INFO] Modelo Whisper pronto.
+2026-05-09 09:17:47,951 [WARNING] Silero-VAD indisponivel (No module named 'torchaudio') — usando fallback de amplitude
+2026-05-09 09:18:55,845 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:18:57,279 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:18:57,853 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:18:58,593 [INFO] Modelo Whisper pronto.
+2026-05-09 09:18:58,975 [WARNING] Silero-VAD indisponivel (No module named 'torchaudio') — usando fallback de amplitude
+2026-05-09 09:19:00,210 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 09:19:00,211 [INFO] 26 ferramentas registradas
+2026-05-09 09:19:00,212 [INFO] Memória carregada com 0 mensagens
+2026-05-09 09:19:00,212 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:19:00,212 [INFO] Agendador inicializado
+2026-05-09 09:19:00,212 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:19:00,212 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:19:00,346 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:19:01,119 [INFO] Modelo Whisper pronto.
+2026-05-09 09:19:01,393 [INFO] Audio input devices:
+2026-05-09 09:19:01,393 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 09:19:01,393 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 09:19:01,393 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 09:19:01,393 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 09:19:01,393 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 09:19:01,393 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 09:19:01,393 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 09:19:01,393 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 09:19:01,394 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 09:19:01,394 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 09:19:01,394 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 09:19:01,394 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 09:19:01,394 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 09:19:01,459 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 09:19:01,459 [INFO] Pipeline de voz inicializado
+2026-05-09 09:19:01,460 [INFO] Aguardando wake word...
+2026-05-09 09:19:01,460 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 09:19:01,460 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 09:19:01,461 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:19:01,461 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:19:01,502 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 09:19:05,288 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,288 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:19:05,288 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:19:05,289 [INFO] FALA: Sim, senhor?
+2026-05-09 09:19:05,289 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 09:19:05,289 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:19:05,290 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:19:05,290 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:19:05,293 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,293 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,293 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,323 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,324 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,324 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,363 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,363 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,363 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,393 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,393 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,393 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,433 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,434 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,434 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,463 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,463 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,464 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,503 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,508 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,508 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,533 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,533 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,534 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,573 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,573 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,573 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,603 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,603 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,603 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,643 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,643 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,643 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,673 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,674 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,674 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,713 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,713 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,714 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,743 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,753 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,754 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,773 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,773 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,774 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,813 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,813 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,813 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,843 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,843 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,844 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,883 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,883 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,883 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,914 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,914 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,914 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,953 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,953 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,953 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,983 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,987 [INFO] STATUS: ... acorde
+2026-05-09 09:19:05,987 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,023 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,023 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,023 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,053 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,053 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,054 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,093 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,093 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,093 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,123 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,123 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,123 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,163 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,163 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,163 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,193 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,193 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,194 [INFO] STATUS: ... acorde
+2026-05-09 09:19:06,259 [INFO] STATUS: ... acorde
+2026-05-09 09:19:09,502 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:09,503 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:19:16,317 [INFO] STATUS: ... vida
+2026-05-09 09:19:18,966 [INFO] STATUS: ... a
+2026-05-09 09:19:18,967 [INFO] STATUS: ... a
+2026-05-09 09:19:18,983 [INFO] STATUS: ... a
+2026-05-09 09:19:18,984 [INFO] STATUS: ... a
+2026-05-09 09:19:18,984 [INFO] STATUS: ... a
+2026-05-09 09:19:19,013 [INFO] STATUS: ... a
+2026-05-09 09:19:19,014 [INFO] STATUS: ... a
+2026-05-09 09:19:19,015 [INFO] STATUS: ... a
+2026-05-09 09:19:19,053 [INFO] STATUS: ... a
+2026-05-09 09:19:19,054 [INFO] STATUS: ... a
+2026-05-09 09:19:19,054 [INFO] STATUS: ... a
+2026-05-09 09:19:19,084 [INFO] STATUS: ... a
+2026-05-09 09:19:19,084 [INFO] STATUS: ... a
+2026-05-09 09:19:19,084 [INFO] STATUS: ... a
+2026-05-09 09:19:19,114 [INFO] STATUS: ... a
+2026-05-09 09:19:19,114 [INFO] STATUS: ... a
+2026-05-09 09:19:19,115 [INFO] STATUS: ... a
+2026-05-09 09:19:19,153 [INFO] STATUS: ... a
+2026-05-09 09:19:19,154 [INFO] STATUS: ... a
+2026-05-09 09:19:19,154 [INFO] STATUS: ... a
+2026-05-09 09:19:19,453 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,453 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:19:19,453 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:19:19,454 [INFO] FALA: Sim, senhor?
+2026-05-09 09:19:19,454 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 09:19:19,454 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:19:19,454 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:19:19,455 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:19:19,463 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,463 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,463 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,503 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,503 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,504 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,533 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,533 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,534 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,573 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,574 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,574 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,603 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,603 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,603 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,643 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,644 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,644 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,673 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,673 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,678 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,714 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,714 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,714 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,743 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,743 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,744 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,783 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,783 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,783 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,813 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,813 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,814 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,853 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,853 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,854 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,883 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,883 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,884 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,923 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,928 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,928 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,954 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,954 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,954 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,993 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,993 [INFO] STATUS: ... acorde
+2026-05-09 09:19:19,994 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,023 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,023 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,024 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,063 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,063 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,063 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,093 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,093 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,093 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,123 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,123 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,124 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,163 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,170 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,170 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,194 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,194 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,194 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,233 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,233 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,234 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,263 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,263 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,263 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,303 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,304 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,304 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,333 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,333 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,334 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,374 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,374 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,374 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,403 [INFO] STATUS: ... acorde
+2026-05-09 09:19:20,415 [INFO] STATUS: ... acorde
+2026-05-09 09:19:23,683 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:23,683 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:19:28,118 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,119 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,119 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,120 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,143 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,144 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,144 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,173 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,174 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,174 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,213 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,214 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,214 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,243 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,244 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,244 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,283 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,284 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,284 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,313 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,314 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,324 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,343 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,344 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,344 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,383 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,384 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,384 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,413 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,414 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,414 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,453 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,454 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,454 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,483 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,484 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,484 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,524 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,524 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,524 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,553 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,554 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,584 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,594 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,594 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,594 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,624 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,624 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,624 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,663 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,664 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,664 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,693 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:28,693 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:19:28,694 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,694 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,694 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,734 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,734 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,735 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,763 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,764 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,764 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,803 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,815 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,816 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,834 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,835 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,835 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,873 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,874 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,874 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,903 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,904 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,904 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,944 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,944 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,944 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,974 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,974 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:28,974 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:29,013 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:29,014 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:29,014 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:29,043 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:29,068 [INFO] STATUS: ... alô alô
+2026-05-09 09:19:31,491 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,491 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,492 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,492 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,492 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,513 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,514 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,514 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,553 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,554 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,554 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,583 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,584 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,584 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,623 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,624 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,624 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,653 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,654 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,654 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,701 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,701 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,701 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,723 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,724 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,724 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,763 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,764 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,764 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,793 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,794 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,794 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,834 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,834 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,835 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,863 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,864 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,864 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,903 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,904 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,904 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,940 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,941 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,941 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,974 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,974 [INFO] STATUS: ... desligar
+2026-05-09 09:19:31,974 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,003 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,004 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,004 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,043 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,044 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,044 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,074 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,074 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,075 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,113 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,114 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,114 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,143 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,144 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,144 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,195 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,195 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,196 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,213 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,213 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,214 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,253 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,254 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,254 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,283 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,283 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,284 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,323 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,324 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,324 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,353 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,354 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,354 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,393 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,394 [INFO] STATUS: ... desligar
+2026-05-09 09:19:32,408 [INFO] STATUS: ... desligar
+2026-05-09 09:19:35,733 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:35,733 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:19:39,912 [INFO] STATUS: ... acorde
+2026-05-09 09:19:39,912 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:19:39,912 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:19:39,913 [INFO] FALA: Sim, senhor?
+2026-05-09 09:19:39,913 [INFO] Erro no pipeline: 'Logger' object is not callable
+2026-05-09 09:19:39,913 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:19:39,914 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:19:39,914 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:19:39,944 [INFO] STATUS: ... acorde
+2026-05-09 09:19:39,945 [INFO] STATUS: ... acorde
+2026-05-09 09:19:39,945 [INFO] STATUS: ... acorde
+2026-05-09 09:19:39,984 [INFO] STATUS: ... acorde
+2026-05-09 09:19:39,984 [INFO] STATUS: ... acorde
+2026-05-09 09:19:39,985 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,014 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,014 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,015 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,054 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,055 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,055 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,084 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,084 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,085 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,124 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,124 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,125 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,154 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,154 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,169 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,193 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,194 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,194 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,224 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,224 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,224 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,264 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,264 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,264 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,294 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,294 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,294 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,334 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,334 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,335 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,364 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,364 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,364 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,404 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,404 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,411 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,434 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,434 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,434 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,474 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,475 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,475 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,503 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,504 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,504 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,544 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,544 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,545 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,574 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,574 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,574 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,604 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,604 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,604 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,643 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,668 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,668 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,673 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,673 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,674 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,714 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,715 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,715 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,743 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:40,743 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:19:40,744 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,744 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,744 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,784 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,784 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,784 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,814 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,814 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,814 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,854 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,854 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,854 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,884 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,895 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,895 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,924 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,924 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,924 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,954 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,955 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,955 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,994 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,994 [INFO] STATUS: ... acorde
+2026-05-09 09:19:40,994 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,024 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,024 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,024 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,064 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,064 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,064 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,093 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,094 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,094 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,134 [INFO] STATUS: ... acorde
+2026-05-09 09:19:41,153 [INFO] STATUS: ... acorde
+2026-05-09 09:19:45,763 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:45,763 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:19:50,783 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:50,783 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:19:55,793 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:19:55,793 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:20:00,813 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:20:00,813 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:20:07,597 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,598 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,598 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,598 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,599 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,604 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,604 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,604 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,634 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,634 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,635 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,674 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,675 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,675 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,704 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,704 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,705 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,744 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,745 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,745 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,845 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,846 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,846 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,847 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,847 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,847 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,848 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,848 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,848 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,885 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,885 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,886 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,915 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,915 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,915 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,955 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,956 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,956 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,985 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,986 [INFO] STATUS: ... ativar
+2026-05-09 09:20:07,986 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,100 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,101 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,101 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,102 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,102 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,102 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,103 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,103 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,103 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,124 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,125 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,125 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,165 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,165 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,166 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,195 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,196 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,197 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,235 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,235 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,236 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,326 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,326 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,327 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,327 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,328 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,328 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,334 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,334 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,335 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,365 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,365 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,366 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,405 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,405 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,406 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,435 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,436 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,436 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,475 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,475 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,511 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,512 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,512 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,512 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,544 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,545 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,545 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,574 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,575 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,575 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,614 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,615 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,615 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,644 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,645 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,645 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,684 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,685 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,685 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,714 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,715 [INFO] STATUS: ... ativar
+2026-05-09 09:20:08,772 [INFO] STATUS: ... noite
+2026-05-09 09:20:09,413 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:20:09,414 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:20:17,634 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,635 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,635 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,636 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,665 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,665 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,666 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,705 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,706 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,706 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,735 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,736 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,736 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,775 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,775 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,776 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,805 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,805 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,806 [INFO] STATUS: ... mim
+2026-05-09 09:20:17,845 [INFO] STATUS: ... mim
+2026-05-09 09:20:18,847 [INFO] STATUS: ... mim
+2026-05-09 09:20:21,553 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 09:20:21,553 [INFO] Encerrando sintetizador de voz
+2026-05-09 09:23:59,198 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:23:59,552 [INFO] 26 ferramentas registradas
+2026-05-09 09:23:59,553 [INFO] Memória carregada com 0 mensagens
+2026-05-09 09:23:59,553 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:23:59,553 [INFO] Agendador inicializado
+2026-05-09 09:23:59,553 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:23:59,553 [INFO] Processando: Abra o bloco de notas
+2026-05-09 09:23:59,553 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:23:59,553 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:23:59,554 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:23:59,554 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:23:59,555 [INFO] Processando: Pesquise na web sobre python
+2026-05-09 09:23:59,555 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:23:59,555 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:23:59,555 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:23:59,556 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:23:59,556 [INFO] Processando: Tire um print da tela
+2026-05-09 09:23:59,556 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:23:59,556 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:23:59,557 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:23:59,557 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:23:59,557 [INFO] Processando: Qual é a capital do Brasil?
+2026-05-09 09:23:59,557 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:23:59,557 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:23:59,558 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:23:59,558 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:23:59,583 [INFO] Agendador inicializado
+2026-05-09 09:23:59,584 [INFO] Lembrete agendado: 'beber água' em 0.1 minutos (ID: a235a425)
+2026-05-09 09:24:05,592 [INFO] Lembrete disparado: beber água
+2026-05-09 09:24:08,745 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:24:09,255 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,028 [INFO] Modelo Whisper pronto.
+2026-05-09 09:24:10,030 [INFO] Carregando modelo Whisper base...
+2026-05-09 09:24:10,167 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,300 [INFO] HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-09 09:24:10,315 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/config.json "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,326 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/config.json "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,338 [INFO] HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-09 09:24:10,338 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-09 09:24:10,342 [INFO] HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/vocabulary.txt "HTTP/1.1 307 Temporary Redirect"
+2026-05-09 09:24:10,347 [INFO] HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/model.bin "HTTP/1.1 302 Found"
+2026-05-09 09:24:10,350 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/tokenizer.json "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,351 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/vocabulary.txt "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,364 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/vocabulary.txt "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,367 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/tokenizer.json "HTTP/1.1 200 OK"
+2026-05-09 09:24:10,490 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/xet-read-token/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66 "HTTP/1.1 200 OK"
+2026-05-09 09:24:12,936 [INFO] Modelo Whisper pronto.
+2026-05-09 09:24:12,951 [INFO] Carregando modelo Whisper base...
+2026-05-09 09:24:13,085 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:24:13,334 [INFO] Modelo Whisper pronto.
+2026-05-09 09:24:13,335 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:24:13,441 [INFO] VAD filter removed 00:03.000 of audio
+2026-05-09 09:24:13,449 [INFO] Transcrição concluída: ''
+2026-05-09 09:24:14,677 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 09:24:15,178 [INFO] Encerrando sintetizador de voz
+2026-05-09 09:24:16,790 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 09:24:16,791 [INFO] FALA: teste
+2026-05-09 09:24:16,791 [INFO] Estado mudou: idle → speaking (teste)
+2026-05-09 09:24:16,792 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:24:16,792 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:24:21,791 [INFO] Encerrando sintetizador de voz
+2026-05-09 09:24:21,865 [INFO] Memória carregada com 8 mensagens
+2026-05-09 09:24:21,867 [INFO] Memória carregada com 8 mensagens
+2026-05-09 09:24:21,867 [INFO] Memória limpa
+2026-05-09 09:24:21,869 [INFO] Memória carregada com 2 mensagens
+2026-05-09 09:24:21,869 [INFO] Memória limpa
+2026-05-09 09:24:21,897 [INFO] Memória carregada com 40 mensagens
+2026-05-09 09:24:21,897 [INFO] Memória limpa
+2026-05-09 09:24:23,398 [INFO] Memória carregada com 2 mensagens
+2026-05-09 09:24:23,401 [INFO] Cérebro LLM inicializado com modelo: llama3
+2026-05-09 09:24:25,450 [INFO] Ollama disponível ✓
+2026-05-09 09:24:25,452 [INFO] Cérebro LLM inicializado com modelo: llama3
+2026-05-09 09:24:27,498 [INFO] Ollama disponível ✓
+2026-05-09 09:24:35,426 [INFO] LLM respondeu em 7.9s
+2026-05-09 09:24:35,428 [INFO] Cérebro LLM inicializado com modelo: llama3
+2026-05-09 09:24:37,515 [INFO] Ollama disponível ✓
+2026-05-09 09:24:37,516 [INFO] Erro no LLM: Failed to parse: http://localhost:99999/api/chat
+2026-05-09 09:24:37,519 [INFO] 26 ferramentas registradas
+2026-05-09 09:24:37,519 [INFO] Memória carregada com 2 mensagens
+2026-05-09 09:24:37,519 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:24:37,519 [INFO] Agendador inicializado
+2026-05-09 09:24:37,519 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:24:37,519 [INFO] Processando: Responda apenas: ok
+2026-05-09 09:24:37,519 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:24:37,520 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:24:37,520 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:24:37,520 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:24:37,522 [INFO] 26 ferramentas registradas
+2026-05-09 09:24:37,522 [INFO] Memória carregada com 4 mensagens
+2026-05-09 09:24:37,522 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:24:37,522 [INFO] Agendador inicializado
+2026-05-09 09:24:37,522 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:24:37,523 [INFO] Erro ao deletar arquivo de memória: [WinError 32] O arquivo já está sendo usado por outro processo: 'jarvis\\data\\memory.json'
+2026-05-09 09:24:37,523 [INFO] Memória limpa
+2026-05-09 09:24:37,529 [INFO] Abrindo aplicativo: notepad
+2026-05-09 09:24:39,800 [INFO] Fechando aplicativo: notepad
+2026-05-09 09:24:40,805 [INFO] Fechando aplicativo: app_inexistente_xyz_123
+2026-05-09 09:24:40,812 [INFO] Capturando screenshot
+2026-05-09 09:24:40,897 [INFO] Listando aplicativos em execução
+2026-05-09 09:24:41,096 [INFO] Pesquisando na web: Python programming
+2026-05-09 09:24:41,410 [INFO] Pesquisando Wikipedia: Python linguagem programação
+2026-05-09 09:24:42,048 [INFO] Erro na pesquisa Wikipedia: 404 Client Error: Not Found for url: https://pt.wikipedia.org/api/rest_v1/page/summary/Python%20linguagem%20programa%C3%A7%C3%A3o
+2026-05-09 09:24:42,051 [INFO] Abrindo URL: google.com
+2026-05-09 09:24:42,052 [INFO] Escrevendo arquivo: jarvis/data/test_temp.txt
+2026-05-09 09:24:42,053 [INFO] Lendo arquivo: jarvis/data/test_temp.txt
+2026-05-09 09:24:42,055 [INFO] Escrevendo arquivo: jarvis/data/test_append.txt
+2026-05-09 09:24:42,055 [INFO] Escrevendo arquivo: jarvis/data/test_append.txt
+2026-05-09 09:24:42,056 [INFO] Lendo arquivo: jarvis/data/test_append.txt
+2026-05-09 09:24:42,057 [INFO] Criando pasta: jarvis/data/test_folder_xyz
+2026-05-09 09:24:42,062 [INFO] Lendo arquivo: C:/Windows/System32/drivers/etc/hosts
+2026-05-09 09:24:42,062 [INFO] Erro ao ler arquivo: Caminho fora da área segura: C:\Windows\System32\drivers\etc\hosts
+2026-05-09 09:24:42,064 [INFO] 26 ferramentas registradas
+2026-05-09 09:24:42,065 [INFO] 26 ferramentas registradas
+2026-05-09 09:24:42,065 [INFO] Listando aplicativos em execução
+2026-05-09 09:24:42,216 [INFO] 26 ferramentas registradas
+2026-05-09 09:24:42,217 [INFO] 26 ferramentas registradas
+2026-05-09 09:27:38,109 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:27:38,570 [INFO] 26 ferramentas registradas
+2026-05-09 09:27:38,570 [INFO] Memória carregada com 6 mensagens
+2026-05-09 09:27:38,571 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:27:38,571 [INFO] Agendador inicializado
+2026-05-09 09:27:38,571 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:27:38,571 [INFO] Processando: Abra o bloco de notas
+2026-05-09 09:27:38,571 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:27:38,571 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:27:38,572 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:27:38,572 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:27:38,573 [INFO] Processando: Pesquise na web sobre python
+2026-05-09 09:27:38,573 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:27:38,573 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:27:38,574 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:27:38,574 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:27:38,574 [INFO] Processando: Tire um print da tela
+2026-05-09 09:27:38,574 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:27:38,574 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:27:38,575 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:27:38,575 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:27:38,575 [INFO] Processando: Qual é a capital do Brasil?
+2026-05-09 09:27:38,575 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:27:38,576 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:27:38,576 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:27:38,576 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:27:38,622 [INFO] Agendador inicializado
+2026-05-09 09:27:38,623 [INFO] Lembrete agendado: 'beber água' em 0.1 minutos (ID: 2cdfa1bc)
+2026-05-09 09:27:44,630 [INFO] Lembrete disparado: beber água
+2026-05-09 09:27:48,062 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:27:48,639 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:27:49,560 [INFO] Modelo Whisper pronto.
+2026-05-09 09:27:49,562 [INFO] Carregando modelo Whisper base...
+2026-05-09 09:27:49,697 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:27:50,012 [INFO] Modelo Whisper pronto.
+2026-05-09 09:27:50,029 [INFO] Carregando modelo Whisper base...
+2026-05-09 09:27:50,163 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:27:50,421 [INFO] Modelo Whisper pronto.
+2026-05-09 09:27:50,421 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:27:50,489 [INFO] VAD filter removed 00:03.000 of audio
+2026-05-09 09:27:50,491 [INFO] Transcrição concluída: ''
+2026-05-09 09:27:51,646 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 09:27:52,147 [INFO] Encerrando sintetizador de voz
+2026-05-09 09:27:53,756 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 09:27:53,757 [INFO] FALA: teste
+2026-05-09 09:27:53,757 [INFO] Estado mudou: idle → speaking (teste)
+2026-05-09 09:27:53,757 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:27:53,757 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:27:58,757 [INFO] Encerrando sintetizador de voz
+2026-05-09 09:27:58,960 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:27:59,112 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:27:59,668 [INFO] Silero-VAD carregado.
+2026-05-09 09:27:59,885 [INFO] Modelo Whisper pronto.
+2026-05-09 09:28:00,178 [INFO] Audio input devices:
+2026-05-09 09:28:00,178 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 09:28:00,178 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 09:28:00,178 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 09:28:00,178 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 09:28:00,178 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 09:28:00,178 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 09:28:00,178 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 09:28:00,178 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 09:28:00,179 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 09:28:00,179 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 09:28:00,179 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 09:28:00,179 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 09:28:00,179 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 09:28:00,252 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 09:28:00,252 [INFO] Pipeline de voz inicializado
+2026-05-09 09:28:00,256 [INFO] Memória carregada com 14 mensagens
+2026-05-09 09:28:00,258 [INFO] Memória carregada com 14 mensagens
+2026-05-09 09:28:00,258 [INFO] Memória limpa
+2026-05-09 09:28:00,260 [INFO] Memória carregada com 2 mensagens
+2026-05-09 09:28:00,260 [INFO] Memória limpa
+2026-05-09 09:28:00,298 [INFO] Memória carregada com 40 mensagens
+2026-05-09 09:28:00,298 [INFO] Memória limpa
+2026-05-09 09:28:01,799 [INFO] Memória carregada com 2 mensagens
+2026-05-09 09:28:01,802 [INFO] Cérebro LLM inicializado com modelo: llama3
+2026-05-09 09:28:03,850 [INFO] Ollama disponível ✓
+2026-05-09 09:28:03,852 [INFO] Cérebro LLM inicializado com modelo: llama3
+2026-05-09 09:28:05,914 [INFO] Ollama disponível ✓
+2026-05-09 09:28:08,366 [INFO] LLM respondeu em 2.5s
+2026-05-09 09:28:08,369 [INFO] Cérebro LLM inicializado com modelo: llama3
+2026-05-09 09:28:10,433 [INFO] Ollama disponível ✓
+2026-05-09 09:28:10,433 [INFO] Erro no LLM: Failed to parse: http://localhost:99999/api/chat
+2026-05-09 09:28:10,436 [INFO] 26 ferramentas registradas
+2026-05-09 09:28:10,436 [INFO] Memória carregada com 2 mensagens
+2026-05-09 09:28:10,436 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:28:10,436 [INFO] Agendador inicializado
+2026-05-09 09:28:10,436 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:28:10,437 [INFO] Processando: Responda apenas: ok
+2026-05-09 09:28:10,437 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-05-09 09:28:10,437 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-05-09 09:28:10,437 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-05-09 09:28:10,437 [INFO] Estado mudou: thinking → idle ()
+2026-05-09 09:28:10,439 [INFO] 26 ferramentas registradas
+2026-05-09 09:28:10,439 [INFO] Memória carregada com 4 mensagens
+2026-05-09 09:28:10,439 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:28:10,439 [INFO] Agendador inicializado
+2026-05-09 09:28:10,439 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:28:10,440 [INFO] Erro ao deletar arquivo de memória: [WinError 32] O arquivo já está sendo usado por outro processo: 'jarvis\\data\\memory.json'
+2026-05-09 09:28:10,440 [INFO] Memória limpa
+2026-05-09 09:28:10,443 [INFO] Abrindo aplicativo: notepad
+2026-05-09 09:28:12,670 [INFO] Fechando aplicativo: notepad
+2026-05-09 09:28:13,675 [INFO] Fechando aplicativo: app_inexistente_xyz_123
+2026-05-09 09:28:13,681 [INFO] Capturando screenshot
+2026-05-09 09:28:13,752 [INFO] Listando aplicativos em execução
+2026-05-09 09:28:13,917 [INFO] Pesquisando na web: Python programming
+2026-05-09 09:28:14,214 [INFO] Pesquisando Wikipedia: Python linguagem programação
+2026-05-09 09:28:14,445 [INFO] Erro na pesquisa Wikipedia: 404 Client Error: Not Found for url: https://pt.wikipedia.org/api/rest_v1/page/summary/Python%20linguagem%20programa%C3%A7%C3%A3o
+2026-05-09 09:28:14,448 [INFO] Abrindo URL: google.com
+2026-05-09 09:28:14,449 [INFO] Escrevendo arquivo: jarvis/data/test_temp.txt
+2026-05-09 09:28:14,450 [INFO] Lendo arquivo: jarvis/data/test_temp.txt
+2026-05-09 09:28:14,451 [INFO] Escrevendo arquivo: jarvis/data/test_append.txt
+2026-05-09 09:28:14,452 [INFO] Escrevendo arquivo: jarvis/data/test_append.txt
+2026-05-09 09:28:14,452 [INFO] Lendo arquivo: jarvis/data/test_append.txt
+2026-05-09 09:28:14,454 [INFO] Criando pasta: test_jarvis_folder
+2026-05-09 09:28:14,456 [INFO] Lendo arquivo: C:/Windows/System32/drivers/etc/hosts
+2026-05-09 09:28:14,456 [INFO] Erro ao ler arquivo: Caminho fora da área segura: C:\Windows\System32\drivers\etc\hosts
+2026-05-09 09:28:14,458 [INFO] 26 ferramentas registradas
+2026-05-09 09:28:14,459 [INFO] 26 ferramentas registradas
+2026-05-09 09:28:14,459 [INFO] Listando aplicativos em execução
+2026-05-09 09:28:14,650 [INFO] 26 ferramentas registradas
+2026-05-09 09:28:14,651 [INFO] 26 ferramentas registradas
+2026-05-09 09:29:14,944 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:29:14,945 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:29:17,998 [INFO] Gravação finalizada: 46080 samples
+2026-05-09 09:29:51,768 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:33:13,363 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:33:43,959 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:35:25,062 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-09 09:35:28,799 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:35:30,041 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:35:30,945 [INFO] Modelo Whisper pronto.
+2026-05-09 09:35:33,424 [INFO] Sintetizador de voz pronto (Piper PT-BR)
+2026-05-09 09:35:33,425 [INFO] 26 ferramentas registradas
+2026-05-09 09:35:33,426 [INFO] Memória carregada com 6 mensagens
+2026-05-09 09:35:33,426 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-05-09 09:35:33,426 [INFO] Agendador inicializado
+2026-05-09 09:35:33,426 [INFO] Cérebro JARVIS inicializado
+2026-05-09 09:35:33,426 [INFO] Carregando modelo Whisper small...
+2026-05-09 09:35:33,632 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-05-09 09:35:33,638 [INFO] Silero-VAD carregado.
+2026-05-09 09:35:34,432 [INFO] Modelo Whisper pronto.
+2026-05-09 09:35:34,738 [INFO] Audio input devices:
+2026-05-09 09:35:34,738 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-05-09 09:35:34,738 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-05-09 09:35:34,739 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-05-09 09:35:34,739 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-05-09 09:35:34,739 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-05-09 09:35:34,808 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-05-09 09:35:34,808 [INFO] Pipeline de voz inicializado
+2026-05-09 09:35:34,809 [INFO] Aguardando wake word...
+2026-05-09 09:35:34,809 [INFO] FALA: JARVIS pronto, senhor.
+2026-05-09 09:35:34,809 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-05-09 09:35:34,809 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:34,810 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:34,811 [INFO] Todos os sistemas prontos — overlay removido.
+2026-05-09 09:35:34,930 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-05-09 09:35:41,111 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,112 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,124 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,124 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,125 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,165 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,165 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,165 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,195 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,195 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,196 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,234 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,235 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,235 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,265 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,266 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,266 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,294 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,294 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,295 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,334 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,353 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,354 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,364 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,364 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,365 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,404 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,405 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,405 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,434 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,435 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,435 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,474 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,475 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,475 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,505 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,505 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,506 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,544 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,545 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,545 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,574 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,581 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,582 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,614 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,615 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,615 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,644 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,644 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,645 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,684 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,684 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,685 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,714 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,714 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,715 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,754 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,755 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,755 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,784 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,784 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,785 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,831 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,832 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,832 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,854 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,854 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,855 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,894 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,895 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,895 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,924 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,924 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,925 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,964 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,965 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,965 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,994 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,995 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:41,995 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:42,034 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:42,035 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:42,035 [INFO] STATUS: ... um acolhe peditório
+2026-05-09 09:35:42,080 [INFO] STATUS: ... acolhe
+2026-05-09 09:35:44,698 [INFO] STATUS: ... a
+2026-05-09 09:35:44,715 [INFO] STATUS: ... a
+2026-05-09 09:35:44,715 [INFO] STATUS: ... a
+2026-05-09 09:35:44,715 [INFO] STATUS: ... a
+2026-05-09 09:35:44,745 [INFO] STATUS: ... a
+2026-05-09 09:35:44,746 [INFO] STATUS: ... a
+2026-05-09 09:35:44,746 [INFO] STATUS: ... a
+2026-05-09 09:35:44,785 [INFO] STATUS: ... a
+2026-05-09 09:35:44,785 [INFO] STATUS: ... a
+2026-05-09 09:35:44,785 [INFO] STATUS: ... a
+2026-05-09 09:35:44,815 [INFO] STATUS: ... a
+2026-05-09 09:35:44,815 [INFO] STATUS: ... a
+2026-05-09 09:35:44,815 [INFO] STATUS: ... a
+2026-05-09 09:35:44,855 [INFO] STATUS: ... a
+2026-05-09 09:35:44,855 [INFO] STATUS: ... a
+2026-05-09 09:35:44,856 [INFO] STATUS: ... a
+2026-05-09 09:35:44,884 [INFO] STATUS: ... a
+2026-05-09 09:35:44,885 [INFO] STATUS: ... a
+2026-05-09 09:35:44,885 [INFO] STATUS: ... a
+2026-05-09 09:35:44,925 [INFO] STATUS: ... a
+2026-05-09 09:35:44,925 [INFO] STATUS: ... a
+2026-05-09 09:35:44,971 [INFO] STATUS: ... acorde
+2026-05-09 09:35:44,971 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:35:44,972 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:35:44,972 [INFO] FALA: Sim, senhor?
+2026-05-09 09:35:44,972 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:35:44,972 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:35:44,973 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:44,973 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:48,026 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:35:48,026 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:35:48,032 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:35:48,033 [INFO] Comando transcrito: 
+2026-05-09 09:35:48,033 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:35:48,033 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:35:48,034 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:48,034 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:48,055 [INFO] STATUS: ... acorde
+2026-05-09 09:35:48,055 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:35:48,055 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:35:48,056 [INFO] FALA: Sim, senhor?
+2026-05-09 09:35:48,056 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:35:48,056 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:35:48,057 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:48,057 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:51,105 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:35:51,106 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:35:51,109 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:35:51,110 [INFO] Comando transcrito: 
+2026-05-09 09:35:51,110 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:35:51,110 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:35:51,111 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:51,111 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:51,124 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:35:51,124 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:35:51,125 [INFO] STATUS: ... acorde
+2026-05-09 09:35:51,125 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:35:51,126 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:35:51,126 [INFO] FALA: Sim, senhor?
+2026-05-09 09:35:51,126 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:35:51,126 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:35:51,127 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:51,127 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:54,205 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:35:54,206 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:35:54,210 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:35:54,211 [INFO] Comando transcrito: 
+2026-05-09 09:35:54,211 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:35:54,212 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:35:54,212 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:54,213 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:54,225 [INFO] STATUS: ... acorde
+2026-05-09 09:35:54,225 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:35:54,226 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:35:54,226 [INFO] FALA: Sim, senhor?
+2026-05-09 09:35:54,226 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:35:54,226 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:35:54,227 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:54,227 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:57,305 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:35:57,305 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:35:57,310 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:35:57,311 [INFO] Comando transcrito: 
+2026-05-09 09:35:57,311 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:35:57,311 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:35:57,312 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:57,312 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:35:57,324 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:35:57,324 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:35:57,325 [INFO] STATUS: ... acorde
+2026-05-09 09:35:57,326 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:35:57,326 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:35:57,326 [INFO] FALA: Sim, senhor?
+2026-05-09 09:35:57,326 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:35:57,326 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:35:57,327 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:35:57,327 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:00,405 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:00,405 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:00,409 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:00,410 [INFO] Comando transcrito: 
+2026-05-09 09:36:00,411 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:00,411 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:00,412 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:00,412 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:00,425 [INFO] STATUS: ... acorde
+2026-05-09 09:36:00,425 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:00,426 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:00,426 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:00,426 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:00,426 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:00,427 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:00,427 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:03,476 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:03,476 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:03,480 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:03,481 [INFO] Comando transcrito: 
+2026-05-09 09:36:03,481 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:03,481 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:03,482 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:03,482 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:03,484 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:03,484 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:03,486 [INFO] STATUS: ... acorde
+2026-05-09 09:36:03,486 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:03,486 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:03,486 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:03,486 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:03,486 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:03,487 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:03,487 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:06,565 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:06,566 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:06,570 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:06,571 [INFO] Comando transcrito: 
+2026-05-09 09:36:06,571 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:06,571 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:06,572 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:06,572 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:06,586 [INFO] STATUS: ... acorde
+2026-05-09 09:36:06,586 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:06,586 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:06,587 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:06,587 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:06,587 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:06,587 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:06,588 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:09,636 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:09,636 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:09,640 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:09,641 [INFO] Comando transcrito: 
+2026-05-09 09:36:09,641 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:09,641 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:09,642 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:09,642 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:09,654 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:09,655 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:09,656 [INFO] STATUS: ... acorde
+2026-05-09 09:36:09,656 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:09,656 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:09,656 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:09,656 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:09,656 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:09,657 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:09,657 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:12,735 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:12,736 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:12,740 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:12,741 [INFO] Comando transcrito: 
+2026-05-09 09:36:12,741 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:12,741 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:12,742 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:12,742 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:12,755 [INFO] STATUS: ... acorde
+2026-05-09 09:36:12,756 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:12,756 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:12,756 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:12,757 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:12,757 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:12,757 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:12,757 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:15,806 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:15,806 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:15,809 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:15,810 [INFO] Comando transcrito: 
+2026-05-09 09:36:15,810 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:15,811 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:15,811 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:15,811 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:15,815 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:15,815 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:15,816 [INFO] STATUS: ... acorde
+2026-05-09 09:36:15,816 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:15,816 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:15,816 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:15,816 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:15,817 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:15,817 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:15,817 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:18,896 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:18,896 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:18,900 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:18,901 [INFO] Comando transcrito: 
+2026-05-09 09:36:18,901 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:18,902 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:18,902 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:18,902 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:18,916 [INFO] STATUS: ... acorde
+2026-05-09 09:36:18,916 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:18,916 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:18,917 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:18,917 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:18,917 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:18,918 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:18,918 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:21,996 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:21,996 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:22,000 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:22,001 [INFO] Comando transcrito: 
+2026-05-09 09:36:22,002 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:22,002 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:22,002 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:22,003 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:22,015 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:22,015 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:22,016 [INFO] STATUS: ... acorde
+2026-05-09 09:36:22,016 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:22,017 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:22,017 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:22,017 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:22,017 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:22,018 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:22,018 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:25,066 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:25,066 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:25,069 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:25,070 [INFO] Comando transcrito: 
+2026-05-09 09:36:25,071 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:25,071 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:25,071 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:25,072 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:25,086 [INFO] STATUS: ... acorde
+2026-05-09 09:36:25,086 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:25,086 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:25,086 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:25,087 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:25,087 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:25,087 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:25,087 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:28,166 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:28,166 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:28,170 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:28,172 [INFO] Comando transcrito: 
+2026-05-09 09:36:28,172 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:28,172 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:28,172 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:28,173 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:28,185 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:28,185 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:28,186 [INFO] STATUS: ... acorde
+2026-05-09 09:36:28,186 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:28,187 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:28,187 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:28,187 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:28,187 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:28,188 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:28,188 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:31,236 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:31,236 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:31,239 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:31,240 [INFO] Comando transcrito: 
+2026-05-09 09:36:31,240 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:31,241 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:31,241 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:31,242 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:31,246 [INFO] STATUS: ... acorde
+2026-05-09 09:36:31,246 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:31,246 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:31,247 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:31,247 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:31,247 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:31,247 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:31,247 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:34,326 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:34,326 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:34,330 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:34,332 [INFO] Comando transcrito: 
+2026-05-09 09:36:34,332 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:34,332 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:34,332 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:34,333 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:34,345 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:34,345 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:34,346 [INFO] STATUS: ... acorde
+2026-05-09 09:36:34,347 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:34,347 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:34,347 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:34,347 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:34,347 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:34,348 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:34,348 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:37,396 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:37,397 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:37,400 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:37,401 [INFO] Comando transcrito: 
+2026-05-09 09:36:37,401 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:37,402 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:37,402 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:37,402 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:37,416 [INFO] STATUS: ... acorde
+2026-05-09 09:36:37,416 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:37,416 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:37,417 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:37,417 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:37,417 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:37,417 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:37,418 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:40,466 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:40,466 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:40,469 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:40,471 [INFO] Comando transcrito: 
+2026-05-09 09:36:40,471 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:40,471 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:40,471 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:40,471 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:40,475 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:40,475 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:40,476 [INFO] STATUS: ... acorde
+2026-05-09 09:36:40,476 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:40,477 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:40,477 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:40,477 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:40,477 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:40,477 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:40,478 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:43,526 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:43,526 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:43,530 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:43,531 [INFO] Comando transcrito: 
+2026-05-09 09:36:43,531 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:43,531 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:43,532 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:43,532 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:43,546 [INFO] STATUS: ... acorde
+2026-05-09 09:36:43,546 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:43,546 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:43,547 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:43,547 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:43,547 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:43,547 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:43,548 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:46,626 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:46,626 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:46,631 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:46,632 [INFO] Comando transcrito: 
+2026-05-09 09:36:46,632 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:46,632 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:46,633 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:46,633 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:46,645 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:46,645 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:46,647 [INFO] STATUS: ... acorde
+2026-05-09 09:36:46,647 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:46,647 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:46,647 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:46,648 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:46,648 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:46,648 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:46,648 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:49,696 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:49,697 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:49,700 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:49,702 [INFO] Comando transcrito: 
+2026-05-09 09:36:49,702 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:49,702 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:49,703 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:49,703 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:49,755 [INFO] STATUS: ... acorde
+2026-05-09 09:36:49,755 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:49,756 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:49,756 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:49,756 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:49,756 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:49,757 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:49,757 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:52,837 [INFO] Gravação finalizada: 48480 samples
+2026-05-09 09:36:52,837 [INFO] Processing audio with duration 00:03.030
+2026-05-09 09:36:52,841 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:52,842 [INFO] Comando transcrito: 
+2026-05-09 09:36:52,842 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:52,842 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:52,843 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:52,843 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:52,845 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-05-09 09:36:52,846 [INFO] STATUS: Sem audio - verifique o microfone
+2026-05-09 09:36:52,846 [INFO] STATUS: ... acorde
+2026-05-09 09:36:52,846 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:52,847 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:52,847 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:52,847 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:52,847 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:52,847 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:52,848 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:55,896 [INFO] Gravação finalizada: 48000 samples
+2026-05-09 09:36:55,897 [INFO] Processing audio with duration 00:03.000
+2026-05-09 09:36:55,900 [INFO] Erro na transcrição: Input should be a 1D array
+2026-05-09 09:36:55,902 [INFO] Comando transcrito: 
+2026-05-09 09:36:55,902 [INFO] FALA: Não entendi, pode repetir?
+2026-05-09 09:36:55,902 [INFO] Estado mudou: idle → speaking (Não entendi, pode repetir?)
+2026-05-09 09:36:55,903 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:55,903 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:55,906 [INFO] STATUS: ... acorde
+2026-05-09 09:36:55,906 [INFO] STATUS: Wake word detectada!
+2026-05-09 09:36:55,906 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-05-09 09:36:55,906 [INFO] FALA: Sim, senhor?
+2026-05-09 09:36:55,906 [INFO] Iniciando gravação de áudio...
+2026-05-09 09:36:55,907 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-05-09 09:36:55,907 [INFO] Estado mudou: speaking → idle ()
+2026-05-09 09:36:55,907 [INFO] Erro no sintetizador: 'Logger' object is not callable
+2026-05-09 09:36:56,068 [INFO] Janela fechada, iniciando desligamento.
+2026-05-09 09:36:56,068 [INFO] Encerrando sintetizador de voz
