@@ -5,13 +5,14 @@ from jarvis.brain.task_detector import is_complex_task
 from jarvis.brain.scheduler import Scheduler
 from jarvis.tools.router import ToolRouter
 from jarvis import core
+from jarvis.config import LLM_MODEL, LLM_ENGINE
 from jarvis.hud import state
 
 class Brain:
-    def __init__(self, model: str = "llama3", mock: bool = True):
+    def __init__(self, model: str = LLM_MODEL, engine: str = LLM_ENGINE, mock: bool = True):
         self.router = ToolRouter()
         self.memory = Memory(router=self.router)
-        self.llm = LLM(model=model, mock=mock)
+        self.llm = LLM(model=model, engine=engine, mock=mock)
         self.agent = Agent(llm=self.llm, router=self.router)
         self.scheduler = Scheduler(speak_callback=core.speak)
         core.log.info("Cérebro JARVIS inicializado")

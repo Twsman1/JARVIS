@@ -26,7 +26,7 @@ def main():
     synthesizer.start()
 
     # Inicializar o cérebro
-    brain = Brain(model="llama3")
+    brain = Brain()
 
     # Substituir on_command pelo Brain
     def on_command(text: str):

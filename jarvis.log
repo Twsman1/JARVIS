@@ -3688,3 +3688,21 @@
 2026-05-09 10:29:09,345 [INFO] Carregando modelo Whisper small...
 2026-05-09 10:29:09,908 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
 2026-05-09 10:29:10,615 [INFO] Modelo Whisper pronto.
+2026-05-13 10:03:26,081 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-13 10:03:26,082 [INFO] Cérebro LLM inicializado com modelo: llama3:latest, engine: ollama
+2026-05-13 10:03:28,144 [INFO] Ollama disponível ✓
+2026-05-13 10:03:36,820 [INFO] LLM respondeu em 8.7s
+2026-05-13 10:10:55,463 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-13 10:10:55,463 [INFO] Cérebro LLM inicializado com modelo: llama3:latest, engine: ollama
+2026-05-13 10:10:57,997 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-05-13 10:10:57,998 [INFO] Ollama disponível ✓
+2026-05-13 10:10:57,999 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-05-13 10:10:58,000 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-05-13 10:11:00,653 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-13 10:11:00,654 [INFO] LLM respondeu em 2.7s (tokens: 27)
+2026-05-13 10:18:26,475 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-05-13 10:18:29,561 [INFO] Cérebro LLM inicializado com modelo: llama3, engine: ollama
+2026-05-13 10:18:31,896 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-05-13 10:18:31,896 [INFO] Ollama disponível ✓
+2026-05-13 10:18:31,896 [INFO] Navegando para: https://httpbin.org/html
+2026-05-13 10:18:31,897 [WARNING] Playwright não instalado. Instale com: pip install playwright

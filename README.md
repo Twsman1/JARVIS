@@ -113,7 +113,12 @@ O aplicativo abrirá uma janela transparente com informações de status. Diga `
 
 * `JARVIS_AUDIO_DEVICE` – índice ou parte do nome para escolher dispositivo de entrada
 * `WAKE_WORD` – palavra de ativação (pode ser alterada em `config.py`)
-
+* `JARVIS_LLM_ENGINE` – escolha o backend de inferência local:
+  - `ollama` (padrão)
+  - `openjarvis` (usa o código em `openjarvis/OpenJarvis/src`)
+* `JARVIS_OPENJARVIS_PATH` – caminho para o SDK OpenJarvis, por padrão `openjarvis/OpenJarvis/src`
+* `JARVIS_OPENJARVIS_CONFIG` – opcional, use um arquivo de configuração OpenJarvis customizado
+* `OLLAMA_HOST` – URL do servidor Ollama local, padrão `http://localhost:11434`
 ---
 
 ## 🧠 Adaptação e personalização

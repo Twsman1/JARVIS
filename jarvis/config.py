@@ -7,6 +7,17 @@ VOSK_MODEL_PATH = "models/vosk-pt"            # modelo vosk-model-small-pt-0.3
 # optional audio device override: index or substring of name
 AUDIO_DEVICE = os.environ.get("JARVIS_AUDIO_DEVICE")
 
+# Local LLM engine selection for offline-first usage.
+# Set JARVIS_LLM_ENGINE=ollama to use Ollama local server,
+# or JARVIS_LLM_ENGINE=openjarvis to use the OpenJarvis SDK source tree.
+OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+LLM_ENGINE = os.environ.get("JARVIS_LLM_ENGINE", "ollama")
+JARVIS_OPENJARVIS_PATH = os.environ.get(
+    "JARVIS_OPENJARVIS_PATH",
+    "openjarvis/OpenJarvis/src",
+)
+JARVIS_OPENJARVIS_CONFIG = os.environ.get("JARVIS_OPENJARVIS_CONFIG")
+
 # faster-whisper model.
 #
 # To avoid any online requests, download the model locally and point WHISPER_MODEL

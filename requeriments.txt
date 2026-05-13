@@ -10,6 +10,8 @@ vosk
 soundfile
 piper-tts
 requests
+httpx
+playwright
 beautifulsoup4
 pillow
 pyperclip
