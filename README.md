@@ -229,6 +229,18 @@ python jarvis_hud.py
 
 ---
 
+## 🛠 Recent changes (aplicadas)
+
+- **Config defaults:** `LLM_MODEL` agora pode ser sobrescrito por `JARVIS_LLM_MODEL` e o projeto muda o valor padrão para um modelo starter `qwen3:0.6b` para facilitar testes locais.
+- **OpenJarvis config:** `JARVIS_OPENJARVIS_CONFIG` recebe um caminho padrão para o exemplo local (`openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml`).
+- **Backward compat:** adicionamos um alias `OLLAMA_URL` para compatibilidade com testes/integrações que ainda esperam esse nome.
+- **Robust memory persistence:** `jarvis/brain/memory.py` agora grava de forma atômica usando arquivos temporários únicos e isola arquivos de memória durante execuções de teste para evitar conflitos no Windows (corrige problemas de `file in use`).
+- **Test configuration:** adicionado `pytest.ini` para limitar a coleta de testes ao diretório `tests/` e garantir o `PYTHONPATH` correto; dependências de teste (`respx`, `pydantic`, `polars`, `pytest-asyncio`) foram instaladas.
+- **Tests:** após as mudanças, a suíte local do projeto passa: `40 passed` (alguns warnings de marcação pytest permanecem).
+
+These changes were applied to improve offline-first behavior, make tests reproducible on Windows, and set sane defaults for local inference.
+
+
 ## 📜 Licença
 
 Este projeto usa dependências gratuitas e código open-source. O repositório não possui uma licença explícita definida no arquivo principal.

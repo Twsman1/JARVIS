@@ -38,6 +38,9 @@ from jarvis.config import (
     OLLAMA_HOST,
 )
 
+# Backwards compatibility alias expected by some tests
+OLLAMA_URL = OLLAMA_HOST
+
 CONNECT_TIMEOUT = 5
 READ_TIMEOUT = 60
 

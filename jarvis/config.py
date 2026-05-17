@@ -16,7 +16,10 @@ JARVIS_OPENJARVIS_PATH = os.environ.get(
     "JARVIS_OPENJARVIS_PATH",
     "openjarvis/OpenJarvis/src",
 )
-JARVIS_OPENJARVIS_CONFIG = os.environ.get("JARVIS_OPENJARVIS_CONFIG")
+JARVIS_OPENJARVIS_CONFIG = os.environ.get(
+    "JARVIS_OPENJARVIS_CONFIG",
+    "openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml",
+)
 
 # faster-whisper model.
 #
@@ -42,7 +45,8 @@ VAD_MAX_DURATION = 8.0    # segundos max de gravacao de comando
 VAD_MIN_SPEECH = 0.2      # segundos minimos de fala antes de aceitar
 
 # Modelo LLM padrão (trocar aqui para mudar em todo o projeto)
-LLM_MODEL = "llama3"
+# Use a env var JARVIS_LLM_MODEL to override, default to a small local starter model.
+LLM_MODEL = os.environ.get("JARVIS_LLM_MODEL", "qwen3:0.6b")
 
 # Alternativas:
 # LLM_MODEL = "phi3"         # mais leve
