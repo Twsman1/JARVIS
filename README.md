@@ -116,6 +116,15 @@ Ou execute o módulo principal:
 python -m jarvis.main
 ```
 
+Ou inicie o Jarvis diretamente (alternativa ao `uv`):
+
+```sh
+# Ative seu ambiente virtual e execute:
+python jarvis.py
+# Ou (módulo):
+python -m jarvis
+```
+
 O projeto abrirá um overlay transparente com informações de status. Diga `acorde` (ou a palavra definida em `config.py` / `WAKE_WORD`) e, após o prompt de confirmação, fale o seu comando.
 
 ---
@@ -130,7 +139,7 @@ Principais variáveis:
 - `JARVIS_AUDIO_DEVICE` — dispositivo de entrada de áudio opcional
 - `WHISPER_MODEL` — modelo local de ASR (detecta `models/whisper-small/model.bin` automaticamente)
 - `LLM_MODEL` — modelo padrão para a integração de inferência local
-- `LLM_ENGINE` — engine atual para LLM local (`ollama` por padrão)
+- `LLM_ENGINE` — engine atual para LLM local (`openjarvis` por padrão)
 - `OLLAMA_HOST` — URL do servidor Ollama local
 - `JARVIS_OPENJARVIS_PATH` — caminho para a fonte OpenJarvis no repositório
 - `JARVIS_OPENJARVIS_CONFIG` — caminho opcional para um arquivo de configuração OpenJarvis
@@ -140,10 +149,11 @@ Principais variáveis:
 * `JARVIS_AUDIO_DEVICE` — índice ou parte do nome do microfone
 * `WAKE_WORD` — palavra de ativação para iniciar o assistente
 * `JARVIS_LLM_ENGINE` — engine local de inferência:
-  - `ollama` (padrão)
-  - `openjarvis` (usa `openjarvis/OpenJarvis/src`)
+  - `openjarvis` (padrão)
+  - `ollama` (usa uma instância local de Ollama)
 * `JARVIS_OPENJARVIS_PATH` — caminho para o SDK OpenJarvis local
 * `JARVIS_OPENJARVIS_CONFIG` — arquivo de configuração OpenJarvis opcional
+* `JARVIS_OPENJARVIS_CONFIG` — para iniciar com o preset local `chat-simple`, use `openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml`
 * `OLLAMA_HOST` — URL do Ollama local, padrão `http://localhost:11434`
 
 ---
@@ -205,8 +215,7 @@ Para rodar sem qualquer dependência de Hugging Face ou internet:
 1. Baixe o modelo Whisper localmente para `models/whisper-small`.
 2. Configure `JARVIS_WHISPER_DIR` se usar outro caminho.
 3. Não defina chaves de API em variáveis de ambiente.
-4. Use `ollama` ou `openjarvis` como backend local em vez de provedores em nuvem.
-
+4. Use `ollama` ou `openjarvis` como backend local em vez de provedores em nuvem.6. Para OpenJarvis, prefira o preset `chat-simple` e evite presets que requerem OAuth ou TTS na nuvem.
 ### Exemplo PowerShell
 
 ```powershell
@@ -232,7 +241,30 @@ python jarvis_hud.py
 ## 🛠 Recent changes (aplicadas)
 
 - **Config defaults:** `LLM_MODEL` agora pode ser sobrescrito por `JARVIS_LLM_MODEL` e o projeto muda o valor padrão para um modelo starter `qwen3:0.6b` para facilitar testes locais.
-- **OpenJarvis config:** `JARVIS_OPENJARVIS_CONFIG` recebe um caminho padrão para o exemplo local (`openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml`).
+- **OpenJarvis config:** `JARVIS_OPENJARVIS_CONFIG` usa `~/.openjarvis/config.toml` por padrão e, se estiver ausente, recai para o exemplo local `openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml`.
+
+### Iniciar com um preset local (sem `uv`)
+
+Para instalar o preset local recomendado `chat-simple` sem usar `uv`, copie o arquivo de exemplo para sua configuração do OpenJarvis ou defina a variável de ambiente `JARVIS_OPENJARVIS_CONFIG` apontando para o preset.
+
+Exemplo (POSIX):
+```sh
+cp openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml ~/.openjarvis/config.toml
+python jarvis.py
+```
+
+Exemplo (PowerShell):
+```powershell
+Copy-Item -Path openjarvis\OpenJarvis\configs\openjarvis\examples\chat-simple.toml -Destination $env:USERPROFILE\.openjarvis\config.toml -Force
+$env:JARVIS_OPENJARVIS_CONFIG = "$env:USERPROFILE\.openjarvis\config.toml"
+python jarvis.py
+```
+
+Ou apenas defina a variável apontando para o exemplo e execute `python jarvis.py`:
+```powershell
+$env:JARVIS_OPENJARVIS_CONFIG = "openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml"
+python jarvis.py
+```
 - **Backward compat:** adicionamos um alias `OLLAMA_URL` para compatibilidade com testes/integrações que ainda esperam esse nome.
 - **Robust memory persistence:** `jarvis/brain/memory.py` agora grava de forma atômica usando arquivos temporários únicos e isola arquivos de memória durante execuções de teste para evitar conflitos no Windows (corrige problemas de `file in use`).
 - **Test configuration:** adicionado `pytest.ini` para limitar a coleta de testes ao diretório `tests/` e garantir o `PYTHONPATH` correto; dependências de teste (`respx`, `pydantic`, `polars`, `pytest-asyncio`) foram instaladas.

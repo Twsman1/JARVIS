@@ -8,17 +8,34 @@ VOSK_MODEL_PATH = "models/vosk-pt"            # modelo vosk-model-small-pt-0.3
 AUDIO_DEVICE = os.environ.get("JARVIS_AUDIO_DEVICE")
 
 # Local LLM engine selection for offline-first usage.
-# Set JARVIS_LLM_ENGINE=ollama to use Ollama local server,
-# or JARVIS_LLM_ENGINE=openjarvis to use the OpenJarvis SDK source tree.
+# Set JARVIS_LLM_ENGINE=openjarvis to use the OpenJarvis SDK source tree,
+# or JARVIS_LLM_ENGINE=ollama to use a local Ollama server.
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-LLM_ENGINE = os.environ.get("JARVIS_LLM_ENGINE", "ollama")
+LLM_ENGINE = os.environ.get("JARVIS_LLM_ENGINE", "openjarvis")
 JARVIS_OPENJARVIS_PATH = os.environ.get(
     "JARVIS_OPENJARVIS_PATH",
     "openjarvis/OpenJarvis/src",
 )
+_default_openjarvis_config = os.path.expanduser("~/.openjarvis/config.toml")
+if not os.path.isfile(_default_openjarvis_config):
+    _default_openjarvis_config = os.path.normpath(
+        os.path.abspath(
+            os.path.join(
+                os.path.dirname(__file__),
+                "..",
+                "openjarvis",
+                "OpenJarvis",
+                "configs",
+                "openjarvis",
+                "examples",
+                "chat-simple.toml",
+            )
+        )
+    )
+
 JARVIS_OPENJARVIS_CONFIG = os.environ.get(
     "JARVIS_OPENJARVIS_CONFIG",
-    "openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml",
+    _default_openjarvis_config,
 )
 
 # faster-whisper model.

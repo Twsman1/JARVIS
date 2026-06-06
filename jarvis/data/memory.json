@@ -2,15 +2,7 @@
   "history": [
     {
       "role": "user",
-      "content": "mensagem persistida"
-    },
-    {
-      "role": "assistant",
-      "content": "resposta persistida"
-    },
-    {
-      "role": "user",
-      "content": "Responda apenas: ok"
+      "content": "Abra o bloco de notas"
     },
     {
       "role": "assistant",
@@ -18,15 +10,7 @@
     },
     {
       "role": "user",
-      "content": "teste"
-    },
-    {
-      "role": "assistant",
-      "content": "ok"
-    },
-    {
-      "role": "user",
-      "content": "Maximizar a tela. Abrir o crome."
+      "content": "Pesquise na web sobre python"
     },
     {
       "role": "assistant",
@@ -34,7 +18,7 @@
     },
     {
       "role": "user",
-      "content": "Abrir o crome."
+      "content": "Tire um print da tela"
     },
     {
       "role": "assistant",
@@ -42,7 +26,7 @@
     },
     {
       "role": "user",
-      "content": "Abre o Google Chrome."
+      "content": "Qual é a capital do Brasil?"
     },
     {
       "role": "assistant",
@@ -50,7 +34,7 @@
     },
     {
       "role": "user",
-      "content": "Execute o que lhe pedir."
+      "content": "Abra o bloco de notas"
     },
     {
       "role": "assistant",
@@ -58,7 +42,7 @@
     },
     {
       "role": "user",
-      "content": "Deu-se legal."
+      "content": "Pesquise na web sobre python"
     },
     {
       "role": "assistant",
@@ -66,7 +50,7 @@
     },
     {
       "role": "user",
-      "content": "Desligar."
+      "content": "Tire um print da tela"
     },
     {
       "role": "assistant",
@@ -74,7 +58,7 @@
     },
     {
       "role": "user",
-      "content": "Abre o desktop."
+      "content": "Qual é a capital do Brasil?"
     },
     {
       "role": "assistant",
@@ -82,7 +66,7 @@
     },
     {
       "role": "user",
-      "content": "Abra, usta..."
+      "content": "Abra um acorde, abro um notifédio"
     },
     {
       "role": "assistant",
@@ -90,7 +74,7 @@
     },
     {
       "role": "user",
-      "content": "Abra os top loads"
+      "content": "abro-me"
     },
     {
       "role": "assistant",
@@ -98,7 +82,27 @@
     },
     {
       "role": "user",
-      "content": "Abra o download."
+      "content": "Abra o navegador"
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "What is the local model setup?"
+    },
+    {
+      "role": "user",
+      "content": "que ali é..."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Desliga! Desliga!"
     },
     {
       "role": "assistant",
