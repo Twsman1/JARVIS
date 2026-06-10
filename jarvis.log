@@ -5012,3 +5012,60 @@
 2026-06-06 11:33:11,957 [INFO] Cérebro JARVIS inicializado
 2026-06-06 11:33:11,957 [INFO] Processando: qual modelo
 2026-06-06 11:33:11,957 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-06-09 23:59:02,320 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-09 23:59:02,321 [INFO] Cérebro LLM inicializado com modelo: qwen3:0.6b, engine: openjarvis
+2026-06-09 23:59:02,323 [INFO] OpenJarvis SDK não encontrado. Instale ou configure JARVIS_OPENJARVIS_PATH.
+2026-06-09 23:59:04,845 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-09 23:59:04,845 [INFO] Ollama disponível ✓
+2026-06-09 23:59:04,846 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-09 23:59:04,848 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-09 23:59:17,446 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-09 23:59:17,446 [INFO] Cérebro LLM inicializado com modelo: qwen3:0.6b, engine: openjarvis
+2026-06-09 23:59:17,447 [INFO] OpenJarvis SDK não encontrado. Instale ou configure JARVIS_OPENJARVIS_PATH.
+2026-06-09 23:59:19,732 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-09 23:59:19,732 [INFO] Ollama disponível ✓
+2026-06-09 23:59:19,733 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-09 23:59:23,163 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-09 23:59:23,163 [INFO] LLM respondeu em 3.4s (tokens: 57)
+2026-06-10 00:02:03,823 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-10 00:02:03,825 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:02:03,825 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:02:06,004 [INFO] Modelo Whisper pronto.
+2026-06-10 00:02:06,005 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:02:06,005 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:02:06,812 [INFO] Modelo Whisper pronto.
+2026-06-10 00:06:50,934 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-10 00:06:57,406 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:06:57,406 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:06:58,230 [INFO] Modelo Whisper pronto.
+2026-06-10 00:07:01,970 [INFO] Cérebro LLM inicializado com modelo: qwen3:0.6b, engine: openjarvis
+2026-06-10 00:07:01,972 [INFO] OpenJarvis SDK não encontrado. Instale ou configure JARVIS_OPENJARVIS_PATH.
+2026-06-10 00:07:04,491 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:07:04,492 [INFO] Ollama disponível ✓
+2026-06-10 00:07:04,493 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:07:04,494 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:07:45,804 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-10 00:07:45,807 [INFO] Cérebro LLM inicializado com modelo: qwen3:0.6b, engine: openjarvis
+2026-06-10 00:07:45,809 [INFO] OpenJarvis SDK não encontrado. Instale ou configure JARVIS_OPENJARVIS_PATH.
+2026-06-10 00:07:48,101 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:07:48,101 [INFO] Ollama disponível ✓
+2026-06-10 00:07:48,102 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:07:48,103 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:08:26,509 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-10 00:08:27,911 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:08:27,912 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:08:28,258 [WARNING] Silero-VAD indisponivel (No module named 'torchaudio') — usando fallback de amplitude
+2026-06-10 00:08:28,668 [INFO] Modelo Whisper pronto.
+2026-06-10 00:08:29,102 [INFO] Cérebro LLM inicializado com modelo: qwen3:0.6b, engine: openjarvis
+2026-06-10 00:08:29,104 [INFO] OpenJarvis SDK não encontrado. Instale ou configure JARVIS_OPENJARVIS_PATH.
+2026-06-10 00:08:31,382 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:08:31,382 [INFO] Ollama disponível ✓
+2026-06-10 00:08:31,383 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:08:31,385 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:08:39,177 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-10 00:08:39,179 [INFO] Cérebro LLM inicializado com modelo: qwen3:0.6b, engine: openjarvis
+2026-06-10 00:08:39,181 [INFO] OpenJarvis SDK não encontrado. Instale ou configure JARVIS_OPENJARVIS_PATH.
+2026-06-10 00:08:41,457 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:08:41,457 [INFO] Ollama disponível ✓
+2026-06-10 00:08:41,458 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:08:41,459 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"

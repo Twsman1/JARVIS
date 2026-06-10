@@ -12,6 +12,14 @@ class Transcriber:
 
         # If using a local directory, force offline behavior.
         # (Prevents any accidental HF hub calls if some file is missing.)
+        if model_size is None:
+            core.log.error(
+                "Whisper local não configurado. Defina JARVIS_WHISPER_DIR para uma pasta com model.bin."
+            )
+            self.model = None
+            self.ready = False
+            return
+
         p = Path(model_size)
         if p.exists() and p.is_dir():
             # Only treat it as a valid faster-whisper model dir if model.bin exists
@@ -20,14 +28,22 @@ class Transcriber:
                 os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
                 core.log.info("Whisper: usando modelo local em '%s' (modo offline)", str(p))
             else:
-                core.log.warning(
+                core.log.error(
                     "Whisper: pasta local '%s' existe, mas faltou 'model.bin'. "
-                    "Baixe o modelo para essa pasta, ou remova a pasta para usar o modelo nomeado.",
+                    "Offline ASR está desabilitado até que o modelo seja instalado.",
                     str(p),
                 )
-                model_size = "small"
+                self.model = None
+                self.ready = False
+                return
         else:
-            core.log.info("Whisper: usando modelo nomeado '%s' (pode acessar internet se não estiver em cache)", model_size)
+            core.log.error(
+                "Whisper: diretório local '%s' não existe. Offline ASR está desabilitado.",
+                model_size,
+            )
+            self.model = None
+            self.ready = False
+            return
 
         core.log.info("Carregando modelo Whisper %s...", model_size)
         # Passing a local directory path makes faster-whisper load from disk.
@@ -40,6 +56,9 @@ class Transcriber:
         pass
 
     def transcribe(self, audio: np.ndarray) -> str:
+        if self.model is None:
+            core.log.error("Transcrição indisponível: Whisper offline não foi carregado.")
+            return ""
         try:
             # Converter para float32 normalizado
             audio_float = audio.astype(np.float32) / 32768.0

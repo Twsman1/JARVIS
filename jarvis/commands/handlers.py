@@ -150,5 +150,6 @@ def _cmd_joke():
 
 
 def _cmd_version():
-    speak(f"JARVIS versao 4.7.1. Motor de voz faster-whisper, modelo {WHISPER_MODEL}, idioma portugues.")
-    update_status(f"JARVIS v4.7.1 | Whisper {WHISPER_MODEL} | PT-BR")
+    model_label = WHISPER_MODEL or "local"
+    speak(f"JARVIS versao 4.7.1. Motor de voz faster-whisper, modelo {model_label}, idioma portugues.")
+    update_status(f"JARVIS v4.7.1 | Whisper {model_label} | PT-BR")

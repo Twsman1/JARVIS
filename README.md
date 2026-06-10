@@ -98,6 +98,7 @@ pip install -r requeriments.txt
 ```
 4. Baixe e extraia o modelo Vosk em `models/vosk-pt`.
 5. Baixe o modelo Whisper local usando o script ou copie um modelo local para `models/whisper-small`.
+   - Se você já tiver o modelo Hugging Face cacheado, `JARVIS_WHISPER_DIR` agora procura automaticamente por `model.bin` em diretórios aninhados.
 6. Se desejar, configure um backend local Ollama ou OpenJarvis para respostas mais inteligentes.
 
 ---
@@ -125,6 +126,12 @@ python jarvis.py
 python -m jarvis
 ```
 
+Para verificar o estado local do Jarvis sem abrir a interface HUD, execute:
+
+```sh
+python jarvis.py doctor
+```
+
 O projeto abrirá um overlay transparente com informações de status. Diga `acorde` (ou a palavra definida em `config.py` / `WAKE_WORD`) e, após o prompt de confirmação, fale o seu comando.
 
 ---
@@ -137,7 +144,7 @@ Principais variáveis:
 
 - `WAKE_WORD` — palavra de ativação usada pelo wake-word
 - `JARVIS_AUDIO_DEVICE` — dispositivo de entrada de áudio opcional
-- `WHISPER_MODEL` — modelo local de ASR (detecta `models/whisper-small/model.bin` automaticamente)
+- `WHISPER_MODEL` — modelo local de ASR (detecta `models/whisper-small/model.bin` automaticamente, incluindo nested cache snapshots)
 - `LLM_MODEL` — modelo padrão para a integração de inferência local
 - `LLM_ENGINE` — engine atual para LLM local (`openjarvis` por padrão)
 - `OLLAMA_HOST` — URL do servidor Ollama local
@@ -242,6 +249,7 @@ python jarvis_hud.py
 
 - **Config defaults:** `LLM_MODEL` agora pode ser sobrescrito por `JARVIS_LLM_MODEL` e o projeto muda o valor padrão para um modelo starter `qwen3:0.6b` para facilitar testes locais.
 - **OpenJarvis config:** `JARVIS_OPENJARVIS_CONFIG` usa `~/.openjarvis/config.toml` por padrão e, se estiver ausente, recai para o exemplo local `openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml`.
+- **ASR offline:** Jarvis agora exige um modelo Whisper local em `models/whisper-small` e evita fallback para downloads online.
 
 ### Iniciar com um preset local (sem `uv`)
 
@@ -265,6 +273,17 @@ Ou apenas defina a variável apontando para o exemplo e execute `python jarvis.p
 $env:JARVIS_OPENJARVIS_CONFIG = "openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml"
 python jarvis.py
 ```
+
+## Offline-only setup
+
+Este Jarvis foi configurado para ser 100% offline e gratuito.
+- Use `JARVIS_LLM_ENGINE=openjarvis` ou `JARVIS_LLM_ENGINE=ollama` para um backend local.
+- A configuração local recomendada é `openjarvis/OpenJarvis/configs/openjarvis/examples/chat-simple.toml`.
+- Defina `JARVIS_WHISPER_DIR="models/whisper-small"` e garanta que `models/whisper-small/model.bin` exista.
+- A síntese de voz local usa `jarvis/data/voices/pt_BR-faber-medium.onnx`.
+- Jarvis não fará fallback automático para downloads online de Whisper.
+- Evite skills ou ferramentas que dependam de APIs em nuvem ou chaves pagas.
+
 - **Backward compat:** adicionamos um alias `OLLAMA_URL` para compatibilidade com testes/integrações que ainda esperam esse nome.
 - **Robust memory persistence:** `jarvis/brain/memory.py` agora grava de forma atômica usando arquivos temporários únicos e isola arquivos de memória durante execuções de teste para evitar conflitos no Windows (corrige problemas de `file in use`).
 - **Test configuration:** adicionado `pytest.ini` para limitar a coleta de testes ao diretório `tests/` e garantir o `PYTHONPATH` correto; dependências de teste (`respx`, `pydantic`, `polars`, `pytest-asyncio`) foram instaladas.

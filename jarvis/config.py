@@ -40,13 +40,47 @@ JARVIS_OPENJARVIS_CONFIG = os.environ.get(
 
 # faster-whisper model.
 #
-# To avoid any online requests, download the model locally and point WHISPER_MODEL
-# to a local folder (default: models/whisper-small). If that folder does not
-# exist, it falls back to the named model (e.g. "small"), which may trigger
-# Hugging Face hub requests.
+# To keep Jarvis fully offline, this project requires a downloaded local Whisper
+# model at the path configured by JARVIS_WHISPER_DIR. If the model is missing,
+# Jarvis will not fall back to Hugging Face hub downloads.
 WHISPER_LOCAL_DIR = os.environ.get("JARVIS_WHISPER_DIR", "models/whisper-small")
-_whisper_bin = os.path.join(WHISPER_LOCAL_DIR, "model.bin")
-WHISPER_MODEL = WHISPER_LOCAL_DIR if os.path.isfile(_whisper_bin) else "small"
+
+
+def _find_whisper_model_in_hf_cache(path: str) -> str | None:
+    """Search the local Hugging Face hub cache for a cached Whisper model."""
+    hf_home = os.environ.get("HF_HOME", os.path.expanduser("~/.cache/huggingface"))
+    cache_root = os.path.join(hf_home, "hub")
+    if not os.path.isdir(cache_root):
+        return None
+
+    target_name = os.path.basename(path).lower()
+    if not target_name:
+        return None
+
+    for root, _, files in os.walk(cache_root):
+        if "model.bin" in files and target_name in root.lower():
+            return root
+    return None
+
+
+def _find_whisper_model_dir(path: str) -> str | None:
+    """Resolve a Whisper model directory by locating model.bin in the tree."""
+    if os.path.isfile(path):
+        return os.path.dirname(path)
+
+    if os.path.isdir(path):
+        candidate = os.path.join(path, "model.bin")
+        if os.path.isfile(candidate):
+            return path
+
+        for root, _, files in os.walk(path):
+            if "model.bin" in files:
+                return root
+
+    return _find_whisper_model_in_hf_cache(path)
+
+
+WHISPER_MODEL = _find_whisper_model_dir(WHISPER_LOCAL_DIR)
 WHISPER_LANG = "pt"
 
 # audio sampling

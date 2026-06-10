@@ -827,8 +827,9 @@ def _draw_bottom_bar():
     # note: whisper_asr imported later in main to avoid dependency loop
     from jarvis.voice.transcriber import whisper_asr
     w_col = HUD_GREEN if whisper_asr.ready else HUD_YELLOW
-    w_txt = f"WHISPER [{WHISPER_MODEL.upper()}] READY" if whisper_asr.ready \
-            else f"WHISPER [{WHISPER_MODEL.upper()}] LOADING..."
+    model_label = (WHISPER_MODEL or "local").upper()
+    w_txt = f"WHISPER [{model_label}] READY" if whisper_asr.ready \
+            else f"WHISPER [{model_label}] LOADING..."
     canvas.create_text(cx, y0+46, text=w_txt, fill=w_col,
                        font=("Courier",8), anchor="center", tags="dynamic")
 
