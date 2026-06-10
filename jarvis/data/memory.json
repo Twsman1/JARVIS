@@ -107,6 +107,30 @@
     {
       "role": "assistant",
       "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "Fecho cromi"
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "desligado"
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "desliga"
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, senhor. Como posso ajudar?"
     }
   ]
 }

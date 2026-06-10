@@ -5069,3 +5069,214 @@
 2026-06-10 00:08:41,457 [INFO] Ollama disponível ✓
 2026-06-10 00:08:41,458 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
 2026-06-10 00:08:41,459 [INFO] HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-06-10 00:16:00,018 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-10 00:16:01,423 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:16:01,423 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:16:01,732 [WARNING] Silero-VAD indisponivel (No module named 'torchaudio') — usando fallback de amplitude
+2026-06-10 00:16:02,223 [INFO] Modelo Whisper pronto.
+2026-06-10 00:16:03,445 [INFO] Arquivos de voz não encontrados: jarvis\data\voices\pt_BR-faber-medium.onnx ou jarvis\data\voices\pt_BR-faber-medium.onnx.json
+2026-06-10 00:16:03,445 [INFO] Erro ao carregar voz Piper: Arquivos de voz não encontrados: jarvis\data\voices\pt_BR-faber-medium.onnx ou jarvis\data\voices\pt_BR-faber-medium.onnx.json
+2026-06-10 00:16:03,629 [INFO] Could not import comtypes.gen, trying to create it.
+2026-06-10 00:16:03,630 [INFO] Created comtypes.gen directory: 'C:\Users\Pichau\AppData\Roaming\Python\Python314\site-packages\comtypes\gen'
+2026-06-10 00:16:03,630 [INFO] Writing __init__.py file: 'C:\Users\Pichau\AppData\Roaming\Python\Python314\site-packages\comtypes\gen\__init__.py'
+2026-06-10 00:16:03,633 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Roaming\Python\Python314\site-packages\comtypes\gen'
+2026-06-10 00:16:03,645 [INFO] Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-06-10 00:16:03,653 [INFO] # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-06-10 00:16:03,695 [INFO] # Generating comtypes.gen.SpeechLib
+2026-06-10 00:16:03,699 [INFO] Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-06-10 00:16:03,700 [INFO] # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-06-10 00:16:03,703 [INFO] # Generating comtypes.gen.stdole
+2026-06-10 00:16:04,108 [INFO] Engine pyttsx3 carregado como fallback
+2026-06-10 00:16:04,108 [INFO] Sintetizador usando backend pyttsx3 (fallback)
+2026-06-10 00:16:04,108 [INFO] Sintetizador de voz pronto com backend: pyttsx3
+2026-06-10 00:16:04,108 [INFO] 26 ferramentas registradas
+2026-06-10 00:16:04,109 [INFO] Memória carregada com 27 mensagens
+2026-06-10 00:16:04,109 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-06-10 00:16:04,109 [INFO] Agendador inicializado
+2026-06-10 00:16:04,109 [INFO] Cérebro JARVIS inicializado
+2026-06-10 00:16:04,110 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:16:04,110 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:16:04,860 [INFO] Modelo Whisper pronto.
+2026-06-10 00:16:04,860 [CRITICAL] [JARVIS] Modelo Vosk nao encontrado em 'models/vosk-pt'.
+Baixe em: https://alphacephei.com/vosk/models
+  vosk-model-small-pt-0.3  (extraia em models/vosk-pt)
+2026-06-10 00:17:44,188 [INFO] Sistema de log iniciado — rotação ativa (5MB × 3 backups)
+2026-06-10 00:17:45,603 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:17:45,603 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:17:45,910 [WARNING] Silero-VAD indisponivel (No module named 'torchaudio') — usando fallback de amplitude
+2026-06-10 00:17:46,402 [INFO] Modelo Whisper pronto.
+2026-06-10 00:17:47,284 [INFO] Arquivos de voz não encontrados: jarvis\data\voices\pt_BR-faber-medium.onnx ou jarvis\data\voices\pt_BR-faber-medium.onnx.json
+2026-06-10 00:17:47,284 [INFO] Erro ao carregar voz Piper: Arquivos de voz não encontrados: jarvis\data\voices\pt_BR-faber-medium.onnx ou jarvis\data\voices\pt_BR-faber-medium.onnx.json
+2026-06-10 00:17:47,324 [INFO] Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pichau\\AppData\\Roaming\\Python\\Python314\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-06-10 00:17:47,324 [INFO] Using writeable comtypes cache directory: 'C:\Users\Pichau\AppData\Roaming\Python\Python314\site-packages\comtypes\gen'
+2026-06-10 00:17:47,412 [INFO] Engine pyttsx3 carregado como fallback
+2026-06-10 00:17:47,413 [INFO] Sintetizador usando backend pyttsx3 (fallback)
+2026-06-10 00:17:47,413 [INFO] Sintetizador de voz pronto com backend: pyttsx3
+2026-06-10 00:17:47,413 [INFO] 26 ferramentas registradas
+2026-06-10 00:17:47,414 [INFO] Memória carregada com 27 mensagens
+2026-06-10 00:17:47,414 [INFO] Cérebro LLM inicializado em modo MOCK
+2026-06-10 00:17:47,414 [INFO] Agendador inicializado
+2026-06-10 00:17:47,414 [INFO] Cérebro JARVIS inicializado
+2026-06-10 00:17:47,414 [INFO] Whisper: usando modelo local em 'C:\Users\Pichau\.cache\huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120' (modo offline)
+2026-06-10 00:17:47,414 [INFO] Carregando modelo Whisper C:\Users\Pichau/.cache/huggingface\hub\models--Systran--faster-whisper-small\snapshots\536b0662742c02347bc0e980a01041f333bce120...
+2026-06-10 00:17:48,129 [INFO] Modelo Whisper pronto.
+2026-06-10 00:17:48,407 [INFO] Audio input devices:
+2026-06-10 00:17:48,408 [INFO]     0: Mapeador de som da Microsoft - Input (sr 44100.0)
+2026-06-10 00:17:48,408 [INFO]     1: Microphone (REDRAGON Live Camer (sr 44100.0)
+2026-06-10 00:17:48,408 [INFO]     2: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-06-10 00:17:48,408 [INFO]     6: Driver de captura de som primário (sr 44100.0)
+2026-06-10 00:17:48,408 [INFO]     7: Microphone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-06-10 00:17:48,408 [INFO]     8: Microfone (Realtek(R) Audio) (sr 44100.0)
+2026-06-10 00:17:48,408 [INFO]     14: Microfone (Realtek(R) Audio) (sr 48000.0)
+2026-06-10 00:17:48,408 [INFO]     15: Microphone (REDRAGON Live Camera Audio) (sr 48000.0)
+2026-06-10 00:17:48,409 [INFO]     16: Mixagem estéreo (Realtek HD Audio Stereo input) (sr 44100.0)
+2026-06-10 00:17:48,409 [INFO]     19: Entrada (Realtek HD Audio Line input) (sr 44100.0)
+2026-06-10 00:17:48,409 [INFO]     20: Microfone (Realtek HD Audio Mic input) (sr 44100.0)
+2026-06-10 00:17:48,409 [INFO]     22: Microfone (REDRAGON Live Camera Audio) (sr 44100.0)
+2026-06-10 00:17:48,409 [INFO] STATUS: Lista de dispositivos exibida no log (use JARVIS_AUDIO_DEVICE se precisar selecionar outro)
+2026-06-10 00:17:48,475 [INFO] STATUS: Dispositivo: Microphone (REDRAGON Live Camer @ 44100Hz
+2026-06-10 00:17:48,475 [INFO] Pipeline de voz inicializado
+2026-06-10 00:17:48,476 [INFO] Aguardando wake word...
+2026-06-10 00:17:48,476 [INFO] FALA: JARVIS pronto, senhor.
+2026-06-10 00:17:48,476 [INFO] Estado mudou: idle → speaking (JARVIS pronto, senhor.)
+2026-06-10 00:17:48,497 [INFO] STATUS: Aguardando wake word: ACORDE
+2026-06-10 00:17:51,167 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:17:53,579 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-06-10 00:17:53,579 [INFO] STATUS: Sem audio - verifique o microfone
+2026-06-10 00:17:59,104 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-06-10 00:17:59,152 [INFO] STATUS: Sem audio - verifique o microfone
+2026-06-10 00:18:01,460 [INFO] STATUS: ... acorde
+2026-06-10 00:18:01,460 [INFO] STATUS: Wake word detectada!
+2026-06-10 00:18:01,461 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-06-10 00:18:01,462 [INFO] FALA: Sim, senhor?
+2026-06-10 00:18:01,462 [INFO] Iniciando gravação de comando (VAD)...
+2026-06-10 00:18:01,462 [INFO] Estado mudou: listening → speaking (Sim, senhor?)
+2026-06-10 00:18:01,548 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:18:09,517 [INFO] STATUS: Limite de tempo atingido
+2026-06-10 00:18:09,540 [INFO] Gravação finalizada: 128512 samples (speech_frames=1, total_frames=251, dt=8.08s)
+2026-06-10 00:18:09,540 [INFO] Processing audio with duration 00:08.032
+2026-06-10 00:18:09,624 [INFO] VAD filter removed 00:06.336 of audio
+2026-06-10 00:18:11,153 [INFO] Transcrição concluída: 'Abra o crome!'
+2026-06-10 00:18:11,201 [INFO] Comando transcrito: Abra o crome!
+2026-06-10 00:18:11,231 [INFO] Processando comando: Abra o crome!
+2026-06-10 00:18:11,271 [INFO] execute_command invoked with: Abra o crome!
+2026-06-10 00:18:11,298 [INFO] pattern '\bchrome\b|\bgoogle chrome\b' matched
+2026-06-10 00:18:11,375 [INFO] FALA: Abrindo Chrome, senhor.
+2026-06-10 00:18:11,441 [INFO] STATUS: Abrindo: Chrome
+2026-06-10 00:18:11,441 [INFO] Estado mudou: idle → speaking (Abrindo Chrome, senhor.)
+2026-06-10 00:18:11,476 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:18:11,504 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-06-10 00:18:11,505 [INFO] STATUS: Sem audio - verifique o microfone
+2026-06-10 00:18:11,505 [INFO] STATUS: ... acorde
+2026-06-10 00:18:11,506 [INFO] STATUS: Wake word detectada!
+2026-06-10 00:18:11,506 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-06-10 00:18:11,507 [INFO] FALA: Sim, senhor?
+2026-06-10 00:18:11,507 [INFO] Iniciando gravação de comando (VAD)...
+2026-06-10 00:18:11,564 [INFO] Estado mudou: listening → idle ()
+2026-06-10 00:18:11,568 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-06-10 00:18:11,659 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:18:19,522 [INFO] STATUS: Limite de tempo atingido
+2026-06-10 00:18:19,559 [INFO] Gravação finalizada: 128000 samples (speech_frames=1, total_frames=250, dt=8.05s)
+2026-06-10 00:18:19,559 [INFO] Processing audio with duration 00:08.000
+2026-06-10 00:18:19,569 [INFO] VAD filter removed 00:06.304 of audio
+2026-06-10 00:18:20,932 [INFO] Transcrição concluída: 'Fecho cromi'
+2026-06-10 00:18:20,967 [INFO] Comando transcrito: Fecho cromi
+2026-06-10 00:18:20,967 [INFO] Processando comando: Fecho cromi
+2026-06-10 00:18:20,968 [INFO] execute_command invoked with: Fecho cromi
+2026-06-10 00:18:20,968 [INFO] no pattern matched for command
+2026-06-10 00:18:20,968 [INFO] STATUS: Comando nao mapeado: fecho cromi
+2026-06-10 00:18:20,968 [INFO] Processando: Fecho cromi
+2026-06-10 00:18:20,969 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-06-10 00:18:20,969 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-06-10 00:18:20,970 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-06-10 00:18:20,971 [INFO] Estado mudou: thinking → idle ()
+2026-06-10 00:18:20,971 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-06-10 00:18:20,972 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-06-10 00:18:21,001 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-06-10 00:18:21,001 [INFO] STATUS: Sem audio - verifique o microfone
+2026-06-10 00:18:21,002 [INFO] STATUS: ... acorde
+2026-06-10 00:18:21,002 [INFO] STATUS: Wake word detectada!
+2026-06-10 00:18:21,003 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-06-10 00:18:21,003 [INFO] FALA: Sim, senhor?
+2026-06-10 00:18:21,003 [INFO] Iniciando gravação de comando (VAD)...
+2026-06-10 00:18:21,059 [INFO] Estado mudou: listening → idle ()
+2026-06-10 00:18:21,060 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-06-10 00:18:21,144 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:18:29,032 [INFO] STATUS: Limite de tempo atingido
+2026-06-10 00:18:29,049 [INFO] Gravação finalizada: 128000 samples (speech_frames=0, total_frames=250, dt=8.05s)
+2026-06-10 00:18:29,049 [INFO] Processing audio with duration 00:08.000
+2026-06-10 00:18:29,061 [INFO] VAD filter removed 00:06.688 of audio
+2026-06-10 00:18:30,414 [INFO] Transcrição concluída: 'desligado'
+2026-06-10 00:18:30,414 [INFO] Comando transcrito: desligado
+2026-06-10 00:18:30,414 [INFO] Processando comando: desligado
+2026-06-10 00:18:30,415 [INFO] execute_command invoked with: desligado
+2026-06-10 00:18:30,415 [INFO] no pattern matched for command
+2026-06-10 00:18:30,415 [INFO] STATUS: Comando nao mapeado: desligado
+2026-06-10 00:18:30,415 [INFO] Processando: desligado
+2026-06-10 00:18:30,415 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-06-10 00:18:30,416 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-06-10 00:18:30,416 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-06-10 00:18:30,416 [INFO] Estado mudou: thinking → idle ()
+2026-06-10 00:18:30,417 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-06-10 00:18:30,417 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-06-10 00:18:30,448 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-06-10 00:18:30,448 [INFO] STATUS: Sem audio - verifique o microfone
+2026-06-10 00:18:30,449 [INFO] STATUS: ... acorde
+2026-06-10 00:18:30,449 [INFO] STATUS: Wake word detectada!
+2026-06-10 00:18:30,450 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-06-10 00:18:30,450 [INFO] FALA: Sim, senhor?
+2026-06-10 00:18:30,450 [INFO] Iniciando gravação de comando (VAD)...
+2026-06-10 00:18:30,506 [INFO] Estado mudou: listening → idle ()
+2026-06-10 00:18:30,507 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-06-10 00:18:30,593 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:18:38,485 [INFO] STATUS: Limite de tempo atingido
+2026-06-10 00:18:38,499 [INFO] Gravação finalizada: 128000 samples (speech_frames=2, total_frames=250, dt=8.05s)
+2026-06-10 00:18:38,500 [INFO] Processing audio with duration 00:08.000
+2026-06-10 00:18:38,510 [INFO] VAD filter removed 00:06.592 of audio
+2026-06-10 00:18:39,747 [INFO] Transcrição concluída: 'desliga'
+2026-06-10 00:18:39,747 [INFO] Comando transcrito: desliga
+2026-06-10 00:18:39,747 [INFO] Processando comando: desliga
+2026-06-10 00:18:39,748 [INFO] execute_command invoked with: desliga
+2026-06-10 00:18:39,748 [INFO] no pattern matched for command
+2026-06-10 00:18:39,748 [INFO] STATUS: Comando nao mapeado: desliga
+2026-06-10 00:18:39,748 [INFO] Processando: desliga
+2026-06-10 00:18:39,748 [INFO] [Brain] Tarefa simples → usando Brain direto
+2026-06-10 00:18:39,749 [INFO] Estado mudou: idle → thinking (consultando LLM)
+2026-06-10 00:18:39,749 [INFO] Resposta: Entendido, senhor. Como posso ajudar?
+2026-06-10 00:18:39,750 [INFO] Estado mudou: thinking → idle ()
+2026-06-10 00:18:39,750 [INFO] FALA: Entendido, senhor. Como posso ajudar?
+2026-06-10 00:18:39,751 [INFO] Estado mudou: idle → speaking (Entendido, senhor. Como posso )
+2026-06-10 00:18:39,779 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-06-10 00:18:39,779 [INFO] STATUS: Sem audio - verifique o microfone
+2026-06-10 00:18:39,780 [INFO] STATUS: ... acorde
+2026-06-10 00:18:39,780 [INFO] STATUS: Wake word detectada!
+2026-06-10 00:18:39,781 [INFO] Estado mudou: speaking → listening (gravando comando)
+2026-06-10 00:18:39,781 [INFO] FALA: Sim, senhor?
+2026-06-10 00:18:39,782 [INFO] Iniciando gravação de comando (VAD)...
+2026-06-10 00:18:39,838 [INFO] Estado mudou: listening → idle ()
+2026-06-10 00:18:39,838 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-06-10 00:18:39,923 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:18:47,791 [INFO] STATUS: Limite de tempo atingido
+2026-06-10 00:18:47,834 [INFO] Gravação finalizada: 128000 samples (speech_frames=4, total_frames=250, dt=8.05s)
+2026-06-10 00:18:47,834 [INFO] Processing audio with duration 00:08.000
+2026-06-10 00:18:47,846 [INFO] VAD filter removed 00:04.752 of audio
+2026-06-10 00:18:49,106 [INFO] Transcrição concluída: 'desligar fechar'
+2026-06-10 00:18:49,106 [INFO] Comando transcrito: desligar fechar
+2026-06-10 00:18:49,106 [INFO] Processando comando: desligar fechar
+2026-06-10 00:18:49,106 [INFO] execute_command invoked with: desligar fechar
+2026-06-10 00:18:49,106 [INFO] pattern '\bdesligar\b|\bencerrar\b|\bsair\b' matched
+2026-06-10 00:18:49,107 [INFO] Comando de desligamento recebido, saindo.
+2026-06-10 00:18:49,107 [INFO] FALA: Encerrando todos os sistemas. Ate logo, senhor.
+2026-06-10 00:18:49,107 [INFO] STATUS: DESLIGANDO...
+2026-06-10 00:18:49,107 [INFO] Estado mudou: idle → speaking (Encerrando todos os sistemas. )
+2026-06-10 00:18:49,107 [INFO] Estado mudou: speaking → idle ()
+2026-06-10 00:18:49,108 [WARNING] Nenhum som detectado por >5s, verifique microfone/dispositivo
+2026-06-10 00:18:49,108 [INFO] STATUS: Sem audio - verifique o microfone
+2026-06-10 00:18:49,109 [INFO] STATUS: ... acorde
+2026-06-10 00:18:49,109 [INFO] STATUS: Wake word detectada!
+2026-06-10 00:18:49,109 [INFO] Estado mudou: idle → listening (gravando comando)
+2026-06-10 00:18:49,110 [INFO] FALA: Sim, senhor?
+2026-06-10 00:18:49,110 [INFO] Iniciando gravação de comando (VAD)...
+2026-06-10 00:18:49,192 [INFO] Estado mudou: listening → idle ()
+2026-06-10 00:18:49,193 [INFO] Estado mudou: idle → speaking (Sim, senhor?)
+2026-06-10 00:18:49,277 [INFO] Estado mudou: speaking → idle ()
